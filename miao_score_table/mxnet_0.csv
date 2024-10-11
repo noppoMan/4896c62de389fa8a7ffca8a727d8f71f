@@ -1,0 +1,7 @@
+,miao_score
+pytorch/pytorch -> tensorflow/tensorflow,-27.95215423132634
+apache/mxnet -> tensorflow/tensorflow,29.551757224534224
+tensorflow/tensorflow -> pytorch/pytorch,-4.038741509328569
+apache/mxnet -> pytorch/pytorch,11.911432187754647
+tensorflow/tensorflow -> apache/mxnet,2.472829864675969
+pytorch/pytorch -> apache/mxnet,3.9842448606071024

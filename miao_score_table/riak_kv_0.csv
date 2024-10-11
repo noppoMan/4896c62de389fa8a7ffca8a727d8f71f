@@ -1,0 +1,7 @@
+,miao_score
+memcached/memcached -> redis/redis,9.082481056748534
+basho/riak_kv -> redis/redis,-1.8348476166299919
+redis/redis -> memcached/memcached,-0.08007731376479135
+basho/riak_kv -> memcached/memcached,-0.08095056566268208
+redis/redis -> basho/riak_kv,1.761976930134265
+memcached/memcached -> basho/riak_kv,0.46970126814964097

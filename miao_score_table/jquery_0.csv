@@ -1,0 +1,7 @@
+,miao_score
+angular/angular.js -> facebook/react,2.1322128640931424
+jquery/jquery -> facebook/react,3.449995713836109
+facebook/react -> angular/angular.js,0.2318018805077943
+jquery/jquery -> angular/angular.js,3.9127747797056593
+facebook/react -> jquery/jquery,-0.01026432088689877
+angular/angular.js -> jquery/jquery,-0.08442742486416796

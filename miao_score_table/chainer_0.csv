@@ -1,0 +1,7 @@
+,miao_score
+pytorch/pytorch -> tensorflow/tensorflow,-3.107470902062251
+chainer/chainer -> tensorflow/tensorflow,-4.385967704115551
+tensorflow/tensorflow -> pytorch/pytorch,0.1023416087829237
+chainer/chainer -> pytorch/pytorch,-1.7775440304345373
+tensorflow/tensorflow -> chainer/chainer,-0.5859050914447559
+pytorch/pytorch -> chainer/chainer,4.557915599564659

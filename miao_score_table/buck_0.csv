@@ -1,0 +1,7 @@
+,miao_score
+pantsbuild/pants -> bazelbuild/bazel,-2.0766520660252126
+facebook/buck -> bazelbuild/bazel,0.07377265152332511
+bazelbuild/bazel -> pantsbuild/pants,0.03189819460351115
+facebook/buck -> pantsbuild/pants,1.216998559759733
+bazelbuild/bazel -> facebook/buck,-3.2875373851069547
+pantsbuild/pants -> facebook/buck,5.454607220211572

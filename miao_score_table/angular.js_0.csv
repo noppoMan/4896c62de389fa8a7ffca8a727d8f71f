@@ -1,0 +1,7 @@
+,miao_score
+emberjs/ember.js -> facebook/react,0.46518957748798323
+angular/angular.js -> facebook/react,1.6519464422113477
+facebook/react -> emberjs/ember.js,-0.1782150648646762
+angular/angular.js -> emberjs/ember.js,0.6983552463991494
+facebook/react -> angular/angular.js,0.018488448160900384
+emberjs/ember.js -> angular/angular.js,1.3859660420520894

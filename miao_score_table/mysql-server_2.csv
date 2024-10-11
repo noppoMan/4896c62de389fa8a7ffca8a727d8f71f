@@ -1,0 +1,7 @@
+,miao_score
+sqlite/sqlite -> postgres/postgres,1.4306915301716598
+mysql/mysql-server -> postgres/postgres,0.47401462470981437
+postgres/postgres -> sqlite/sqlite,0.3661552670819405
+mysql/mysql-server -> sqlite/sqlite,0.23344650905737882
+postgres/postgres -> mysql/mysql-server,-13.042368524096542
+sqlite/sqlite -> mysql/mysql-server,9.415774916585955

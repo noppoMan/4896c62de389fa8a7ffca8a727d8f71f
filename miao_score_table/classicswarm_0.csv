@@ -1,0 +1,7 @@
+,miao_score
+apache/mesos -> kubernetes/kubernetes,8.145503907156208
+docker-archive/classicswarm -> kubernetes/kubernetes,-22.10699531551162
+kubernetes/kubernetes -> apache/mesos,-2.1676617734422385
+docker-archive/classicswarm -> apache/mesos,3.336761990047092
+kubernetes/kubernetes -> docker-archive/classicswarm,-1.565774298203419
+apache/mesos -> docker-archive/classicswarm,5.091199273152924

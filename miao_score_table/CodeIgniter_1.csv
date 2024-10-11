@@ -1,0 +1,7 @@
+,miao_score
+laravel/framework -> symfony/symfony,-0.4113532611213019
+bcit-ci/CodeIgniter -> symfony/symfony,-4.359034542011891
+symfony/symfony -> laravel/framework,-0.4619422668042021
+bcit-ci/CodeIgniter -> laravel/framework,-0.05089948531193711
+symfony/symfony -> bcit-ci/CodeIgniter,0.16593988148016572
+laravel/framework -> bcit-ci/CodeIgniter,-0.210525693564721

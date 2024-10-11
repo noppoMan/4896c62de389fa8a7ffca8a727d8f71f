@@ -1,0 +1,7 @@
+,miao_score
+buildbot/buildbot -> jenkinsci/jenkins,-4.553422154366594
+hudson/hudson-2.x -> jenkinsci/jenkins,-5.102996166061846
+jenkinsci/jenkins -> buildbot/buildbot,-0.5044852087548741
+hudson/hudson-2.x -> buildbot/buildbot,-1.5669187452099123
+jenkinsci/jenkins -> hudson/hudson-2.x,-8.139632279028707
+buildbot/buildbot -> hudson/hudson-2.x,-4.808793275666249

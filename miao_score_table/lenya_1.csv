@@ -1,0 +1,7 @@
+,miao_score
+drupal/drupal -> WordPress/WordPress,0.9796124155157729
+apache/lenya -> WordPress/WordPress,-0.4857424241738496
+WordPress/WordPress -> drupal/drupal,-0.9574668348902229
+apache/lenya -> drupal/drupal,0.374255801580444
+WordPress/WordPress -> apache/lenya,0.7269993650329608
+drupal/drupal -> apache/lenya,0.9004808813207692
