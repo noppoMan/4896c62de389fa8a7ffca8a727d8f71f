@@ -4,12 +4,16 @@ This README provides information about the files containing our dataset and resu
 
 ## File Descriptions
 
+### datasets/preprocessed/{period_shift}{Tm}{group}.csv
+
+Dataset after transformation to stationary process using fractional differencing and seasonal adjustment. There are four subdirectories: period_shift=original, 1_month_shifted, 2_month_shifted, and 3_month_shifted, each containing four subdirectories: Tm=T1, T2, T3, T4. The CSVs under each directory correspond to $[A_1, A_2, A_3]$ for each group's period_shift and Tm, in the order of competitor1, competitor2, and target.
+
 ### miao_score_table/{group}.csv
 
 This file contains the score table for each group obtained by MIAO.
 
 Columns:
-- **miao_score**: Represents AMS_ij in the paper
+- **miao_score**: Represents $AMS_{ij}$ in the paper
 
 ### decision_tree_dataset.csv
 
@@ -19,12 +23,12 @@ Columns:
 - **label**: Correct label (target variable)
 - **group**: Group name
 - **target**: Name of the target OSS
-- **c2 -> c1**: AMS_c2,c1
-- **t -> c1**: AMS_t,c1
-- **c1 -> c2**: AMS_c1,c2
-- **t -> c2**: AMS_t,c2
-- **c1 -> t**: AMS_c1,t
-- **c2 -> t**: AMS_c2,t
+- **c2 -> c1**: $AMS_{c2,c1}$
+- **t -> c1**: $AMS_{t,c1}$
+- **c1 -> c2**: $AMS_{c1,c2}$
+- **t -> c2**: $AMS_{t,c2}$
+- **c1 -> t**: $AMS_{c1,t}$
+- **c2 -> t**: $AMS_{c2,t}$
 
 ### classification_results.csv
 
