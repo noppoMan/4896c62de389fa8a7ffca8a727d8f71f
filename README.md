@@ -28,13 +28,13 @@ Columns:
 - **Tm**: $T_m$ corresponding to the estimated VAR
 - **group**: Group name of the estimated VAR
 - **nobs**: Number of samples in the estimated VAR
-- **lag**: Lag order of the estimated VAR
-- **aic**: AIC at the lag order of the estimated VAR (AIC is adopted in the experiment)
-- **bic**: BIC at the lag order of the estimated VAR
-- **hqic**: HQIC at the lag order of the estimated VAR
+- **lag**: Optimal Lag order of the estimated VAR using `statsmodels.tsa.vector_ar.var_model.VAR.select_order`
+- **aic**: AIC for Optimal Lag order (AIC is adopted in the experiment)
+- **bic**: BIC for Optimal Lag order
+- **hqic**: HQIC for Optimal Lag order
 - **whiteness_test_lag**: Maximum lag order for the Ljung-Box test
-- **whiteness_test_statistic**: Ljung-Box test statistic for the error terms of the estimated VAR
-- **whiteness_test_pvalue**: p-value of the Ljung-Box test for the error terms of the estimated VAR
+- **whiteness_test_statistic**: Ljung-Box test statistic for the error terms of the estimated SVAR
+- **whiteness_test_pvalue**: p-value of the Ljung-Box test for the error terms of the estimated SVAR
 
 ## miao_score_tables/{group}.csv
 
