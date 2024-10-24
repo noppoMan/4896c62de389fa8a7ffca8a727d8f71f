@@ -6,6 +6,8 @@ This README provides information about the files containing our dataset and resu
 
 Dataset after transformation to stationary process using fractional differencing and seasonal adjustment. There are four subdirectories: period_shift=original, 1_month_shifted, 2_month_shifted, and 3_month_shifted, each containing four subdirectories: Tm=T1, T2, T3, T4. The CSVs under each directory correspond to $[A_1, A_2, A_3]$ for each group's period_shift and Tm, in the order of competitor1, competitor2, and target.
 
+The estimation of SVAR and calculation of IRF using these datasets are documented in `demo.ipynb`. 
+
 ## adf_test_result.csv
 
 ADF test results and information on fractional differencing for all activity data used in the experiment. Each row corresponds to $A_i$ of each group for period shift and $T_m$.
@@ -70,6 +72,8 @@ Columns:
 Settings of Decision Tree Model: 
 
 ```python
+from sklearn.tree import DecisionTreeClassifier
+
 params = {
     'max_depth': 3, 
     'min_samples_split': 10, 
@@ -78,4 +82,27 @@ params = {
 }
 
 clf = DecisionTreeClassifier(**params)
+```
+
+# 
+
+```python
+from statsmodels.tsa.vector_ar.var_model import VAR
+from statsmodels.tsa.vector_ar.svar_model import SVAR
+import pandas as pd
+
+var_result = pd.read_csv("./var_estimation_result.csv")
+
+# Recursive constraint of A matrix. E will be estimated. 
+A = np.array([
+    [1, 0, 0],
+    ["E", 1, 0],
+    ["E", "E", 1]
+])
+
+X = pd.read_csv("./original/T1/1_0.csv")
+var_result
+
+model = SVAR(X, svar_type="A", A=A)
+results = model.fit(maxlags=)
 ```
