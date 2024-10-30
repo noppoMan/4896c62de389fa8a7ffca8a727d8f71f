@@ -1,7 +1,7 @@
 ,miao_score
-laravel/framework -> symfony/symfony,-0.4113532611213019
-bcit-ci/CodeIgniter -> symfony/symfony,-4.359034542011891
-symfony/symfony -> laravel/framework,-0.4619422668042021
-bcit-ci/CodeIgniter -> laravel/framework,-0.05089948531193711
-symfony/symfony -> bcit-ci/CodeIgniter,0.16593988148016572
-laravel/framework -> bcit-ci/CodeIgniter,-0.210525693564721
+laravel/framework -> symfony/symfony,0.7036871266159896
+bcit-ci/CodeIgniter -> symfony/symfony,-1.1174533462125387
+symfony/symfony -> laravel/framework,-0.001068787983627341
+bcit-ci/CodeIgniter -> laravel/framework,-0.00669777160342061
+symfony/symfony -> bcit-ci/CodeIgniter,0.1298012221647259
+laravel/framework -> bcit-ci/CodeIgniter,-0.24190632848395216

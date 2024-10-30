@@ -1,7 +1,7 @@
 ,miao_score
-h2o/h2o -> apache/httpd,0.7221599117202522
-nginx/nginx -> apache/httpd,-0.3483293664326198
-apache/httpd -> h2o/h2o,-1.078011082369818
-nginx/nginx -> h2o/h2o,-3.5126811561808555
-apache/httpd -> nginx/nginx,-3.342969176546844
-h2o/h2o -> nginx/nginx,-1.203089989962938
+FirebirdSQL/firebird -> postgres/postgres,-0.012833494784344937
+mysql/mysql-server -> postgres/postgres,-0.13944840297722558
+postgres/postgres -> FirebirdSQL/firebird,-1.8999752406616301
+mysql/mysql-server -> FirebirdSQL/firebird,0.7684684234640947
+postgres/postgres -> mysql/mysql-server,-11.725191885013853
+FirebirdSQL/firebird -> mysql/mysql-server,4.5227338110541995

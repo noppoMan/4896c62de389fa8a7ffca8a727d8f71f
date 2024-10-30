@@ -1,7 +1,7 @@
 ,miao_score
-apple/swift-package-manager -> CocoaPods/CocoaPods,-1.3097481034725857
-Carthage/Carthage -> CocoaPods/CocoaPods,-0.6829702184003168
-CocoaPods/CocoaPods -> apple/swift-package-manager,-0.7259235174071033
-Carthage/Carthage -> apple/swift-package-manager,-1.2445157132270768
-CocoaPods/CocoaPods -> Carthage/Carthage,2.158755273146524
-apple/swift-package-manager -> Carthage/Carthage,0.8052829143817496
+mongodb/mongo -> apache/couchdb,-1.596806873264109
+rethinkdb/rethinkdb -> apache/couchdb,-1.5637295363822101
+apache/couchdb -> mongodb/mongo,-5.072908728002604
+rethinkdb/rethinkdb -> mongodb/mongo,-6.867930521559204
+apache/couchdb -> rethinkdb/rethinkdb,1.367910070913717
+mongodb/mongo -> rethinkdb/rethinkdb,7.396078550596508

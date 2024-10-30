@@ -1,7 +1,7 @@
 ,miao_score
-apache/couchdb -> apache/cassandra,0.7379149849780637
-mongodb/mongo -> apache/cassandra,-0.13216948722813937
-apache/cassandra -> apache/couchdb,0.5573218152938186
-mongodb/mongo -> apache/couchdb,-0.9895035724992249
-apache/cassandra -> mongodb/mongo,-4.537650836351011
-apache/couchdb -> mongodb/mongo,0.1314433017316049
+flutter/flutter -> facebook/react-native,-4.305809078566513
+tidev/titanium-sdk -> facebook/react-native,0.05236210400383561
+facebook/react-native -> flutter/flutter,-0.7213282409080555
+tidev/titanium-sdk -> flutter/flutter,-2.301298381750134
+facebook/react-native -> tidev/titanium-sdk,0.24439560934896487
+flutter/flutter -> tidev/titanium-sdk,-5.045349781708446

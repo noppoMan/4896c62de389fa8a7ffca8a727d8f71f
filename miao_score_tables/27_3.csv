@@ -1,0 +1,7 @@
+,miao_score
+nodejs/node -> python/cpython,0.11888200238453679
+ruby/ruby -> python/cpython,-1.2235539860921432
+python/cpython -> nodejs/node,0.8135874489057074
+ruby/ruby -> nodejs/node,0.9145388660680218
+python/cpython -> ruby/ruby,-0.09417013736957658
+nodejs/node -> ruby/ruby,1.5612326883143668

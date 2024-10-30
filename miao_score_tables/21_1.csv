@@ -1,7 +1,7 @@
 ,miao_score
-laravel/framework -> django/django,-1.1273697099768725
-rails/rails -> django/django,-0.2093247950019913
-django/django -> laravel/framework,-3.2068620124859066
-rails/rails -> laravel/framework,-3.4256988787081286
-django/django -> rails/rails,2.14541015533842
-laravel/framework -> rails/rails,-4.3179842540213
+jquery/jquery -> prototypejs/prototype,-0.10104398666674859
+yui/yui3 -> prototypejs/prototype,-0.011975681375192474
+prototypejs/prototype -> jquery/jquery,4.3636350338554415
+yui/yui3 -> jquery/jquery,0.6869997599778707
+prototypejs/prototype -> yui/yui3,-16.119990572222083
+jquery/jquery -> yui/yui3,10.093353863861617

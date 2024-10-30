@@ -1,7 +1,7 @@
 ,miao_score
-emberjs/ember.js -> facebook/react,0.46518957748798323
-angular/angular.js -> facebook/react,1.6519464422113477
-facebook/react -> emberjs/ember.js,-0.1782150648646762
-angular/angular.js -> emberjs/ember.js,0.6983552463991494
-facebook/react -> angular/angular.js,0.018488448160900384
-emberjs/ember.js -> angular/angular.js,1.3859660420520894
+dart-lang/sdk -> microsoft/TypeScript,-1.1526507326040472
+jashkenas/coffeescript -> microsoft/TypeScript,-2.638064965984519
+microsoft/TypeScript -> dart-lang/sdk,-0.6506438160025331
+jashkenas/coffeescript -> dart-lang/sdk,-8.920418875234857
+microsoft/TypeScript -> jashkenas/coffeescript,0.11259396237744895
+dart-lang/sdk -> jashkenas/coffeescript,-0.14408139513372908

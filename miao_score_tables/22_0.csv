@@ -1,7 +1,7 @@
 ,miao_score
-sqlite/sqlite -> postgres/postgres,3.932638390511708
-mysql/mysql-server -> postgres/postgres,1.7044179022924084
-postgres/postgres -> sqlite/sqlite,0.1805337378041616
-mysql/mysql-server -> sqlite/sqlite,-0.9948487406151891
-postgres/postgres -> mysql/mysql-server,0.49857339929603983
-sqlite/sqlite -> mysql/mysql-server,-8.097385219303046
+angular/angular.js -> facebook/react,1.1506420789578486
+jashkenas/backbone -> facebook/react,1.1289652068408547
+facebook/react -> angular/angular.js,-0.21986911569179154
+jashkenas/backbone -> angular/angular.js,-1.3884992284829292
+facebook/react -> jashkenas/backbone,-1.405122306350682
+angular/angular.js -> jashkenas/backbone,-0.8150873441001758

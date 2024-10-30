@@ -1,7 +1,7 @@
 ,miao_score
-typeorm/typeorm -> sequelize/sequelize,-0.4908741264219499
-dresende/node-orm2 -> sequelize/sequelize,-1.8185627322646214
-sequelize/sequelize -> typeorm/typeorm,0.668218950479206
-dresende/node-orm2 -> typeorm/typeorm,3.0484135285579264
-sequelize/sequelize -> dresende/node-orm2,0.10577060752240156
-typeorm/typeorm -> dresende/node-orm2,-0.16698816285839524
+drupal/drupal -> WordPress/WordPress,-2.19686704469558
+apache/lenya -> WordPress/WordPress,1.696084143461567
+WordPress/WordPress -> drupal/drupal,-0.5398315120469681
+apache/lenya -> drupal/drupal,0.9211853941107397
+WordPress/WordPress -> apache/lenya,-0.3772839185038105
+drupal/drupal -> apache/lenya,3.9196610900455657

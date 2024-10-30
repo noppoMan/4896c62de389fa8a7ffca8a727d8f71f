@@ -1,0 +1,7 @@
+,miao_score
+jetbrains/intellij-community -> microsoft/vscode,-0.42807183614011723
+atom/atom -> microsoft/vscode,1.762537684936877
+microsoft/vscode -> jetbrains/intellij-community,-4.320571669353625
+atom/atom -> jetbrains/intellij-community,2.7477355240854693
+microsoft/vscode -> atom/atom,0.9123619165414489
+jetbrains/intellij-community -> atom/atom,0.0747477092254385

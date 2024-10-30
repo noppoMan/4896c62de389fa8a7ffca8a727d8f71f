@@ -1,7 +1,7 @@
 ,miao_score
-pytorch/pytorch -> tensorflow/tensorflow,-27.95215423132634
-apache/mxnet -> tensorflow/tensorflow,29.551757224534224
-tensorflow/tensorflow -> pytorch/pytorch,-4.038741509328569
-apache/mxnet -> pytorch/pytorch,11.911432187754647
-tensorflow/tensorflow -> apache/mxnet,2.472829864675969
-pytorch/pytorch -> apache/mxnet,3.9842448606071024
+facebook/react -> angular/angular.js,-0.44418583448594573
+knockout/knockout -> angular/angular.js,-0.6393566272259537
+angular/angular.js -> facebook/react,0.16749787709491276
+knockout/knockout -> facebook/react,-0.8941450089839323
+angular/angular.js -> knockout/knockout,0.10122917567676817
+facebook/react -> knockout/knockout,0.07832577348760113

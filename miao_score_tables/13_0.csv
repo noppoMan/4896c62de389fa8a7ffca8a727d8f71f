@@ -1,7 +1,7 @@
 ,miao_score
-SeleniumHQ/selenium -> puppeteer/puppeteer,-0.46001609758865086
-ariya/phantomjs -> puppeteer/puppeteer,6.32949402142238
-puppeteer/puppeteer -> SeleniumHQ/selenium,-2.2145446692003055
-ariya/phantomjs -> SeleniumHQ/selenium,5.689183262776547
-puppeteer/puppeteer -> ariya/phantomjs,0.07991957629368565
-SeleniumHQ/selenium -> ariya/phantomjs,-0.04759190209426298
+emberjs/ember.js -> facebook/react,0.23592073614659045
+angular/angular.js -> facebook/react,0.11842604858695044
+facebook/react -> emberjs/ember.js,-0.6394154848959114
+angular/angular.js -> emberjs/ember.js,0.16052605740854625
+facebook/react -> angular/angular.js,-0.003385201141033717
+emberjs/ember.js -> angular/angular.js,0.6406151100027022

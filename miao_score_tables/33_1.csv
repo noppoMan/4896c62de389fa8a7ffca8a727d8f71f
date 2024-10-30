@@ -1,0 +1,7 @@
+,miao_score
+hashicorp/nomad -> apache/mesos,0.2734465298983756
+kubernetes/kubernetes -> apache/mesos,-0.1979517711432206
+apache/mesos -> hashicorp/nomad,-14.756146542895237
+kubernetes/kubernetes -> hashicorp/nomad,0.4977361066785411
+apache/mesos -> kubernetes/kubernetes,-51.485396026157325
+hashicorp/nomad -> kubernetes/kubernetes,-1.553260332678576

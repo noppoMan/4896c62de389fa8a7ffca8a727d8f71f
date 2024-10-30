@@ -1,7 +1,7 @@
 ,miao_score
-playframework/playframework -> apache/struts,0.4779482530650372
-spring-projects/spring-boot -> apache/struts,0.08098450687379277
-apache/struts -> playframework/playframework,-2.2881947104779226
-spring-projects/spring-boot -> playframework/playframework,1.6798881260761633
-apache/struts -> spring-projects/spring-boot,1.4989333678598826
-playframework/playframework -> spring-projects/spring-boot,-3.288654993525154
+nodejs/node -> python/cpython,-1.0083490297311206
+ruby/ruby -> python/cpython,-0.6971415003697039
+python/cpython -> nodejs/node,0.02811678246574255
+ruby/ruby -> nodejs/node,-1.0791422000079536
+python/cpython -> ruby/ruby,-0.17062300548433962
+nodejs/node -> ruby/ruby,-1.299131463226623

@@ -1,7 +1,7 @@
 ,miao_score
-nodejs/node -> python/cpython,1.0284543120779104
-ruby/ruby -> python/cpython,-1.1726558371821687
-python/cpython -> nodejs/node,-0.27687137254834876
-ruby/ruby -> nodejs/node,0.6822469120673812
-python/cpython -> ruby/ruby,0.27679885480907185
-nodejs/node -> ruby/ruby,4.01322545849419
+FirebirdSQL/firebird -> postgres/postgres,-4.383764406293614
+mysql/mysql-server -> postgres/postgres,0.08610930555222901
+postgres/postgres -> FirebirdSQL/firebird,-0.7824938956964025
+mysql/mysql-server -> FirebirdSQL/firebird,-0.1760209559331048
+postgres/postgres -> mysql/mysql-server,-6.140609545471547
+FirebirdSQL/firebird -> mysql/mysql-server,3.275048623774723

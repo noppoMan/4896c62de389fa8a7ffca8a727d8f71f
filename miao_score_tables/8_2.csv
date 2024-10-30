@@ -1,0 +1,7 @@
+,miao_score
+gradle/gradle -> apache/maven,-0.11948151413056604
+apache/ant -> apache/maven,0.4328725400444202
+apache/maven -> gradle/gradle,19.800319590653967
+apache/ant -> gradle/gradle,1.8131773365217159
+apache/maven -> apache/ant,1.8165623881278368
+gradle/gradle -> apache/ant,-0.12491826415252077

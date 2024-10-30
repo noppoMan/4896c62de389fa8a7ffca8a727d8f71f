@@ -1,7 +1,7 @@
 ,miao_score
-joomla/joomla-cms -> WordPress/WordPress,-7.758756742344051
-Geeklog-Core/geeklog -> WordPress/WordPress,-34.257452803132814
-WordPress/WordPress -> joomla/joomla-cms,-8.110267498853236
-Geeklog-Core/geeklog -> joomla/joomla-cms,1.153592529114328
-WordPress/WordPress -> Geeklog-Core/geeklog,0.017141190167889456
-joomla/joomla-cms -> Geeklog-Core/geeklog,0.8424938602039262
+prototypejs/prototype -> jquery/jquery,5.444712060646866
+yui/yui3 -> jquery/jquery,0.6869997599778699
+jquery/jquery -> prototypejs/prototype,-0.20521402791888288
+yui/yui3 -> prototypejs/prototype,-0.011975681375192846
+jquery/jquery -> yui/yui3,9.983467825541425
+prototypejs/prototype -> yui/yui3,-17.06168103964505

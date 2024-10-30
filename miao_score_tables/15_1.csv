@@ -1,7 +1,7 @@
 ,miao_score
-drupal/drupal -> WordPress/WordPress,0.9796124155157729
-apache/lenya -> WordPress/WordPress,-0.4857424241738496
-WordPress/WordPress -> drupal/drupal,-0.9574668348902229
-apache/lenya -> drupal/drupal,0.374255801580444
-WordPress/WordPress -> apache/lenya,0.7269993650329608
-drupal/drupal -> apache/lenya,0.9004808813207692
+pytorch/pytorch -> tensorflow/tensorflow,-0.5504566673636025
+apache/mxnet -> tensorflow/tensorflow,-16.50291423278206
+tensorflow/tensorflow -> pytorch/pytorch,-0.03821268207026437
+apache/mxnet -> pytorch/pytorch,11.460310034012066
+tensorflow/tensorflow -> apache/mxnet,-0.167917771945336
+pytorch/pytorch -> apache/mxnet,0.15811021108367007

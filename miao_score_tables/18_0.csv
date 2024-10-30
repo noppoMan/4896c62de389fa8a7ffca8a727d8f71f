@@ -1,7 +1,7 @@
 ,miao_score
-buildbot/buildbot -> jenkinsci/jenkins,-0.6197366556957327
-hudson/hudson-2.x -> jenkinsci/jenkins,-8.597223713422736
-jenkinsci/jenkins -> buildbot/buildbot,-0.20822390959124537
-hudson/hudson-2.x -> buildbot/buildbot,-1.689744472571129
-jenkinsci/jenkins -> hudson/hudson-2.x,-9.739869950659974
-buildbot/buildbot -> hudson/hudson-2.x,-0.9921509897816518
+square/okhttp -> apache/httpcomponents-client,-0.4225386578479492
+google/volley -> apache/httpcomponents-client,0.005288133397327492
+apache/httpcomponents-client -> square/okhttp,0.0005620162685466921
+google/volley -> square/okhttp,-0.037470130205144996
+apache/httpcomponents-client -> google/volley,-1.090168181972369
+square/okhttp -> google/volley,6.937425017662161

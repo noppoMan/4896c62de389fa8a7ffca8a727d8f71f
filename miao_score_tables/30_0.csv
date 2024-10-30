@@ -1,0 +1,7 @@
+,miao_score
+apache/couchdb -> apache/cassandra,-0.3963179502771367
+mongodb/mongo -> apache/cassandra,-0.2143877492471826
+apache/cassandra -> apache/couchdb,0.3555603338287663
+mongodb/mongo -> apache/couchdb,-1.1873707555150845
+apache/cassandra -> mongodb/mongo,-3.6113852692470103
+apache/couchdb -> mongodb/mongo,-3.489486103676712

@@ -1,7 +1,7 @@
 ,miao_score
-dart-lang/sdk -> microsoft/TypeScript,-1.787284180559465
-jashkenas/coffeescript -> microsoft/TypeScript,-4.660266916579004
-microsoft/TypeScript -> dart-lang/sdk,1.7725611782989392
-jashkenas/coffeescript -> dart-lang/sdk,-14.194608163439003
-microsoft/TypeScript -> jashkenas/coffeescript,0.41679074830733776
-dart-lang/sdk -> jashkenas/coffeescript,-0.07460325591096434
+jetbrains/intellij-community -> microsoft/vscode,-0.5819665049444245
+atom/atom -> microsoft/vscode,0.42680219572998845
+microsoft/vscode -> jetbrains/intellij-community,-5.248114841360893
+atom/atom -> jetbrains/intellij-community,0.3455326418822504
+microsoft/vscode -> atom/atom,1.552054226031522
+jetbrains/intellij-community -> atom/atom,0.03819112156594137

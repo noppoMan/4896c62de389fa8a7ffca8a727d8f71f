@@ -1,7 +1,7 @@
 ,miao_score
-chainer/chainer -> tensorflow/tensorflow,-5.160284816940971
-Theano/Theano -> tensorflow/tensorflow,-5.4916012920355515
-tensorflow/tensorflow -> chainer/chainer,-1.8041803880443776
-Theano/Theano -> chainer/chainer,0.1941392347069849
-tensorflow/tensorflow -> Theano/Theano,0.3285382645305526
-chainer/chainer -> Theano/Theano,3.1968330933257962
+chainer/chainer -> tensorflow/tensorflow,-4.595543469646977
+Theano/Theano -> tensorflow/tensorflow,-1.7431973449462834
+tensorflow/tensorflow -> chainer/chainer,-1.7382213550687347
+Theano/Theano -> chainer/chainer,1.1337520315766543
+tensorflow/tensorflow -> Theano/Theano,0.28490423938701714
+chainer/chainer -> Theano/Theano,1.9780081130466913

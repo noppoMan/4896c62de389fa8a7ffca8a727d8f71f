@@ -1,7 +1,7 @@
 ,miao_score
-laravel/framework -> django/django,0.010688933654156671
-rails/rails -> django/django,-0.6216411643303367
-django/django -> laravel/framework,2.356914092380014
-rails/rails -> laravel/framework,0.9716281219379884
-django/django -> rails/rails,0.42995945187612616
-laravel/framework -> rails/rails,-0.631338516158574
+apple/swift-package-manager -> CocoaPods/CocoaPods,-0.7755527651172844
+Carthage/Carthage -> CocoaPods/CocoaPods,-0.023592520256944867
+CocoaPods/CocoaPods -> apple/swift-package-manager,-0.8272928952030565
+Carthage/Carthage -> apple/swift-package-manager,-0.5213392669153751
+CocoaPods/CocoaPods -> Carthage/Carthage,0.7418840849919981
+apple/swift-package-manager -> Carthage/Carthage,-0.37119716940804864
