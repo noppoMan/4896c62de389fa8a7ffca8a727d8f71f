@@ -10,7 +10,7 @@ Dataset after transformation to stationary process using fractional differencing
 
 ## adf_test_result.csv
 
-ADF test results and information on fractional differencing for all activity data used in the experiment. Each row corresponds to $A_i$ of each group for period shift and $T_m$.
+ADF test results and information on fractional differencing for all activity data used in the experiment. Each row corresponds to $A_i$ of each group for period shift and $T_m$. Since 2,884 $A_i$ were obtained in the experiment, this CSV consists of 2,884 rows + header row.
 
 Columns:
 - **period_shift**: Period shift corresponding to the data
@@ -23,7 +23,7 @@ Columns:
 
 ## var_estimation_result.csv
 
-Estimation results of VAR estimated in the experiment and results of Ljung-Box test. The estimation unit is the target of the VAR model. Each row corresponds to VAR for period shift and $T_m$.
+Estimation results of VAR estimated in the experiment and results of Ljung-Box test. Each row shows the estimation values obtained from the SVAR model at the corresponding Period shift and Tm. Since 948 SVARs were obtained in the experiment, this CSV consists of 948 rows + header row.
 
 Columns:
 - **period_shift**: Period shift corresponding to the estimated VAR
@@ -38,7 +38,7 @@ Columns:
 - **whiteness_test_statistic**: Ljung-Box test statistic for the error terms of the estimated SVAR
 - **whiteness_test_pvalue**: p-value of the Ljung-Box test for the error terms of the estimated SVAR
 
-## miao_score_tables/{group}.csv
+## miao_score_tables/{group}_{n_split}.csv
 
 This file contains the score table for each group obtained by MIAO.
 
@@ -49,7 +49,7 @@ Columns:
 
 ## decision_tree_dataset.csv
 
-This dataset is used for training and testing the decision tree model.
+This dataset is used for training and testing the decision tree model. All data have been normalized.
 
 Columns:
 - **label**: Correct label (target variable)
@@ -64,7 +64,7 @@ Columns:
 
 ## classification_results.csv
 
-This file contains the classification results produced by the decision tree model.
+This file contains the classification results produced by the decision tree model for 63 groups in the evaluation section.
 
 Columns:
 - **group**: Group name
