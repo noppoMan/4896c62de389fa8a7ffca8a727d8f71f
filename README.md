@@ -6,7 +6,7 @@ This README provides information about the files containing our dataset and resu
 
 Dataset after transformation to stationary process using fractional differencing and seasonal adjustment. There are four subdirectories: period_shift=original, 1_month_shifted, 2_month_shifted, and 3_month_shifted, each containing four subdirectories: Tm=T1, T2, T3, T4. The CSVs under each directory correspond to $[A_1, A_2, A_3]$ for each group's period_shift and Tm, in the order of competitor1, competitor2, and target.
 
-The estimation of SVAR and calculation of IRF using these datasets are documented in `demo.ipynb`. 
+**The estimation of SVAR and calculation of IRF using these datasets are documented in `demo.ipynb`.** 
 
 ## adf_test_result.csv
 
@@ -44,6 +44,8 @@ This file contains the score table for each group obtained by MIAO.
 
 Columns:
 - **miao_score**: Represents $AMS_{ij}$ in the paper
+
+**The code for calculating MIAO scores can be found in the #MIAO-Score-Calculation section of `demo.ipynb`.**
 
 ## decision_tree_dataset.csv
 
