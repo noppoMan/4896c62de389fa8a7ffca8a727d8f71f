@@ -78,31 +78,8 @@ params = {
     'max_depth': 3, 
     'min_samples_split': 10, 
     'min_samples_leaf': 3,
-    'random_state': 1
+    'random_state': 42
 }
 
 clf = DecisionTreeClassifier(**params)
-```
-
-# 
-
-```python
-from statsmodels.tsa.vector_ar.var_model import VAR
-from statsmodels.tsa.vector_ar.svar_model import SVAR
-import pandas as pd
-
-var_result = pd.read_csv("./var_estimation_result.csv")
-
-# Recursive constraint of A matrix. E will be estimated. 
-A = np.array([
-    [1, 0, 0],
-    ["E", 1, 0],
-    ["E", "E", 1]
-])
-
-X = pd.read_csv("./original/T1/1_0.csv")
-var_result
-
-model = SVAR(X, svar_type="A", A=A)
-results = model.fit(maxlags=)
 ```
