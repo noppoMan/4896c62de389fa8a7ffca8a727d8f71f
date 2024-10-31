@@ -1,7 +1,0 @@
-,miao_score
-jestjs/jest -> mochajs/mocha,0.6025595974287979
-karma-runner/karma -> mochajs/mocha,-0.8033839904138378
-mochajs/mocha -> jestjs/jest,-0.6065958041606783
-karma-runner/karma -> jestjs/jest,1.6048114460922613
-mochajs/mocha -> karma-runner/karma,1.3128046092259478
-jestjs/jest -> karma-runner/karma,1.714242069814758

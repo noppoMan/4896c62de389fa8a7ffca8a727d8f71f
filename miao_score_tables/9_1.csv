@@ -1,7 +1,0 @@
-,miao_score
-symfony/symfony -> cakephp/cakephp,1.6266164216630603
-zendframework/zendframework -> cakephp/cakephp,0.7181232534825872
-cakephp/cakephp -> symfony/symfony,-1.2443620271213276
-zendframework/zendframework -> symfony/symfony,1.658263505586377
-cakephp/cakephp -> zendframework/zendframework,5.788181069042006
-symfony/symfony -> zendframework/zendframework,5.08953314568592

@@ -1,7 +1,0 @@
-,miao_score
-mesosphere/marathon -> docker/docker,-48.08365344259174
-kubernetes/kubernetes -> docker/docker,-1.9476626933795427
-docker/docker -> mesosphere/marathon,-1.7828648522512625
-kubernetes/kubernetes -> mesosphere/marathon,-0.7603522911069531
-docker/docker -> kubernetes/kubernetes,-9.545115286670281
-mesosphere/marathon -> kubernetes/kubernetes,-179.3356034137533

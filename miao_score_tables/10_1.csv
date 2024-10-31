@@ -1,7 +1,0 @@
-,miao_score
-prototypejs/prototype -> jquery/jquery,5.444712060646866
-yui/yui3 -> jquery/jquery,0.6869997599778699
-jquery/jquery -> prototypejs/prototype,-0.20521402791888288
-yui/yui3 -> prototypejs/prototype,-0.011975681375192846
-jquery/jquery -> yui/yui3,9.983467825541425
-prototypejs/prototype -> yui/yui3,-17.06168103964505

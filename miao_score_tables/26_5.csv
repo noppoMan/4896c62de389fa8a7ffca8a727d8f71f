@@ -1,7 +1,0 @@
-,miao_score
-FirebirdSQL/firebird -> postgres/postgres,0.7043369419664346
-mysql/mysql-server -> postgres/postgres,0.6369257931253536
-postgres/postgres -> FirebirdSQL/firebird,-1.8034893867000217
-mysql/mysql-server -> FirebirdSQL/firebird,-0.014785415798276037
-postgres/postgres -> mysql/mysql-server,-3.6719739859934237
-FirebirdSQL/firebird -> mysql/mysql-server,2.2766491009472904
