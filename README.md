@@ -19,7 +19,24 @@ Columns:
 - **repo**: Repository corresponding to the data
 - **statistic**: ADF test statistic
 - **pvalue**: p-value of the ADF test
-- **fracdiff-n**: Fractional difference $n$. $n=0$ means level.
+- **fracdiff-n**: Fractional difference $n$. $n=0$ means level. The fractional differencing transformation was performed using Python's fracdiff package. See: https://github.com/fracdiff/fracdiff
+
+The following is the code to apply fdiff when the ADF test determines the process to be a unit root process. 
+
+```python
+from statsmodels.tsa.stattools import adfuller
+from fracdiff import fdiff
+
+results = adfuller(A, regression='c')
+
+adf = results[0]
+p_value = results[1]
+
+if p_value >= 0.05:
+    fdiff(A, n)
+else:
+    # do nothing
+```
 
 ## var_estimation_result.csv
 
