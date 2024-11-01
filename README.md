@@ -55,6 +55,35 @@ Columns:
 - **whiteness_test_statistic**: Ljung-Box test statistic for the error terms of the estimated SVAR
 - **whiteness_test_pvalue**: p-value of the Ljung-Box test for the error terms of the estimated SVAR
 
+The following code searches for the lag that minimizes AIC, under the condition that there is no serial correlation in the error terms. This code will also be used in the experiment of this study.
+
+```python
+import numpy as np
+from statsmodels.tsa.vector_ar.var_model import VAR
+from statsmodels.tsa.vector_ar.svar_model import SVAR
+
+X = pd.DataFrame({
+    "c1": [.....],
+    "c2": [.....],
+    "t": [.....],
+})
+
+var = VAR(X)
+aics = var.select_order(15).ics["aic"]
+ics_idxs = np.argsort(aics)
+
+for lag, aic in [(lag, aics[lag]) for lag in ics_idxs]:
+    svar = SVAR(X, svar_type="A", A=A)
+    results = svar.fit(maxlags=lag)
+
+    nlags = 10 if lag < 10 else lag * 2
+    wt_result = results.test_whiteness(nlags=nlags, signif=0.1)
+
+    if wt_result.pvalue > 0.1:
+        print(f"optimal lag order={lag}, aic={aic}, test_whiteness_pval={wt_result.pvalue}")
+        break
+```
+
 ## miao_score_tables/{group}_{n_split}.csv
 
 This file contains the score table for each group obtained by MIAO.
@@ -88,17 +117,4 @@ Columns:
 - **rev**: True value of whether it's REV or not
 - **predicted**: Predicted value by the decision tree
 
-Settings of Decision Tree Model: 
-
-```python
-from sklearn.tree import DecisionTreeClassifier
-
-params = {
-    'max_depth': 3, 
-    'min_samples_split': 10, 
-    'min_samples_leaf': 3,
-    'random_state': 42
-}
-
-clf = DecisionTreeClassifier(**params)
-```
+**All code used in the experiment (hyperparameters, training, and performance evaluation) can be found in the #Decision Tree section of `demo.ipynb`**
