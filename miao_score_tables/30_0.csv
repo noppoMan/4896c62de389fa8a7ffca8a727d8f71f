@@ -1,7 +1,7 @@
 ,miao_score
-apache/couchdb -> apache/cassandra,-0.3963179502771367
-mongodb/mongo -> apache/cassandra,-0.2143877492471826
-apache/cassandra -> apache/couchdb,0.3555603338287663
-mongodb/mongo -> apache/couchdb,-1.1873707555150845
-apache/cassandra -> mongodb/mongo,-3.6113852692470103
-apache/couchdb -> mongodb/mongo,-3.489486103676712
+facebook/react -> angular/angular.js,0.3436384791670293
+jquery/jquery -> angular/angular.js,2.569224377522296
+angular/angular.js -> facebook/react,0.5916390995649017
+jquery/jquery -> facebook/react,2.358323554871151
+angular/angular.js -> jquery/jquery,-0.025413035428131774
+facebook/react -> jquery/jquery,-0.19572989844201139

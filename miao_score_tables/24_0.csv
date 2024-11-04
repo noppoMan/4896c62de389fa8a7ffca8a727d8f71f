@@ -1,7 +1,7 @@
 ,miao_score
-FirebirdSQL/firebird -> postgres/postgres,0.9489309212565422
-mysql/mysql-server -> postgres/postgres,1.4594841580080762
-postgres/postgres -> FirebirdSQL/firebird,-3.7042129595817523
-mysql/mysql-server -> FirebirdSQL/firebird,-17.475045911547355
-postgres/postgres -> mysql/mysql-server,-2.0877456842408986
-FirebirdSQL/firebird -> mysql/mysql-server,-4.181824789614305
+angular/angular.js -> facebook/react,1.1506420789578486
+jashkenas/backbone -> facebook/react,1.1289652068408547
+facebook/react -> angular/angular.js,-0.21986911569179154
+jashkenas/backbone -> angular/angular.js,-1.3884992284829292
+facebook/react -> jashkenas/backbone,-1.405122306350682
+angular/angular.js -> jashkenas/backbone,-0.8150873441001758

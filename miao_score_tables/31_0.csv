@@ -1,7 +1,7 @@
 ,miao_score
-laravel/framework -> bcit-ci/CodeIgniter,-0.5898974709927006
-symfony/symfony -> bcit-ci/CodeIgniter,0.10875229984203356
-bcit-ci/CodeIgniter -> laravel/framework,-7.551120054483744
-symfony/symfony -> laravel/framework,1.1044907275799607
-bcit-ci/CodeIgniter -> symfony/symfony,0.36339796180026634
-laravel/framework -> symfony/symfony,0.632217438166025
+flutter/flutter -> facebook/react-native,-4.305809078566513
+tidev/titanium-sdk -> facebook/react-native,0.05236210400383561
+facebook/react-native -> flutter/flutter,-0.7213282409080555
+tidev/titanium-sdk -> flutter/flutter,-2.301298381750134
+facebook/react-native -> tidev/titanium-sdk,0.24439560934896487
+flutter/flutter -> tidev/titanium-sdk,-5.045349781708446

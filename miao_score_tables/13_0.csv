@@ -1,7 +1,7 @@
 ,miao_score
-emberjs/ember.js -> facebook/react,0.23592073614659045
-angular/angular.js -> facebook/react,0.11842604858695044
-facebook/react -> emberjs/ember.js,-0.6394154848959114
-angular/angular.js -> emberjs/ember.js,0.16052605740854625
-facebook/react -> angular/angular.js,-0.003385201141033717
-emberjs/ember.js -> angular/angular.js,0.6406151100027022
+facebook/react -> angular/angular.js,-0.44418583448594573
+knockout/knockout -> angular/angular.js,-0.6393566272259537
+angular/angular.js -> facebook/react,0.16749787709491276
+knockout/knockout -> facebook/react,-0.8941450089839323
+angular/angular.js -> knockout/knockout,0.10122917567676817
+facebook/react -> knockout/knockout,0.07832577348760113

@@ -1,7 +1,7 @@
 ,miao_score
-pytorch/pytorch -> tensorflow/tensorflow,-3.3400780329413826
-apache/mxnet -> tensorflow/tensorflow,10.555926696625411
-tensorflow/tensorflow -> pytorch/pytorch,-0.1817818371335344
-apache/mxnet -> pytorch/pytorch,0.6365889985242341
-tensorflow/tensorflow -> apache/mxnet,0.3123518566701696
-pytorch/pytorch -> apache/mxnet,0.014888938587237187
+flutter/flutter -> facebook/react-native,-4.836957579766459
+apache/cordova-android -> facebook/react-native,2.0267062363964907
+facebook/react-native -> flutter/flutter,-0.3872271273463171
+apache/cordova-android -> flutter/flutter,-3.7130964566940774
+facebook/react-native -> apache/cordova-android,-0.07422133560334801
+flutter/flutter -> apache/cordova-android,0.39928390658504576

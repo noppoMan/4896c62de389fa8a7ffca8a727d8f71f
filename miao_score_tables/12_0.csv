@@ -1,7 +1,7 @@
 ,miao_score
-joomla/joomla-cms -> WordPress/WordPress,1.8178615104993798
-Geeklog-Core/geeklog -> WordPress/WordPress,-0.6055225773032138
-WordPress/WordPress -> joomla/joomla-cms,5.191022691260173
-Geeklog-Core/geeklog -> joomla/joomla-cms,-0.6957457645606412
-WordPress/WordPress -> Geeklog-Core/geeklog,0.35485266600147625
-joomla/joomla-cms -> Geeklog-Core/geeklog,-1.119940598494603
+emberjs/ember.js -> facebook/react,0.23592073614659045
+angular/angular.js -> facebook/react,0.11842604858695044
+facebook/react -> emberjs/ember.js,-0.6394154848959114
+angular/angular.js -> emberjs/ember.js,0.16052605740854625
+facebook/react -> angular/angular.js,-0.003385201141033717
+emberjs/ember.js -> angular/angular.js,0.6406151100027022

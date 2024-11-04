@@ -1,0 +1,7 @@
+,miao_score
+h2o/h2o -> apache/httpd,0.6106640700033142
+nginx/nginx -> apache/httpd,0.4814346998456642
+apache/httpd -> h2o/h2o,0.14072114775147962
+nginx/nginx -> h2o/h2o,-1.5311082440727293
+apache/httpd -> nginx/nginx,-1.9110460357446946
+h2o/h2o -> nginx/nginx,-0.3281003590917172

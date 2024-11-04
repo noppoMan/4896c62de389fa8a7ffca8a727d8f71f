@@ -8,6 +8,25 @@ Dataset after transformation to stationary process using fractional differencing
 
 **The estimation of SVAR and calculation of IRF using these datasets are documented in `demo.ipynb`.** 
 
+## repo_state.csv
+
+A CSV file summarizing information about OSS projects in the dataset, based on data up
+to June 30, 2024.
+
+Columns:
+- **n_commits**: Total number of commits
+- **n_stars**: Number of GitHub stars
+- **code_size**: Total code size of all files in the repository
+- **contributors**: Unique count of contributors listed in commit logs
+- **repo_state**: One of the following five values:
+   - alive: Surviving until the latest date
+   - archived: Archived on GitHub
+   - deprecated: Marked as deprecated
+   - abandonment: No commits in the last year
+   - dormant: Average monthly commits in the last 12 months falls below 1.5
+- **repo_state_val**: For abandonment cases, number of days between the last commit date and June 30, 2024 (latest date). For dormant cases, average monthly commits over the last 12 months.
+- **rev**: 1 if designated as REV, 0 otherwise
+
 ## adf_test_result.csv
 
 ADF test results and information on fractional differencing for all activity data used in the experiment. Each row corresponds to $A_i$ of each group for period shift and $T_m$. Since 2,884 $A_i$ were obtained in the experiment, this CSV consists of 2,884 rows + header row.

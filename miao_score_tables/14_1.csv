@@ -1,0 +1,7 @@
+,miao_score
+dojo/dojo -> jquery/jquery,3.952271875390143
+yui/yui3 -> jquery/jquery,0.8650401491955202
+jquery/jquery -> dojo/dojo,-2.7025189723474456
+yui/yui3 -> dojo/dojo,-0.6819056241612136
+jquery/jquery -> yui/yui3,6.491934242015411
+dojo/dojo -> yui/yui3,-20.342221788896186

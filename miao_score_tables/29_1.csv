@@ -1,7 +1,7 @@
 ,miao_score
-flutter/flutter -> facebook/react-native,-1.6227977825039888
-tidev/titanium-sdk -> facebook/react-native,0.8155560460936144
-facebook/react-native -> flutter/flutter,-0.18895481509112652
-tidev/titanium-sdk -> flutter/flutter,0.4515877765799769
-facebook/react-native -> tidev/titanium-sdk,-0.263841768348022
-flutter/flutter -> tidev/titanium-sdk,0.31430864887233206
+playframework/playframework -> apache/struts,0.4658378097526167
+spring-projects/spring-boot -> apache/struts,0.06056726578224308
+apache/struts -> playframework/playframework,0.2623715139976307
+spring-projects/spring-boot -> playframework/playframework,0.15132617747099852
+apache/struts -> spring-projects/spring-boot,4.587092872053983
+playframework/playframework -> spring-projects/spring-boot,6.905009580019239

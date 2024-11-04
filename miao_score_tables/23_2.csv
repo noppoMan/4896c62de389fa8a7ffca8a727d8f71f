@@ -1,7 +1,0 @@
-,miao_score
-laravel/framework -> django/django,-0.3321869286439114
-rails/rails -> django/django,0.09978931913576679
-django/django -> laravel/framework,-0.6009443203863096
-rails/rails -> laravel/framework,0.7298225434488874
-django/django -> rails/rails,1.0647091306495329
-laravel/framework -> rails/rails,-1.9605401743575228

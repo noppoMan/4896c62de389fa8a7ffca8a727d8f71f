@@ -1,7 +1,7 @@
 ,miao_score
-hashicorp/nomad -> apache/mesos,-0.5531627702678206
-kubernetes/kubernetes -> apache/mesos,-0.4267050044026368
-apache/mesos -> hashicorp/nomad,0.46779474719919145
-kubernetes/kubernetes -> hashicorp/nomad,-0.8426020855069679
-apache/mesos -> kubernetes/kubernetes,-5.274673619366135
-hashicorp/nomad -> kubernetes/kubernetes,-3.1415141463027463
+apache/couchdb -> apache/cassandra,-0.3963179502771367
+mongodb/mongo -> apache/cassandra,-0.2143877492471826
+apache/cassandra -> apache/couchdb,0.3555603338287663
+mongodb/mongo -> apache/couchdb,-1.1873707555150845
+apache/cassandra -> mongodb/mongo,-3.6113852692470103
+apache/couchdb -> mongodb/mongo,-3.489486103676712
