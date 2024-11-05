@@ -46,6 +46,9 @@ The following is the code to apply fdiff when the ADF test determines the proces
 from statsmodels.tsa.stattools import adfuller
 from fracdiff import fdiff
 
+# A is an activity time series data
+A = np.array([.....])
+
 results = adfuller(A, regression='c')
 
 adf = results[0]
@@ -54,7 +57,7 @@ p_value = results[1]
 if p_value >= 0.05:
     fdiff(A, n)
 else:
-    # do nothing
+    # A is not an unit root process
 ```
 
 ## var_estimation_result.csv
