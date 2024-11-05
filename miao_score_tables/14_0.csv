@@ -1,7 +1,7 @@
 ,miao_score
-dojo/dojo -> jquery/jquery,3.0983419852047827
-yui/yui3 -> jquery/jquery,0.3970252047924721
-jquery/jquery -> dojo/dojo,-0.9319965224952893
-yui/yui3 -> dojo/dojo,0.11391207941157064
-jquery/jquery -> yui/yui3,9.629436336786496
-dojo/dojo -> yui/yui3,6.7236714328427745
+dojo/dojo -> jquery/jquery,3.022557463957213
+yui/yui3 -> jquery/jquery,0.29584572625551725
+jquery/jquery -> dojo/dojo,-0.8438184413335301
+yui/yui3 -> dojo/dojo,0.015033795517791954
+jquery/jquery -> yui/yui3,7.819355331806211
+dojo/dojo -> yui/yui3,7.892450978541492

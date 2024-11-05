@@ -1,7 +1,7 @@
 ,miao_score
-angular/angular.js -> facebook/react,1.1506420789578486
-jashkenas/backbone -> facebook/react,1.1289652068408547
-facebook/react -> angular/angular.js,-0.21986911569179154
-jashkenas/backbone -> angular/angular.js,-1.3884992284829292
-facebook/react -> jashkenas/backbone,-1.405122306350682
-angular/angular.js -> jashkenas/backbone,-0.8150873441001758
+angular/angular.js -> facebook/react,1.0514516377253669
+jashkenas/backbone -> facebook/react,0.5279877660850311
+facebook/react -> angular/angular.js,-0.046747087405617456
+jashkenas/backbone -> angular/angular.js,-1.262684161007662
+facebook/react -> jashkenas/backbone,-0.9684441561168328
+angular/angular.js -> jashkenas/backbone,-0.6320331387858553

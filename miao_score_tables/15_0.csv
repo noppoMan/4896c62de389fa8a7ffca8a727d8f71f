@@ -1,7 +1,7 @@
 ,miao_score
-flutter/flutter -> facebook/react-native,-4.836957579766459
-apache/cordova-android -> facebook/react-native,2.0267062363964907
-facebook/react-native -> flutter/flutter,-0.3872271273463171
-apache/cordova-android -> flutter/flutter,-3.7130964566940774
-facebook/react-native -> apache/cordova-android,-0.07422133560334801
-flutter/flutter -> apache/cordova-android,0.39928390658504576
+flutter/flutter -> facebook/react-native,-4.677834722860258
+apache/cordova-android -> facebook/react-native,1.4746394213745455
+facebook/react-native -> flutter/flutter,-0.6469394959100976
+apache/cordova-android -> flutter/flutter,-3.405395340716151
+facebook/react-native -> apache/cordova-android,-0.058710466925476254
+flutter/flutter -> apache/cordova-android,0.3425343269879661

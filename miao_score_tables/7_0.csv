@@ -1,7 +1,7 @@
 ,miao_score
-jetbrains/intellij-community -> microsoft/vscode,-0.5819665049444245
-atom/atom -> microsoft/vscode,0.42680219572998845
-microsoft/vscode -> jetbrains/intellij-community,-5.248114841360893
-atom/atom -> jetbrains/intellij-community,0.3455326418822504
-microsoft/vscode -> atom/atom,1.552054226031522
-jetbrains/intellij-community -> atom/atom,0.03819112156594137
+laravel/framework -> symfony/symfony,-0.008598326097666163
+fuel/fuel -> symfony/symfony,-2.725527806284731
+symfony/symfony -> laravel/framework,-0.29469559670140716
+fuel/fuel -> laravel/framework,-1.7559885055447109
+symfony/symfony -> fuel/fuel,-0.0002829428713195351
+laravel/framework -> fuel/fuel,0.012657175506221252

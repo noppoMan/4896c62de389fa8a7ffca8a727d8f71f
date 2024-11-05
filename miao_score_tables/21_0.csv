@@ -1,7 +1,7 @@
 ,miao_score
-apple/swift-package-manager -> CocoaPods/CocoaPods,-0.8818298726229528
-Carthage/Carthage -> CocoaPods/CocoaPods,0.12491927885162007
-CocoaPods/CocoaPods -> apple/swift-package-manager,-0.5989367966331581
-Carthage/Carthage -> apple/swift-package-manager,-0.2885685310906507
-CocoaPods/CocoaPods -> Carthage/Carthage,0.7897188276972531
-apple/swift-package-manager -> Carthage/Carthage,-0.3368120258261914
+apple/swift-package-manager -> CocoaPods/CocoaPods,-0.8785780659846498
+Carthage/Carthage -> CocoaPods/CocoaPods,0.1377538206487106
+CocoaPods/CocoaPods -> apple/swift-package-manager,-0.5875731841501854
+Carthage/Carthage -> apple/swift-package-manager,-0.2868676134372299
+CocoaPods/CocoaPods -> Carthage/Carthage,0.785244561465491
+apple/swift-package-manager -> Carthage/Carthage,-0.33701786100612197

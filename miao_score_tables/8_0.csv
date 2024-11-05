@@ -1,7 +1,7 @@
 ,miao_score
-mongodb/mongo -> apache/couchdb,-1.596806873264109
-rethinkdb/rethinkdb -> apache/couchdb,-1.5637295363822101
-apache/couchdb -> mongodb/mongo,-5.072908728002604
-rethinkdb/rethinkdb -> mongodb/mongo,-6.867930521559204
-apache/couchdb -> rethinkdb/rethinkdb,1.367910070913717
-mongodb/mongo -> rethinkdb/rethinkdb,7.396078550596508
+mongodb/mongo -> apache/couchdb,-1.9160514433238462
+rethinkdb/rethinkdb -> apache/couchdb,-0.9469688177849082
+apache/couchdb -> mongodb/mongo,-4.990127960818987
+rethinkdb/rethinkdb -> mongodb/mongo,-4.4047844666250295
+apache/couchdb -> rethinkdb/rethinkdb,0.2034385902021847
+mongodb/mongo -> rethinkdb/rethinkdb,5.129638813964724
