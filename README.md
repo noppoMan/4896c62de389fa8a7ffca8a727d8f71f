@@ -64,7 +64,7 @@ else:
 
 ### Verification of Unit Root Presence in the Dataset
 
-This code allows you to verify whether the time series data in the datasets/preprocessed directory contains any unit root processes. If unit root processes are present, the unit_root_count value will be greater than 0.
+This code allows you to verify whether the time series data $A_i$ in the datasets/preprocessed directory contains any unit root processes. If unit root processes are present, the unit_root_count value will be greater than 0. In MIAO theory, since all $A_i$ are required to be stationary, the unit_root_count should be 0.
 
 ```python
 from glob import glob
