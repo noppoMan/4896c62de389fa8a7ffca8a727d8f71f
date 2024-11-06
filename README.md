@@ -85,7 +85,7 @@ for shift in shifts:
                 if results[1] >= 0.05:
                     unit_root_count += 1
 
-            print(f"total scaned: {i}, unit_root_count: {unit_root_count}", end='\r')
+            print(f"total scanned: {i}, unit_root_count: {unit_root_count}", end='\r')
 ```
 
 ## var_estimation_result.csv
