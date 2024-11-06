@@ -1,0 +1,9 @@
+numpy 
+pandas 
+statsmodels 
+scipy 
+scikit-learn
+matplotlib
+
+# fracdiff is public archived in GitHub. Requires Python version 3.9.x or lower
+fracdiff
