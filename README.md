@@ -40,7 +40,9 @@ Columns:
 - **pvalue**: p-value of the ADF test
 - **fracdiff-n**: Fractional difference $n$. $n=0$ means level. The fractional differencing transformation was performed using Python's fracdiff package. See: https://github.com/fracdiff/fracdiff
 
-The following is the code to apply fdiff when the ADF test determines the process to be a unit root process. 
+### Code for ADF Test and Fractional Differencing
+
+This code allows you to to apply fdiff when the ADF test determines the process to be a unit root process. 
 
 ```python
 from statsmodels.tsa.stattools import adfuller
@@ -60,6 +62,32 @@ else:
     # A is not an unit root process
 ```
 
+### Verification of Unit Root Presence in the Dataset
+
+This code allows you to verify whether the time series data in the datasets/preprocessed directory contains any unit root processes. If unit root processes are present, the unit_root_count value will be greater than 0.
+
+```python
+from statsmodels.tsa.stattools import adfuller
+import os
+
+unit_root_count = 0
+i = 0
+
+for shift in shifts:
+    for tm in Tms:
+        base = f"./datasets/preprocessed/{shift}/{tm}"
+        files = os.listdir(base)
+        for file in files:
+            df = pd.read_csv(f"{base}/{file}", index_col=0)
+            for col in df.columns:
+                i += 1
+                results = adfuller(df[col], regression='c')
+                if results[1] >= 0.05:
+                    unit_root_count += 1
+
+            print(f"total scaned: {i}, unit_root_count: {unit_root_count}", end='\r')
+```
+
 ## var_estimation_result.csv
 
 Estimation results of VAR estimated in the experiment and results of Ljung-Box test. Each row shows the estimation values obtained from the SVAR model at the corresponding Period shift and Tm. Since 948 SVARs were obtained in the experiment, this CSV consists of 948 rows + header row.
@@ -77,7 +105,7 @@ Columns:
 - **whiteness_test_statistic**: Ljung-Box test statistic for the error terms of the estimated SVAR
 - **whiteness_test_pvalue**: p-value of the Ljung-Box test for the error terms of the estimated SVAR
 
-The following code searches for the lag that minimizes AIC, under the condition that there is no serial correlation in the error terms. This code will also be used in the experiment of this study.
+The following code searches for the lag that minimizes AIC, under the condition that there is no serial correlation in the error terms.
 
 ```python
 import numpy as np
