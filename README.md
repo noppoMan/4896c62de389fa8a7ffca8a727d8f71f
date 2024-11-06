@@ -67,25 +67,22 @@ else:
 This code allows you to verify whether the time series data in the datasets/preprocessed directory contains any unit root processes. If unit root processes are present, the unit_root_count value will be greater than 0.
 
 ```python
+from glob import glob
 from statsmodels.tsa.stattools import adfuller
-import os
 
 unit_root_count = 0
 i = 0
 
-for shift in shifts:
-    for tm in Tms:
-        base = f"./datasets/preprocessed/{shift}/{tm}"
-        files = os.listdir(base)
-        for file in files:
-            df = pd.read_csv(f"{base}/{file}", index_col=0)
-            for col in df.columns:
-                i += 1
-                results = adfuller(df[col], regression='c')
-                if results[1] >= 0.05:
-                    unit_root_count += 1
+files = glob("./datasets/preprocessed/**/**/*.csv")
+for file in files:
+    df = pd.read_csv(file, index_col=0)
+    for col in df.columns:
+        i += 1
+        results = adfuller(df[col], regression='c')
+        if results[1] >= 0.05:
+            unit_root_count += 1
 
-            print(f"total scanned: {i}, unit_root_count: {unit_root_count}", end='\r')
+    print(f"total scanned: {i}, unit_root_count: {unit_root_count}", end='\r')
 ```
 
 ## var_estimation_result.csv
