@@ -87,7 +87,7 @@ for file in files:
 
 ## var_estimation_result.csv
 
-Estimation results of VAR estimated in the experiment and results of Ljung-Box test. Each row shows the estimation values obtained from the SVAR model at the corresponding Period shift and Tm. Since 948 SVARs were obtained in the experiment, this CSV consists of 948 rows + header row.
+Estimation results of VAR estimated in the experiment and results of Ljung-Box test. Each row shows the estimation values obtained from the SVAR model at the corresponding Period shift and Tm. Since 952 SVARs were obtained in the experiment, this CSV consists of 952 rows + header row.
 
 Columns:
 - **period_shift**: Period shift corresponding to the estimated VAR
