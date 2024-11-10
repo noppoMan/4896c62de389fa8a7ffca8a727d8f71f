@@ -225,27 +225,27 @@ def subframe(df: pd.DataFrame, start_date: pd.Timestamp, end_date: pd.Timestamp,
     return sub_df
 
 def crate_var_and_estimate_lag(data: pd.DataFrame, maxlag: int, ic: str):
-    def find_optimal_element(histories):
+    def find_optimal_item(histories):
         min_ic = float('inf')
-        optimal_element = None
+        optimal_item = None
         significance_level = 0.1
 
-        for element in histories:
-            ic, _, _, test_result, _ = element
+        for item in histories:
+            ic_value, _, _, test_result, _ = item
             pvalue = test_result.pvalue
 
             # lag=0は使わない
-            if ic == 0:
+            if ic_value == 0:
                 continue
 
             if pvalue > significance_level:
-                return element
+                return item
             
-            if ic < min_ic:
-                min_ic = ic
-                optimal_element = element
+            if ic_value < min_ic:
+                min_ic = ic_value
+                optimal_item = item
 
-        return optimal_element
+        return optimal_item
     
     def make_histories(model):
         ics = model.select_order(maxlag).ics[ic]
@@ -267,23 +267,19 @@ def crate_var_and_estimate_lag(data: pd.DataFrame, maxlag: int, ic: str):
             histories.append((ics[lag], lag, ic_map, r, whiteness_test_lag))
 
         return histories
-
-    try:
-        VAR_X = pd.DataFrame(data)
-        model = VAR(VAR_X)
-        histories = make_histories(model)
-        _, lag, ics, test_result, whiteness_test_lag = find_optimal_element(histories)
-
-        return VAR_X, lag, ics, test_result, whiteness_test_lag, model
-    except Exception as e:
-        display(VAR_X)
-        raise e
     
-def strong_seasonal_adjusment(series, period=7):
+    VAR_X = pd.DataFrame(data)
+    model = VAR(VAR_X)
+    histories = make_histories(model)
+    _, lag, ics, test_result, whiteness_test_lag = find_optimal_item(histories)
+
+    return VAR_X, lag, ics, test_result, whiteness_test_lag, model
+    
+def weak_seasonal_adjusment(series, period=7):
     decomposed = sm.tsa.seasonal_decompose(series, period=period, model='additive')
     return series - decomposed.seasonal
     
-def weak_seasonal_adjusment(series, period=7):
+def strong_seasonal_adjusment(series, period=7):
     stl = STL(series, robust=True, period=period)
     res = stl.fit()
     return series - res.seasonal
@@ -349,7 +345,7 @@ def prepare_var_(data: List[Tuple[str, pd.Series]], maxlag, ic="aic", verbose = 
         (strong_var_lag, strong_var_x)
     ]
     ics = [
-        weak_var_ics, 
+        weak_var_ics,
         strong_var_ics
     ]
     test_results = [
@@ -357,7 +353,7 @@ def prepare_var_(data: List[Tuple[str, pd.Series]], maxlag, ic="aic", verbose = 
         strong_whiteness_test_result
     ]
     whiteness_test_lags = [
-        weak_whiteness_test_lag, 
+        weak_whiteness_test_lag,
         strong_whiteness_test_lag
     ]
 
