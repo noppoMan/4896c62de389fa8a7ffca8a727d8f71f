@@ -136,7 +136,7 @@ for lag, aic in [(lag, aics[lag]) for lag in ics_idxs]:
 This file contains the score table for each group obtained by MIAO.
 
 Columns:
-- **miao_score**: Represents $AMS_{ij}$ in the paper
+- **miao_score**: Represents $\mathrm{AMS}_{ij}$ in the paper
 
 **The code for calculating MIAO scores can be found in the #MIAO-Score-Calculation section of `demo.ipynb`.**
 
@@ -148,12 +148,14 @@ Columns:
 - **label**: Correct label (target variable)
 - **group**: Group name
 - **target**: Name of the target OSS
-- **c2 -> c1**: $AMS_{c2,c1}$
-- **t -> c1**: $AMS_{t,c1}$
-- **c1 -> c2**: $AMS_{c1,c2}$
-- **t -> c2**: $AMS_{t,c2}$
-- **c1 -> t**: $AMS_{c1,t}$
-- **c2 -> t**: $AMS_{c2,t}$
+- **c2 -> c1**: $\mathrm{AMS}_{c2,c1}$
+- **t -> c1**: $\mathrm{AMS}_{t,c1}$
+- **c1 -> c2**: $\mathrm{AMS}_{c1,c2}$
+- **t -> c2**: $\mathrm{AMS}_{t,c2}$
+- **c1 -> t**: $\mathrm{AMS}_{c1,t}$
+- **c2 -> t**: $\mathrm{AMS}_{c2,t}$
+
+The dataset version of $\mathrm{AMS}_{ij}$ without normalization (not divided by m) is non_normalized_decision_tree_dataset.csv. This is equivalent to the CSV outputs under miao_score_tables.
 
 ## classification_results.csv
 
