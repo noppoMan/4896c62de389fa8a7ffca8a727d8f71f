@@ -17,11 +17,11 @@ def parse_miao_db_yml(path: str):
     return miao_db
 
 def unit_root_test(series: pd.Series):
-    c_results = adfuller(series, regression='c')
-
-    adf = c_results[0]
+    results = adfuller(series, regression='c')
+    adf = results[0]
+    pvalue = results[1]
     
-    return adf, c_results[1]
+    return adf, pvalue
 
 def to_stationary_process_recursive(s: pd.Series, retry_count = 0, init_state = None):
     significance_level = 0.05
@@ -57,7 +57,7 @@ def split_dates(start, end, years):
     
     return dates
 
-def auto_detect_tms(db, N_MONTHS=12, limit_y = 4):
+def auto_detect_tms(db, N_MONTHS = 12, limit_y = 4):
     n_dormant_commit = 10
     anual_days = 365.25
 
@@ -224,7 +224,7 @@ def subframe(df: pd.DataFrame, start_date: pd.Timestamp, end_date: pd.Timestamp,
     }
     return sub_df
 
-def crate_var_and_estimate_lag(data: pd.DataFrame, maxlag: int, ic: str):
+def create_var_x_and_find_optimal_lag(data: pd.DataFrame, maxlag: int, ic: str):
     def find_optimal_item(histories):
         min_ic = float('inf')
         optimal_item = None
@@ -326,14 +326,14 @@ def prepare_var_(data: List[Tuple[str, pd.Series]], maxlag, ic="aic", verbose = 
             print(s)
             raise e
 
-    weak_var = crate_var_and_estimate_lag(weak_seasonaled_data, maxlag, ic)
+    weak_var = create_var_x_and_find_optimal_lag(weak_seasonaled_data, maxlag, ic)
     weak_var_x = weak_var[0]
     weak_var_lag = weak_var[1]
     weak_var_ics = weak_var[2]
     weak_whiteness_test_result = weak_var[3]
     weak_whiteness_test_lag = weak_var[4]
 
-    strong_var = crate_var_and_estimate_lag(strong_seasonaled_data, maxlag, ic)
+    strong_var = create_var_x_and_find_optimal_lag(strong_seasonaled_data, maxlag, ic)
     strong_var_x = strong_var[0]
     strong_var_lag = strong_var[1]
     strong_var_ics = strong_var[2]
