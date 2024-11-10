@@ -2,11 +2,15 @@
 
 This README provides information about the files containing our dataset and results.
 
+## datasets/original/daily/{org}/{name}.csv
+
+This is a dataset obtained by cloning https://github.com/{org}/{name} and collecting daily commit counts. This dataset serves as the foundation for our research. 
+
 ## datasets/preprocessed/{period_shift}{Tm}{group}.csv
 
 Dataset after transformation to stationary process using fractional differencing and seasonal adjustment. There are four subdirectories: period_shift=original, 1_month_shifted, 2_month_shifted, and 3_month_shifted, each containing four subdirectories: Tm=T1, T2, T3, T4. The CSVs under each directory correspond to $[A_1, A_2, A_3]$ for each group's period_shift and Tm, in the order of competitor1, competitor2, and target.
 
-**The estimation of SVAR and calculation of IRF using these datasets are documented in `demo.ipynb`.** 
+The process of creating datasets under the preprocessed directory is implemented in the #Auto-detecting-$T_m$ and #Preparation-for-VAR-Analysis sections of demo.ipynb. Additionally, the SVAR estimation and IRF calculation using these datasets are implemented in the #SVAR and #IRF-Calculation sections of demo.ipynb.
 
 ## repo_state.csv
 
@@ -31,6 +35,8 @@ Columns:
 
 ADF test results and information on fractional differencing for all activity data used in the experiment. Each row corresponds to $A_i$ of each group for period shift and $T_m$. Since 2,884 $A_i$ were obtained in the experiment, this CSV consists of 2,884 rows + header row.
 
+This is the log of results from executing the `miao.prepare_var` function for all period shifts, $T_m$.
+
 Columns:
 - **period_shift**: Period shift corresponding to the data
 - **Tm**: $T_m$ corresponding to the data
@@ -39,28 +45,6 @@ Columns:
 - **statistic**: ADF test statistic
 - **pvalue**: p-value of the ADF test
 - **fracdiff-n**: Fractional difference $n$. $n=0$ means level. The fractional differencing transformation was performed using Python's fracdiff package. See: https://github.com/fracdiff/fracdiff
-
-### Code for ADF Test and Fractional Differencing
-
-This code allows you to to apply fdiff when the ADF test determines the process to be a unit root process. 
-
-```python
-from statsmodels.tsa.stattools import adfuller
-from fracdiff import fdiff
-
-# A is an activity time series data
-A = np.array([.....])
-
-results = adfuller(A, regression='c')
-
-adf = results[0]
-p_value = results[1]
-
-if p_value >= 0.05:
-    fdiff(A, n)
-else:
-    # A is not an unit root process
-```
 
 ### Verification of Unit Root Presence in the Dataset
 
@@ -89,6 +73,8 @@ for file in files:
 
 Estimation results of VAR estimated in the experiment and results of Ljung-Box test. Each row shows the estimation values obtained from the SVAR model at the corresponding Period shift and Tm. Since 952 SVARs were obtained in the experiment, this CSV consists of 952 rows + header row.
 
+This is the log of results from executing the `miao.prepare_var` function for all period shifts, $T_m$.
+
 Columns:
 - **period_shift**: Period shift corresponding to the estimated VAR
 - **Tm**: $T_m$ corresponding to the estimated VAR
@@ -101,35 +87,6 @@ Columns:
 - **whiteness_test_lag**: Maximum lag order for the Ljung-Box test
 - **whiteness_test_statistic**: Ljung-Box test statistic for the error terms of the estimated SVAR
 - **whiteness_test_pvalue**: p-value of the Ljung-Box test for the error terms of the estimated SVAR
-
-The following code searches for the lag that minimizes AIC, under the condition that there is no serial correlation in the error terms.
-
-```python
-import numpy as np
-from statsmodels.tsa.vector_ar.var_model import VAR
-from statsmodels.tsa.vector_ar.svar_model import SVAR
-
-X = pd.DataFrame({
-    "c1": [.....],
-    "c2": [.....],
-    "t": [.....],
-})
-
-var = VAR(X)
-aics = var.select_order(15).ics["aic"]
-ics_idxs = np.argsort(aics)
-
-for lag, aic in [(lag, aics[lag]) for lag in ics_idxs]:
-    svar = SVAR(X, svar_type="A", A=A)
-    results = svar.fit(maxlags=lag)
-
-    nlags = 10 if lag < 10 else lag * 2
-    wt_result = results.test_whiteness(nlags=nlags, signif=0.1)
-
-    if wt_result.pvalue > 0.1:
-        print(f"optimal lag order={lag}, aic={aic}, test_whiteness_pval={wt_result.pvalue}")
-        break
-```
 
 ## miao_score_tables/{group}_{n_split}.csv
 
@@ -167,3 +124,11 @@ Columns:
 - **predicted**: Predicted value by the decision tree
 
 **All code used in the experiment (hyperparameters, training, and performance evaluation) can be found in the #Decision Tree section of `demo.ipynb`**
+
+## miao.py
+
+A Python File containing programs for executing MIAO. 
+
+## db.yml
+
+MIAOの設定ファイル.

@@ -1,0 +1,220 @@
+- name: chainer/chainer
+  rev: true
+  deprecated: true
+  competitors:
+    - name: tensorflow/tensorflow
+    - name: pytorch/pytorch
+      appearance_time: "2016-09-25"
+
+- name: Theano/Theano
+  rev: true
+  deprecated: true
+  statement_url: googeフォーラムのやつ
+  competitors: 
+    - name: tensorflow/tensorflow
+    - name: chainer/chainer
+
+- name: docker-archive/classicswarm
+  rev: true
+  archive_date: "2021-02-02"
+  competitors:
+    - name: kubernetes/kubernetes
+    - name: apache/mesos
+
+- name: bcit-ci/CodeIgniter
+  rev: true
+  memo: 競合のlaravelのレポジトリは、laravel/laravelではなく、laravel/frameworkが本体
+  competitors:
+    - name: symfony/symfony
+    - name: laravel/framework
+
+- name: zendframework/zendframework
+  rev: true
+  archive_date: "2020-01-09"
+  competitors:
+    - name: cakephp/cakephp
+    - name: symfony/symfony
+
+- name: atom/atom
+  rev: true
+  archive_date: "2023-03-04"
+  competitors:
+    - name: microsoft/vscode
+    - name: jetbrains/intellij-community
+
+- name: fuel/fuel
+  rev: true
+  competitors:
+    - name: symfony/symfony
+    - name: laravel/framework    
+
+- name: rethinkdb/rethinkdb
+  rev: true
+  competitors:
+    - name: apache/couchdb
+    - name: mongodb/mongo
+
+- name: gulpjs/gulp
+  rev: true
+  competitors:
+    - name: webpack/webpack
+    - name: jakejs/jake
+
+- name: Semantic-Org/Semantic-UI
+  rev: true
+  competitors:
+    - name: twbs/bootstrap
+    - name: foundation/foundation-sites
+
+- name: jashkenas/coffeescript
+  rev: true
+  competitors:
+    - name: microsoft/TypeScript
+    - name: dart-lang/sdk
+    
+- name: angular/angular.js
+  rev: true
+  archive_date: "2024-04-13"
+  competitors:
+    - name: facebook/react
+    - name: emberjs/ember.js
+
+- name: knockout/knockout
+  rev: true
+  competitors:
+    - name: angular/angular.js
+    - name: facebook/react
+
+- name: yui/yui3
+  rev: true
+  competitors:
+    - name: jquery/jquery
+    - name: dojo/dojo
+
+- name: apache/cordova-android
+  rev: true
+  competitors:
+    - name: facebook/react-native
+    - name: flutter/flutter
+
+- name: apache/lenya
+  rev: true
+  competitors:
+    - name: WordPress/WordPress
+    - name: drupal/drupal
+
+- name: dresende/node-orm2
+  rev: true
+  competitors:
+    - name: sequelize/sequelize
+    - name: typeorm/typeorm
+
+- name: google/volley
+  rev: true
+  competitors:
+    - name: apache/httpcomponents-client
+    - name: square/okhttp
+
+- name: karma-runner/karma
+  rev: true
+  deprecated: true
+  competitors:
+    - name: mochajs/mocha
+    - name: jestjs/jest
+
+- name: basho/riak_kv
+  rev: true
+  competitors:
+    - name: redis/redis
+    - name: memcached/memcached
+
+- name: Carthage/Carthage
+  rev: true
+  competitors:
+    - name: CocoaPods/CocoaPods
+    - name: apple/swift-package-manager
+
+- name: less/less
+  rev: true
+  competitors:
+    - name: stylus/stylus
+    - name: sass/node-sass
+
+- name: requirejs/requirejs
+  rev: true
+  competitors: 
+    - name: browserify/browserify
+    - name: webpack/webpack
+
+- name: jashkenas/backbone
+  rev: false
+  competitors:
+    - name: facebook/react
+    - name: angular/angular.js
+
+- name: rails/rails
+  rev: false
+  competitors:
+    - name: django/django
+    - name: laravel/framework
+
+- name: mysql/mysql-server
+  rev: false
+  competitors:
+    - name: postgres/postgres
+    - name: FirebirdSQL/firebird
+
+- name: ruby/ruby
+  rev: false
+  competitors:
+    - name: python/cpython
+    - name: nodejs/node
+
+- name: nginx/nginx
+  rev: false
+  competitors:
+    - name: apache/httpd
+    - name: h2o/h2o
+
+- name: spring-projects/spring-boot
+  rev: false
+  competitors:
+    - name: apache/struts
+    - name: playframework/playframework
+
+- name: jquery/jquery
+  rev: false
+  competitors:
+    - name: angular/angular.js
+    - name: facebook/react
+
+- name: tidev/titanium-sdk
+  rev: false
+  competitors:
+    - name: facebook/react-native
+    - name: flutter/flutter
+
+- name: mongodb/mongo
+  rev: false
+  competitors:
+    - name: apache/cassandra
+    - name: apache/couchdb
+
+- name: symfony/symfony
+  rev: false
+  competitors:
+    - name: bcit-ci/CodeIgniter
+    - name: laravel/framework
+      appearance_time: "2016-01"
+
+- name: kubernetes/kubernetes
+  rev: false
+  competitors:
+    - name: apache/mesos
+    - name: hashicorp/nomad
+
+- name: remix-run/remix
+  rev: false
+  competitors:
+    - name: vercel/next.js
+    - name: nuxt/nuxt
