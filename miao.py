@@ -224,7 +224,7 @@ def subframe(df: pd.DataFrame, start_date: pd.Timestamp, end_date: pd.Timestamp,
     }
     return sub_df
 
-def create_var_x_and_find_optimal_lag(data: pd.DataFrame, maxlag: int, ic: str):
+def find_optimal_lag(X: pd.DataFrame, maxlag: int, ic: str):
     def find_optimal_item(histories):
         min_ic = float('inf')
         optimal_item = None
@@ -268,12 +268,11 @@ def create_var_x_and_find_optimal_lag(data: pd.DataFrame, maxlag: int, ic: str):
 
         return histories
     
-    VAR_X = pd.DataFrame(data)
-    model = VAR(VAR_X)
+    model = VAR(X)
     histories = make_histories(model)
     _, lag, ics, test_result, whiteness_test_lag = find_optimal_item(histories)
 
-    return VAR_X, lag, ics, test_result, whiteness_test_lag, model
+    return lag, ics, test_result, whiteness_test_lag
     
 def weak_seasonal_adjusment(series, period=7):
     decomposed = sm.tsa.seasonal_decompose(series, period=period, model='additive')
@@ -325,43 +324,22 @@ def prepare_var_(data: List[Tuple[str, pd.Series]], maxlag, ic="aic", verbose = 
             print(f"Failed to adjust seasonality: {name}")
             print(s)
             raise e
+        
+    weak_var_x = pd.DataFrame(weak_seasonaled_data)
+    weak_var_lag, weak_var_ics, weak_whiteness_test_result, weak_whiteness_test_lag = find_optimal_lag(weak_var_x, maxlag, ic)
 
-    weak_var = create_var_x_and_find_optimal_lag(weak_seasonaled_data, maxlag, ic)
-    weak_var_x = weak_var[0]
-    weak_var_lag = weak_var[1]
-    weak_var_ics = weak_var[2]
-    weak_whiteness_test_result = weak_var[3]
-    weak_whiteness_test_lag = weak_var[4]
+    strong_var_x = pd.DataFrame(strong_seasonaled_data)
+    strong_var_lag, strong_var_ics, strong_whiteness_test_result, strong_whiteness_test_lag = find_optimal_lag(strong_var_x, maxlag, ic)
 
-    strong_var = create_var_x_and_find_optimal_lag(strong_seasonaled_data, maxlag, ic)
-    strong_var_x = strong_var[0]
-    strong_var_lag = strong_var[1]
-    strong_var_ics = strong_var[2]
-    strong_whiteness_test_result = strong_var[3]
-    strong_whiteness_test_lag = strong_var[4]
-
-    rv = [
-        (weak_var_lag, weak_var_x),
-        (strong_var_lag, strong_var_x)
-    ]
-    ics = [
-        weak_var_ics,
-        strong_var_ics
-    ]
-    test_results = [
-        weak_whiteness_test_result,
-        strong_whiteness_test_result
-    ]
-    whiteness_test_lags = [
-        weak_whiteness_test_lag,
-        strong_whiteness_test_lag
-    ]
+    rv = [(weak_var_lag, weak_var_x), (strong_var_lag, strong_var_x)]
+    ics = [weak_var_ics, strong_var_ics]
+    test_results = [weak_whiteness_test_result, strong_whiteness_test_result]
+    whiteness_test_lags = [weak_whiteness_test_lag, strong_whiteness_test_lag]
 
     idx = np.argmax([p.pvalue for p in test_results])
-    max_rp = test_results[idx].pvalue
-
     lag = rv[idx][0]
     VAR_X = rv[idx][1]
+    max_rp = test_results[idx].pvalue
 
     adf_test_results = weak_adf_test_results if idx == 0 else strong_adf_test_results
     adf_ps = [val[3] if val[3] is not None else val[1] for val in adf_test_results.values()]
