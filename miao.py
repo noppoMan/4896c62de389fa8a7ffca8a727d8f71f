@@ -1,6 +1,6 @@
 import math
 import yaml
-from typing import List, Tuple
+from typing import List, Tuple, Dict
 
 import pandas as pd
 import numpy as np
@@ -378,3 +378,87 @@ def prepare_var(tms, As, verbose = True):
         VAR_Xs.append((lag, VAR_X))
 
     return VAR_Xs
+
+
+def miao_score(sces: List[float]) -> float:
+    """
+    Calculate MS_{ij} from list of SCE
+    """
+    return (-1)*np.sum(sces)
+
+def miao_phase1_with_period_shifts(A_mat: np.ndarray, shifts: List[str] , \
+                                        Tms: List[str], group_with_sep: str) -> List[Dict[str, List[float]]]:
+    """
+    This function performs a MIAO Phase 1 and outputs the SCE (Shock Cumulative Effect) for $A_i -> A_j$. 
+    Note that PREPARE_VAR has already been completed, and the data preprocessing and optimal lag orders use pre-calculated results.
+    
+    In addition to the standard algorithm, period shifts are taken into consideration.
+    """
+
+    def generate_irf_pair(labels: List[str]) -> Dict[str, List[str]]:
+        result = {}
+    
+        for i in range(len(labels)):
+            for j in range(len(labels)):
+                key = "{}x{}".format(i, j)
+                value = [labels[j], labels[i]]
+                result[key] = value
+                
+        return result
+    
+    sces_with_shifts = []
+    var_result = pd.read_csv("./var_estimation_result.csv")
+    
+    for shift in shifts:
+        sces = {}
+        for Tm in Tms:
+            X = pd.read_csv(f"./datasets/preprocessed/{shift}/{Tm}/{group_with_sep}.csv", index_col=0)
+            pair = generate_irf_pair(X.columns)
+
+            cond = (var_result["group"] == group_with_sep) & (var_result["Tm"] == Tm) & (var_result["period_shift"] == shift)
+            lag = var_result[cond].iloc[0].lag
+            
+            model = SVAR(X, svar_type="A", A=A_mat)
+            results = model.fit(maxlags=lag)
+    
+            irf = results.irf(200)
+    
+            n = len(X.columns)
+    
+            for from_ in range(n):
+                for to_ in range(n):
+                    if from_ == to_:
+                        continue
+                    
+                    left, right = pair[f"{from_}x{to_}"]                
+                    label = f"{left} -> {right}"
+                    if label not in sces:
+                        sces[label] = []
+                    
+                    sce = irf.svar_cum_effects[-1, from_, to_]
+                    sces[label].append(sce)
+    
+        sces_with_shifts.append(sces)
+
+    return sces_with_shifts
+
+def miao_phase2_with_period_shifts(sces_with_shifts: Dict[str, List[float]]) -> pd.DataFrame:
+    """
+    Calculate AMS_{ij} and construct the MIAO score table. 
+    """
+    
+    ams = {}
+
+    for sces in sces_with_shifts:
+        for key in sces:
+            if key not in ams:
+                ams[key] = 0
+    
+            ms = miao_score(sces[key])
+            ams[key] += np.sum(ms)
+    
+    table = pd.DataFrame({
+        "AMS_ij": [v/len(sces_with_shifts) for v in ams.values()]
+    }, index=ams.keys())
+
+    return table
