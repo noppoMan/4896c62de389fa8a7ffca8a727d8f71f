@@ -9,7 +9,6 @@
 - name: Theano/Theano
   rev: true
   deprecated: true
-  statement_url: googeフォーラムのやつ
   competitors: 
     - name: tensorflow/tensorflow
     - name: chainer/chainer
@@ -23,7 +22,6 @@
 
 - name: bcit-ci/CodeIgniter
   rev: true
-  memo: 競合のlaravelのレポジトリは、laravel/laravelではなく、laravel/frameworkが本体
   competitors:
     - name: symfony/symfony
     - name: laravel/framework
