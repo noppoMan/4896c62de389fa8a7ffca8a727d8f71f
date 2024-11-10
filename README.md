@@ -4,7 +4,7 @@ This README provides information about the files containing our dataset and resu
 
 ## datasets/original/daily/{org}/{name}.csv
 
-This is a dataset obtained by cloning https://github.com/{org}/{name} and collecting daily commit counts. This dataset serves as the foundation for our research. 
+These are datasets obtained from https://github.com/{org}/{name} repositories by cloning them and collecting daily commit counts. These datasets serve as the foundation for our research.
 
 ## datasets/preprocessed/{period_shift}{Tm}{group}.csv
 
@@ -128,7 +128,3 @@ Columns:
 ## miao.py
 
 A Python File containing programs for executing MIAO. 
-
-## db.yml
-
-MIAOの設定ファイル.
