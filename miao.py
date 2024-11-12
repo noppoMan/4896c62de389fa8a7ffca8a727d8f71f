@@ -70,15 +70,18 @@ def auto_detect_tms(db, N_MONTHS = 12, limit_y = 4):
 
     for row in data:   
         repo = row["name"]
-        df = pd.read_csv(f"./datasets/original/monthly/{repo}.csv", index_col=0)
-        df.index = [pd.Timestamp(idx) for idx in df.index]
+        df_monthly = pd.read_csv(f"./datasets/original/monthly/{repo}.csv", index_col=0)
+        df_monthly.index = [pd.Timestamp(idx) for idx in df_monthly.index]
+
+        df_daily = pd.read_csv(f"./datasets/original/daily/{repo}.csv", index_col=0)
+        df_daily.index = [pd.Timestamp(idx) for idx in df_daily.index]
 
         if target_df is None:
-            target_df = df
+            target_df = df_monthly
 
-        start_date = pd.Timestamp(row["appearance_time"]) if "appearance_time" in row else df.index[0]
+        start_date = pd.Timestamp(row["appearance_time"]) if "appearance_time" in row else df_daily.index[0]
         start_dates.append(start_date)
-        end_dates.append(df.index[-1])
+        end_dates.append(df_monthly.index[-1])
 
     start_dates = list(sorted(start_dates, key=lambda d: d.timestamp(), reverse=True))
     
