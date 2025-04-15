@@ -1,0 +1,7 @@
+,AMS_ij
+angular/angular.js -> jquery/jquery,-0.810718026516597
+facebook/react -> jquery/jquery,0.015950258390429174
+jquery/jquery -> angular/angular.js,-1.3065349674722504
+facebook/react -> angular/angular.js,0.386394505661633
+jquery/jquery -> facebook/react,-6.5352784643121336
+angular/angular.js -> facebook/react,11.62547423721529

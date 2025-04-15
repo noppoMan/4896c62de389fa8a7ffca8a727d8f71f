@@ -1,7 +1,7 @@
-,miao_score
-jetbrains/intellij-community -> microsoft/vscode,-0.5791604584701671
-atom/atom -> microsoft/vscode,0.3610341317805177
-microsoft/vscode -> jetbrains/intellij-community,-5.052041136006623
-atom/atom -> jetbrains/intellij-community,0.27656111726160204
-microsoft/vscode -> atom/atom,1.5761041540220107
-jetbrains/intellij-community -> atom/atom,0.029438737570753402
+,AMS_ij
+jetbrains/intellij-community -> microsoft/vscode,-0.5791604571833305
+atom/atom -> microsoft/vscode,0.36103413178051863
+microsoft/vscode -> jetbrains/intellij-community,-5.0520410872345565
+atom/atom -> jetbrains/intellij-community,0.2765611172616026
+microsoft/vscode -> atom/atom,1.5761041196159764
+jetbrains/intellij-community -> atom/atom,0.029438730360257244

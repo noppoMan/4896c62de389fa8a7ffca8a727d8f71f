@@ -1,7 +1,7 @@
-,miao_score
-nodejs/node -> python/cpython,-1.8513023877578598
-ruby/ruby -> python/cpython,0.75868945069597
-python/cpython -> nodejs/node,0.5437497275629375
-ruby/ruby -> nodejs/node,0.7505527424368192
-python/cpython -> ruby/ruby,0.1489157643872619
-nodejs/node -> ruby/ruby,-1.125305906901322
+,AMS_ij
+ruby/ruby -> python/cpython,0.7933907908479129
+nodejs/node -> python/cpython,-1.847788024293044
+python/cpython -> ruby/ruby,0.1489157466387333
+nodejs/node -> ruby/ruby,-1.30136516488571
+python/cpython -> nodejs/node,0.543749704591685
+ruby/ruby -> nodejs/node,0.818996200072337

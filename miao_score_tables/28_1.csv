@@ -1,7 +1,7 @@
-,miao_score
-h2o/h2o -> apache/httpd,0.6112751378136878
-nginx/nginx -> apache/httpd,0.4990502659838548
-apache/httpd -> h2o/h2o,0.1487277086130976
-nginx/nginx -> h2o/h2o,-1.485735305676362
-apache/httpd -> nginx/nginx,-1.8491988771449537
-h2o/h2o -> nginx/nginx,-0.3152805231877358
+,AMS_ij
+apache/httpd -> nginx/nginx,-1.4405157303588259
+h2o/h2o -> nginx/nginx,-0.2454710695045246
+nginx/nginx -> apache/httpd,0.30217483155317343
+h2o/h2o -> apache/httpd,0.5967162332426322
+nginx/nginx -> h2o/h2o,-2.1316358226765275
+apache/httpd -> h2o/h2o,0.26986862643215703

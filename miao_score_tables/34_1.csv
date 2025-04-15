@@ -1,7 +1,7 @@
-,miao_score
-hashicorp/nomad -> apache/mesos,0.1943466308959512
-kubernetes/kubernetes -> apache/mesos,-0.190209729073806
-apache/mesos -> hashicorp/nomad,-14.497431579245646
-kubernetes/kubernetes -> hashicorp/nomad,0.4531874013506524
-apache/mesos -> kubernetes/kubernetes,-49.71097895267738
-hashicorp/nomad -> kubernetes/kubernetes,-1.7944975653474815
+,AMS_ij
+apache/mesos -> kubernetes/kubernetes,-46.87945342693183
+hashicorp/nomad -> kubernetes/kubernetes,-1.5183941838408794
+kubernetes/kubernetes -> apache/mesos,-0.24310830136673947
+hashicorp/nomad -> apache/mesos,0.1975757708452616
+kubernetes/kubernetes -> hashicorp/nomad,0.33147323606973556
+apache/mesos -> hashicorp/nomad,-14.62824538956598

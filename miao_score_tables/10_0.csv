@@ -1,7 +1,7 @@
-,miao_score
-foundation/foundation-sites -> twbs/bootstrap,-1.3496311787367048
-Semantic-Org/Semantic-UI -> twbs/bootstrap,-2.076271008472176
-twbs/bootstrap -> foundation/foundation-sites,-0.27106068348714185
-Semantic-Org/Semantic-UI -> foundation/foundation-sites,3.4384168098137926
-twbs/bootstrap -> Semantic-Org/Semantic-UI,0.7871294720580743
-foundation/foundation-sites -> Semantic-Org/Semantic-UI,1.915260798957195
+,AMS_ij
+foundation/foundation-sites -> twbs/bootstrap,-1.3496311765343325
+Semantic-Org/Semantic-UI -> twbs/bootstrap,-2.0762710084721627
+twbs/bootstrap -> foundation/foundation-sites,-0.27106066730062706
+Semantic-Org/Semantic-UI -> foundation/foundation-sites,3.438416809813781
+twbs/bootstrap -> Semantic-Org/Semantic-UI,0.7871294439550884
+foundation/foundation-sites -> Semantic-Org/Semantic-UI,1.9152608261401485

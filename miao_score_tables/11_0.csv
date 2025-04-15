@@ -1,7 +1,7 @@
-,miao_score
-dart-lang/sdk -> microsoft/TypeScript,-1.3050367287128977
-jashkenas/coffeescript -> microsoft/TypeScript,-3.187014835268204
-microsoft/TypeScript -> dart-lang/sdk,-0.7692669944901062
-jashkenas/coffeescript -> dart-lang/sdk,-7.191000462084165
-microsoft/TypeScript -> jashkenas/coffeescript,0.07429442737077031
-dart-lang/sdk -> jashkenas/coffeescript,-0.09392767166883967
+,AMS_ij
+dart-lang/sdk -> microsoft/TypeScript,-1.3050367370652858
+jashkenas/coffeescript -> microsoft/TypeScript,-3.187014835268193
+microsoft/TypeScript -> dart-lang/sdk,-0.7692670098974198
+jashkenas/coffeescript -> dart-lang/sdk,-7.191000462084155
+microsoft/TypeScript -> jashkenas/coffeescript,0.07429441985470486
+dart-lang/sdk -> jashkenas/coffeescript,-0.09392767051616524

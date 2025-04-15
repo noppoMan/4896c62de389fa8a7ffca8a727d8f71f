@@ -1,7 +1,7 @@
-,miao_score
-playframework/playframework -> apache/struts,-1.5749126404280784
-spring-projects/spring-boot -> apache/struts,0.046273316872599383
-apache/struts -> playframework/playframework,-1.300784211121769
-spring-projects/spring-boot -> playframework/playframework,0.03355582439366049
-apache/struts -> spring-projects/spring-boot,2.9006686145879237
-playframework/playframework -> spring-projects/spring-boot,-4.493165048625665
+,AMS_ij
+apache/struts -> playframework/playframework,-0.9705392510934263
+spring-projects/spring-boot -> playframework/playframework,0.03355582439366006
+playframework/playframework -> apache/struts,-1.683062677154839
+spring-projects/spring-boot -> apache/struts,0.04627331687259914
+playframework/playframework -> spring-projects/spring-boot,-4.454849042761035
+apache/struts -> spring-projects/spring-boot,3.0897137941319763

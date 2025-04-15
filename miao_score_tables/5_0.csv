@@ -1,7 +1,7 @@
-,miao_score
-symfony/symfony -> cakephp/cakephp,0.7579515012383143
-zendframework/zendframework -> cakephp/cakephp,0.16688382612886005
-cakephp/cakephp -> symfony/symfony,-0.8856393956137186
-zendframework/zendframework -> symfony/symfony,1.0237567640779501
-cakephp/cakephp -> zendframework/zendframework,2.1841815291490594
-symfony/symfony -> zendframework/zendframework,2.188817832111963
+,AMS_ij
+symfony/symfony -> cakephp/cakephp,0.7579515035985089
+zendframework/zendframework -> cakephp/cakephp,0.16688382612886113
+cakephp/cakephp -> symfony/symfony,-0.8856395472479077
+zendframework/zendframework -> symfony/symfony,1.023756764077949
+cakephp/cakephp -> zendframework/zendframework,2.1841815417112507
+symfony/symfony -> zendframework/zendframework,2.1888177496056382
