@@ -1,0 +1,7 @@
+,AMS_ij
+jashkenas/backbone -> angular/angular,-0.23231163734996574
+facebook/react -> angular/angular,-0.19315365059599773
+angular/angular -> jashkenas/backbone,-0.28682170379519134
+facebook/react -> jashkenas/backbone,0.19107620332275982
+angular/angular -> facebook/react,-0.49830341739530154
+jashkenas/backbone -> facebook/react,-1.7820488869780418

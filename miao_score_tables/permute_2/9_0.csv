@@ -1,0 +1,7 @@
+,AMS_ij
+jakejs/jake -> webpack/webpack,-0.20418728858026253
+gulpjs/gulp -> webpack/webpack,-0.373850624398931
+webpack/webpack -> jakejs/jake,0.006643435842821906
+gulpjs/gulp -> jakejs/jake,-0.08686950227289236
+webpack/webpack -> gulpjs/gulp,0.3475455360344083
+jakejs/jake -> gulpjs/gulp,0.5039613541395226

@@ -1,0 +1,7 @@
+,AMS_ij
+pytorch/pytorch -> tensorflow/tensorflow,-3.0761386528534795
+chainer/chainer -> tensorflow/tensorflow,-3.5785428388724383
+tensorflow/tensorflow -> pytorch/pytorch,-0.11794263156876855
+chainer/chainer -> pytorch/pytorch,-0.9830998426436913
+tensorflow/tensorflow -> chainer/chainer,-0.815324362476799
+pytorch/pytorch -> chainer/chainer,2.1182991853062747

@@ -1,0 +1,7 @@
+,AMS_ij
+kubernetes/kubernetes -> hashicorp/nomad,-0.850613613158993
+apache/mesos -> hashicorp/nomad,0.9690740596146984
+hashicorp/nomad -> kubernetes/kubernetes,-3.270733869346026
+apache/mesos -> kubernetes/kubernetes,-5.094627134249652
+hashicorp/nomad -> apache/mesos,-0.7280957291030634
+kubernetes/kubernetes -> apache/mesos,-0.42785962047717085

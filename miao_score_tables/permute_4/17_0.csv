@@ -1,0 +1,7 @@
+,AMS_ij
+typeorm/typeorm -> sequelize/sequelize,-0.045136300436723634
+dresende/node-orm2 -> sequelize/sequelize,0.44993603311455066
+sequelize/sequelize -> typeorm/typeorm,0.6704811736777672
+dresende/node-orm2 -> typeorm/typeorm,-1.6814768706510472
+sequelize/sequelize -> dresende/node-orm2,0.05738099305972512
+typeorm/typeorm -> dresende/node-orm2,-0.10507231282978943

@@ -1,0 +1,7 @@
+,AMS_ij
+emberjs/ember.js -> facebook/react,0.23592073481047743
+angular/angular.js -> facebook/react,0.1184260485869497
+facebook/react -> emberjs/ember.js,-0.6394154676392909
+angular/angular.js -> emberjs/ember.js,0.1605260574085426
+facebook/react -> angular/angular.js,-0.003385254666747911
+emberjs/ember.js -> angular/angular.js,0.6406151327480305

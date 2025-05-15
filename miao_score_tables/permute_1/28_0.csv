@@ -1,0 +1,7 @@
+,AMS_ij
+nginx/nginx -> h2o/h2o,3.3130537708078722
+apache/httpd -> h2o/h2o,0.42471206524662314
+h2o/h2o -> nginx/nginx,0.03224343158403992
+apache/httpd -> nginx/nginx,-0.38320191743361887
+h2o/h2o -> apache/httpd,0.3425643510054134
+nginx/nginx -> apache/httpd,-0.9808098515200605

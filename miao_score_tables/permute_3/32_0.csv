@@ -1,0 +1,7 @@
+,AMS_ij
+apache/couchdb -> apache/cassandra,-0.27241022170318174
+mongodb/mongo -> apache/cassandra,-0.1265543042493931
+apache/cassandra -> apache/couchdb,0.31496241389293345
+mongodb/mongo -> apache/couchdb,-1.1848549133102333
+apache/cassandra -> mongodb/mongo,-3.70327379673442
+apache/couchdb -> mongodb/mongo,-3.4978935583868735

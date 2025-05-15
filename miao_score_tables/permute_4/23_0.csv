@@ -1,0 +1,7 @@
+,AMS_ij
+webpack/webpack -> browserify/browserify,-2.1612684873667094
+requirejs/requirejs -> browserify/browserify,-1.1073929828886397
+browserify/browserify -> webpack/webpack,0.0008895320278635988
+requirejs/requirejs -> webpack/webpack,-0.664082129933448
+browserify/browserify -> requirejs/requirejs,-0.025917052899595262
+webpack/webpack -> requirejs/requirejs,0.10640152286362622

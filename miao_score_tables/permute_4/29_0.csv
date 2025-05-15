@@ -1,0 +1,7 @@
+,AMS_ij
+spring-projects/spring-boot -> apache/struts,0.050121183784110825
+playframework/playframework -> apache/struts,-0.12612895804870564
+apache/struts -> spring-projects/spring-boot,-1.9729666891294546
+playframework/playframework -> spring-projects/spring-boot,-0.41479021918500886
+apache/struts -> playframework/playframework,-2.8503685649317845
+spring-projects/spring-boot -> playframework/playframework,0.5889539517684581

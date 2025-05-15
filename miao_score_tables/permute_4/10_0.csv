@@ -1,0 +1,7 @@
+,AMS_ij
+foundation/foundation-sites -> twbs/bootstrap,-1.3496311765343325
+Semantic-Org/Semantic-UI -> twbs/bootstrap,-2.0762710084721627
+twbs/bootstrap -> foundation/foundation-sites,-0.27106066730062706
+Semantic-Org/Semantic-UI -> foundation/foundation-sites,3.438416809813781
+twbs/bootstrap -> Semantic-Org/Semantic-UI,0.7871294439550884
+foundation/foundation-sites -> Semantic-Org/Semantic-UI,1.9152608261401485

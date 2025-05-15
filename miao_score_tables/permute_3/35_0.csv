@@ -1,0 +1,7 @@
+,AMS_ij
+vercel/next.js -> nuxt/nuxt,-2.247526997976251
+remix-run/remix -> nuxt/nuxt,-0.2638734864954845
+nuxt/nuxt -> vercel/next.js,-7.58583047484973
+remix-run/remix -> vercel/next.js,1.0779622325039104
+nuxt/nuxt -> remix-run/remix,-2.1284852869154
+vercel/next.js -> remix-run/remix,-0.8431289337331684

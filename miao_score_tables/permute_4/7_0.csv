@@ -1,0 +1,7 @@
+,AMS_ij
+laravel/framework -> symfony/symfony,-0.008598337179524976
+fuel/fuel -> symfony/symfony,-2.7255278062847603
+symfony/symfony -> laravel/framework,-0.29469558764733106
+fuel/fuel -> laravel/framework,-1.7559885055447384
+symfony/symfony -> fuel/fuel,-0.00028294449204132563
+laravel/framework -> fuel/fuel,0.012657163176513607

@@ -1,7 +1,0 @@
-,AMS_ij
-bcit-ci/CodeIgniter -> symfony/symfony,-0.44318716097392175
-laravel/framework -> symfony/symfony,0.7716472470861496
-symfony/symfony -> bcit-ci/CodeIgniter,0.1406488941795146
-laravel/framework -> bcit-ci/CodeIgniter,-0.5962618126197597
-symfony/symfony -> laravel/framework,1.050394551316969
-bcit-ci/CodeIgniter -> laravel/framework,-7.443780530136514

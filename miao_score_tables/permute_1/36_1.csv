@@ -1,0 +1,7 @@
+,AMS_ij
+hashicorp/terraform -> pulumi/pulumi,-0.26965077675940446
+chef/chef -> pulumi/pulumi,0.35963144762663346
+pulumi/pulumi -> hashicorp/terraform,-0.8919072209741339
+chef/chef -> hashicorp/terraform,-1.743299271015337
+pulumi/pulumi -> chef/chef,-3.116401261810493
+hashicorp/terraform -> chef/chef,-2.4691427892552107

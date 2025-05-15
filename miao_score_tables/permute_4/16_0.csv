@@ -1,0 +1,7 @@
+,AMS_ij
+drupal/drupal -> WordPress/WordPress,-2.190598595148919
+apache/lenya -> WordPress/WordPress,1.5765713818053029
+WordPress/WordPress -> drupal/drupal,-0.656902781250009
+apache/lenya -> drupal/drupal,0.89255959029944
+WordPress/WordPress -> apache/lenya,-0.35819963625094264
+drupal/drupal -> apache/lenya,3.86834215300806

@@ -57,7 +57,15 @@ def split_dates(start, end, years):
     
     return dates
 
-def auto_detect_tms(db, N_MONTHS = 12, limit_y = 4):
+def get_unique_idx(db):
+    name = db["name"]
+    osss = [name] + [c["name"] for c in db["competitors"]]
+    return gen_idx_(osss)
+
+def gen_idx_(oss_names):
+    return ",".join([oss.split("/")[1] for oss in oss_names])
+
+def auto_detect_tms(db, N_MONTHS = 12, limit_y = 4, daily_dataset_path = "./datasets/original/daily", monthly_dataset_path = "./datasets/original/monthly"):
     n_dormant_commit = 10
     anual_days = 365.25
 
@@ -70,10 +78,10 @@ def auto_detect_tms(db, N_MONTHS = 12, limit_y = 4):
 
     for row in data:   
         repo = row["name"]
-        df_monthly = pd.read_csv(f"./datasets/original/monthly/{repo}.csv", index_col=0)
+        df_monthly = pd.read_csv(f"{monthly_dataset_path}/{repo}.csv", index_col=0)
         df_monthly.index = [pd.Timestamp(idx) for idx in df_monthly.index]
 
-        df_daily = pd.read_csv(f"./datasets/original/daily/{repo}.csv", index_col=0)
+        df_daily = pd.read_csv(f"{daily_dataset_path}/{repo}.csv", index_col=0)
         df_daily.index = [pd.Timestamp(idx) for idx in df_daily.index]
 
         if target_df is None:
@@ -81,12 +89,12 @@ def auto_detect_tms(db, N_MONTHS = 12, limit_y = 4):
 
         start_date = pd.Timestamp(row["appearance_time"]) if "appearance_time" in row else df_daily.index[0]
         start_dates.append(start_date)
-        end_dates.append(df_monthly.index[-1])
+        end_dates.append(df_monthly.index[-1])    
 
-    start_dates = list(sorted(start_dates, key=lambda d: d.timestamp(), reverse=True))
-    
-    start_date = start_dates[0]
-    
+        start_dates = list(sorted(start_dates, key=lambda d: d.timestamp(), reverse=True))
+        start_date: pd.Timestamp = start_dates[0]        
+
+    # if db["rev"] == True:
     df_after_start = target_df[target_df.index > pd.Timestamp(start_date.year, start_date.month, start_date.day)]
 
     years = []
@@ -118,23 +126,31 @@ def auto_detect_tms(db, N_MONTHS = 12, limit_y = 4):
         end_year += 1
 
     tm_start = pd.Timestamp(start_date.year, start_date.month, start_date.day)
-    tm_end = pd.Timestamp(end_year, tm_start.month, tm_start.day)
 
-    sub = target_df[target_df.index < tm_end]
-    commits = sub.n_commits
-    tail_commits = commits.tail(10).to_numpy()
     
-    for i, c in enumerate(tail_commits):
-        if c < n_dormant_commit:
-            break
+    if "end_date" in db:
+        tm_end = pd.Timestamp(db["end_date"])
+    else:
+        tm_end = pd.Timestamp(end_year, tm_start.month, tm_start.day)
 
-    subtract_month = 10 - (i + 1)
-    tm_end -= pd.DateOffset(months=subtract_month)
-    
+        sub = target_df[target_df.index < tm_end]
+        commits = sub.n_commits
+        tail_commits = commits.tail(10).to_numpy()
+        
+        for i, c in enumerate(tail_commits):
+            if c < n_dormant_commit:
+                break
+
+        subtract_month = 10 - (i + 1)
+        tm_end -= pd.DateOffset(months=subtract_month)
+    # else:
+    #     tm_start = pd.Timestamp(start_date.year, start_date.month, start_date.day)
+    #     tm_end = np.min(end_dates)
+
     num_y = math.floor((tm_end - tm_start).days/anual_days)
     remaining_days = (tm_end - tm_start).days - (limit_y*anual_days)
     diff = remaining_days/anual_days
-    should_split = diff >= 0.5 or num_y > limit_y
+    should_split = diff >= 0.5 or num_y > limit_y        
 
     tms = []
     if should_split:
@@ -166,7 +182,7 @@ def auto_detect_tms(db, N_MONTHS = 12, limit_y = 4):
         if y < limit_y:
             last_tm["start"] = last_tm["end"] - pd.DateOffset(years=limit_y)
 
-    return tms    
+    return tms  
 
 def create_Tms(start, end, interval, split_interval = False):
     current = start
@@ -389,8 +405,7 @@ def miao_score(sces: List[float]) -> float:
     """
     return (-1)*np.sum(sces)
 
-def miao_phase1_with_period_shifts(A_mat: np.ndarray, shifts: List[str] , \
-                                        Tms: List[str], group_with_sep: str) -> List[Dict[str, List[float]]]:
+def miao_phase1_with_period_shifts(A_mat: np.ndarray, shifts: List[str], Tms: List[str], group_with_sep: str,  permutation_id: int, dataset_path: str = "./", irf_k=200) -> List[Dict[str, List[float]]]:
     """
     This function performs a MIAO Phase 1 and outputs the SCE (Shock Cumulative Effect) for $A_i -> A_j$. 
     Note that PREPARE_VAR has already been completed, and the data preprocessing and optimal lag orders use pre-calculated results.
@@ -410,12 +425,14 @@ def miao_phase1_with_period_shifts(A_mat: np.ndarray, shifts: List[str] , \
         return result
     
     sces_with_shifts = []
-    var_result = pd.read_csv("./var_estimation_result.csv")
+    structural_covs = []
+    is_stables = []
+    var_result = pd.read_csv(f"{dataset_path}/var_estimation_results/permute_{permutation_id}.csv")
     
     for shift in shifts:
         sces = {}
         for Tm in Tms:
-            X = pd.read_csv(f"./datasets/preprocessed/{shift}/{Tm}/{group_with_sep}.csv", index_col=0)
+            X = pd.read_csv(f"{dataset_path}/datasets/preprocessed/permute_{permutation_id}/{shift}/{Tm}/{group_with_sep}.csv", index_col=0)
             pair = generate_irf_pair(X.columns)
 
             cond = (var_result["group"] == group_with_sep) & (var_result["Tm"] == Tm) & (var_result["period_shift"] == shift)
@@ -423,8 +440,19 @@ def miao_phase1_with_period_shifts(A_mat: np.ndarray, shifts: List[str] , \
             
             model = SVAR(X, svar_type="A", A=A_mat)
             results = model.fit(maxlags=lag)
+
+            # Checks if det(I - Az) = 0 for any mod(z) <= 1, so all the eigenvalues of the companion matrix must lie outside the unit circle
+            is_stable = results.is_stable()
+            is_stables.append(is_stable)
+
+            # 方法2: SVAR構造ショックの共分散行列
+            # Σₑ = A⁻¹BB'(A⁻¹)'
+            A_inv = np.linalg.inv(results.A)
+            B_mat = results.B
+            structural_cov = A_inv @ B_mat @ B_mat.T @ A_inv.T
+            structural_covs.append(structural_cov)
     
-            irf = results.irf(200)
+            irf = results.irf(irf_k)
     
             n = len(X.columns)
     
@@ -443,7 +471,7 @@ def miao_phase1_with_period_shifts(A_mat: np.ndarray, shifts: List[str] , \
     
         sces_with_shifts.append(sces)
 
-    return sces_with_shifts
+    return sces_with_shifts, structural_covs, is_stables
 
 def miao_phase2_with_period_shifts(sces_with_shifts: Dict[str, List[float]]) -> pd.DataFrame:
     """

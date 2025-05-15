@@ -1,0 +1,7 @@
+,AMS_ij
+facebook/react -> angular/angular.js,-0.4441858279571246
+knockout/knockout -> angular/angular.js,-0.6393566272259533
+angular/angular.js -> facebook/react,0.16749787456577742
+knockout/knockout -> facebook/react,-0.8941450089839285
+angular/angular.js -> knockout/knockout,0.10122916041372668
+facebook/react -> knockout/knockout,0.07832578360802675

@@ -1,0 +1,7 @@
+,AMS_ij
+FirebirdSQL/firebird -> mysql/mysql-server,4.19854225741008
+postgres/postgres -> mysql/mysql-server,-10.9356460529623
+mysql/mysql-server -> FirebirdSQL/firebird,0.9486708118403329
+postgres/postgres -> FirebirdSQL/firebird,-2.279801678533659
+mysql/mysql-server -> postgres/postgres,-0.1769353464999673
+FirebirdSQL/firebird -> postgres/postgres,0.01833885086341939

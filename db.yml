@@ -142,13 +142,13 @@
   rev: true
   competitors: 
     - name: browserify/browserify
-    - name: webpack/webpack
+    - name: webpack/webpack    
 
 - name: jashkenas/backbone
   rev: false
   competitors:
+    - name: angular/angular
     - name: facebook/react
-    - name: angular/angular.js
 
 - name: rails/rails
   rev: false
@@ -162,57 +162,63 @@
     - name: postgres/postgres
     - name: FirebirdSQL/firebird
 
-- name: ruby/ruby
+- name: python/cpython
   rev: false
   competitors:
-    - name: python/cpython
+    - name: ruby/ruby
     - name: nodejs/node
 
-- name: nginx/nginx
+- name: apache/httpd
   rev: false
   competitors:
-    - name: apache/httpd
+    - name: nginx/nginx
     - name: h2o/h2o
 
-- name: spring-projects/spring-boot
+- name: apache/struts
   rev: false
   competitors:
-    - name: apache/struts
     - name: playframework/playframework
+    - name: spring-projects/spring-boot
 
 - name: jquery/jquery
   rev: false
   competitors:
-    - name: angular/angular.js
+    - name: angular/angular
     - name: facebook/react
 
 - name: tidev/titanium-sdk
   rev: false
+  end_date: "2023-01-30"
   competitors:
     - name: facebook/react-native
     - name: flutter/flutter
 
-- name: mongodb/mongo
+- name: apache/couchdb
   rev: false
   competitors:
     - name: apache/cassandra
-    - name: apache/couchdb
+    - name: mongodb/mongo
 
-- name: symfony/symfony
+- name: mrdoob/three.js
   rev: false
   competitors:
-    - name: bcit-ci/CodeIgniter
-    - name: laravel/framework
-      appearance_time: "2016-01"
+    - name: BabylonJS/Babylon.js
+    - name: playcanvas/engine
 
 - name: kubernetes/kubernetes
   rev: false
   competitors:
-    - name: apache/mesos
     - name: hashicorp/nomad
+    - name: apache/mesos
 
-- name: remix-run/remix
+- name: vercel/next.js
   rev: false
   competitors:
-    - name: vercel/next.js
     - name: nuxt/nuxt
+    - name: remix-run/remix
+
+- name: chef/chef
+  rev: false
+  competitors:
+    - name: hashicorp/terraform
+    - name: pulumi/pulumi
