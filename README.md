@@ -29,7 +29,6 @@ Columns:
    - abandonment: No commits in the last year
    - dormant: Average monthly commits in the last 12 months falls below 1.5
 - **repo_state_val**: For abandonment cases, number of days between the last commit date and June 30, 2024 (latest date). For dormant cases, average monthly commits over the last 12 months.
-- **rev**: 1 if designated as REV, 0 otherwise
 
 ## adf_test_results/{permute_i}.csv
 
