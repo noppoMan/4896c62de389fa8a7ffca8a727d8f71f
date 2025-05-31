@@ -123,8 +123,8 @@
 - name: basho/riak_kv
   rev: true
   competitors:
-    - name: redis/redis
     - name: memcached/memcached
+    - name: redis/redis
 
 - name: Carthage/Carthage
   rev: true
