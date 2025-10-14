@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+gatsbyjs/gatsby -> vercel/next.js,0.1573770735188351,-4.475452391258479
+phenomic/phenomic -> vercel/next.js,0.4249520286962665,6.5401414891040375
+vercel/next.js -> gatsbyjs/gatsby,-2.3586448659774746,-15.187315116782784
+phenomic/phenomic -> gatsbyjs/gatsby,3.9623826651461616,15.835404223290638
+vercel/next.js -> phenomic/phenomic,0.8964712731320083,11.620507937012778
+gatsbyjs/gatsby -> phenomic/phenomic,0.3942239706943427,5.406501863042273

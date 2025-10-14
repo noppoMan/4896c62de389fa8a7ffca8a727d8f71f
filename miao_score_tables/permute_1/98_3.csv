@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+rust-lang/rust -> python/cpython,-0.014380299700547834,-0.33037136203081163
+JuliaLang/julia -> python/cpython,-0.7331683997794942,-8.64482814993543
+python/cpython -> rust-lang/rust,-1.2643177955812848,-5.6822673650424536
+JuliaLang/julia -> rust-lang/rust,-2.324305166868128,-8.329176197430899
+python/cpython -> JuliaLang/julia,0.10158218186255656,2.0494297799996404
+rust-lang/rust -> JuliaLang/julia,0.09735059550259545,1.2094132390349388

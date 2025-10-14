@@ -1,7 +1,7 @@
-,AMS_ij
-symfony/symfony -> cakephp/cakephp,0.7579515035985089
-zendframework/zendframework -> cakephp/cakephp,0.16688382612886113
-cakephp/cakephp -> symfony/symfony,-0.8856395472479077
-zendframework/zendframework -> symfony/symfony,1.023756764077949
-cakephp/cakephp -> zendframework/zendframework,2.1841815417112507
-symfony/symfony -> zendframework/zendframework,2.1888177496056382
+,AMS_ij,normalized_AMS_ij
+google/volley -> square/retrofit,0.024079775946369543,0.42585960233297937
+stephanenicolas/robospice -> square/retrofit,-0.2014299291454381,-2.54421064300426
+square/retrofit -> google/volley,-17.11855646623527,-6.567791399691469
+stephanenicolas/robospice -> google/volley,-1.8967708660337097,-2.4208289168009967
+square/retrofit -> stephanenicolas/robospice,-1.3849988546583734,-18.863904861036218
+google/volley -> stephanenicolas/robospice,-0.019540427608748627,-0.34908441630077536

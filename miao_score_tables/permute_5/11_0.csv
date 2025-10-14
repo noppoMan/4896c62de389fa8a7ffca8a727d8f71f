@@ -1,7 +1,7 @@
-,AMS_ij
-dart-lang/sdk -> microsoft/TypeScript,-1.3050367370652858
-jashkenas/coffeescript -> microsoft/TypeScript,-3.187014835268193
-microsoft/TypeScript -> dart-lang/sdk,-0.7692670098974198
-jashkenas/coffeescript -> dart-lang/sdk,-7.191000462084155
-microsoft/TypeScript -> jashkenas/coffeescript,0.07429441985470486
-dart-lang/sdk -> jashkenas/coffeescript,-0.09392767051616524
+,AMS_ij,normalized_AMS_ij
+apphud/ApphudSDK -> RevenueCat/purchases-ios,0.09774860619617881,-3.79673048313713
+bizz84/swiftystorekit -> RevenueCat/purchases-ios,0.044216150099226546,-0.16774694324931871
+RevenueCat/purchases-ios -> apphud/ApphudSDK,0.122196827569139,-14.8795946993519
+bizz84/swiftystorekit -> apphud/ApphudSDK,0.33118436135029905,21.363362999711477
+RevenueCat/purchases-ios -> bizz84/swiftystorekit,-0.038641757531318766,9.701297698131638
+apphud/ApphudSDK -> bizz84/swiftystorekit,-0.627403418401788,-13.912523772203661

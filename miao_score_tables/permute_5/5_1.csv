@@ -1,7 +1,0 @@
-,AMS_ij
-symfony/symfony -> cakephp/cakephp,1.637884605454783
-zendframework/zendframework -> cakephp/cakephp,0.7168422241288384
-cakephp/cakephp -> symfony/symfony,-0.7679490987532943
-zendframework/zendframework -> symfony/symfony,1.152579733536278
-cakephp/cakephp -> zendframework/zendframework,5.691394723584123
-symfony/symfony -> zendframework/zendframework,4.366553445699809

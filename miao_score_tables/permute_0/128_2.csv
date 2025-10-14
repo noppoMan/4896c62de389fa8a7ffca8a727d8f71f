@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+4ian/GDevelop -> MonoGame/MonoGame,0.5513863260683199,8.414835901539563
+godotengine/godot -> MonoGame/MonoGame,0.1309344502763392,0.6230739757894
+MonoGame/MonoGame -> 4ian/GDevelop,-0.8914201948008446,3.4324589169563096
+godotengine/godot -> 4ian/GDevelop,-0.3837214705749053,-3.3775046305362917
+MonoGame/MonoGame -> godotengine/godot,-17.93905117722371,-15.71552988033415
+4ian/GDevelop -> godotengine/godot,-7.202348965912294,-10.299258563922157

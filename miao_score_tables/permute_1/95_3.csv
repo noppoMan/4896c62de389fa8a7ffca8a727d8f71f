@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+apache/thrift -> apache/avro,-0.220073085078386,-1.6622316414015421
+protocolbuffers/protobuf -> apache/avro,0.13219338724176183,6.6764034187490395
+apache/avro -> apache/thrift,-1.7374036605434564,-34.36706196845597
+protocolbuffers/protobuf -> apache/thrift,0.10729205178647092,5.046537786593642
+apache/avro -> protocolbuffers/protobuf,-4.68807507539119,-2.5137205724305587
+apache/thrift -> protocolbuffers/protobuf,-2.2800332500006046,4.435623112798746

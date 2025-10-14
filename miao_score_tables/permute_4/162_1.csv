@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+NativeScript/NativeScript -> facebook/react-native,-1.915019212793049,-4.593074952018563
+flutter/flutter -> facebook/react-native,-1.718637633032058,-6.4406011619742545
+facebook/react-native -> NativeScript/NativeScript,-1.2598353366300703,-6.52290251358313
+flutter/flutter -> NativeScript/NativeScript,-0.3677052477158122,-0.7362936700961373
+facebook/react-native -> flutter/flutter,0.10564108933496738,1.5856576280336216
+NativeScript/NativeScript -> flutter/flutter,1.3697296980162719,4.013573000347077

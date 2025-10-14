@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+Bash-it/bash-it -> sorin-ionescu/prezto,0.027587703089005662,8.56193209111625
+ohmyzsh/ohmyzsh -> sorin-ionescu/prezto,-0.11109153763504875,-15.460977425846517
+sorin-ionescu/prezto -> Bash-it/bash-it,1.331238903119131,56.90340844446599
+ohmyzsh/ohmyzsh -> Bash-it/bash-it,0.22120867821973034,0.8154405207599222
+sorin-ionescu/prezto -> ohmyzsh/ohmyzsh,-0.9410035638336463,-61.62433604043742
+Bash-it/bash-it -> ohmyzsh/ohmyzsh,0.1789803711000152,16.339616818754045

@@ -1,7 +1,0 @@
-,AMS_ij
-python/cpython -> nodejs/node,0.2628860699046817
-ruby/ruby -> nodejs/node,0.24451836091280138
-nodejs/node -> python/cpython,0.12561734269439837
-ruby/ruby -> python/cpython,-0.2423136512523284
-nodejs/node -> ruby/ruby,1.4672394745236987
-python/cpython -> ruby/ruby,0.1606488826798378

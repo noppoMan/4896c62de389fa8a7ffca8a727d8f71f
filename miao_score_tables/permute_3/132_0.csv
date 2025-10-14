@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+etcd-io/etcd -> hashicorp/consul,0.5748292557754839,2.324964917124024
+apache/zookeeper -> hashicorp/consul,-1.7289446851356374,-4.312801657197747
+hashicorp/consul -> etcd-io/etcd,-1.7241859147245882,-1.931464851155688
+apache/zookeeper -> etcd-io/etcd,33.46624720245678,50.27229997612708
+hashicorp/consul -> apache/zookeeper,0.06462356925904561,1.406750998014586
+etcd-io/etcd -> apache/zookeeper,0.05469570973410953,2.3341707121906503

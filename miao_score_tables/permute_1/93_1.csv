@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+llvm/llvm-project -> gcc-mirror/gcc,1.4484857395785826,-0.005359039734195654
+golang/go -> gcc-mirror/gcc,2.0453239121247764,1.5881617814920386
+gcc-mirror/gcc -> llvm/llvm-project,-0.3314997287934352,1.1400149509867972
+golang/go -> llvm/llvm-project,-3.8842039345211847,-6.045566929764661
+gcc-mirror/gcc -> golang/go,1.9113839866430307,6.196336828848469
+llvm/llvm-project -> golang/go,-2.8409938754964394,-10.91210752064329

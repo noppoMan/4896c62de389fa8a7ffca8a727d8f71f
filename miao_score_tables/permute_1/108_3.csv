@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+getpelican/pelican -> middleman/middleman,0.020043730085846655,-1.1445261516331704
+jekyll/jekyll -> middleman/middleman,-0.13593287637344892,-27.946518555853515
+middleman/middleman -> getpelican/pelican,-0.2740081318000792,-15.51748944222453
+jekyll/jekyll -> getpelican/pelican,-0.31041635210231844,-13.406791301839649
+middleman/middleman -> jekyll/jekyll,0.4586382546721733,19.805240223888006
+getpelican/pelican -> jekyll/jekyll,-0.284740109915165,-7.781072774992387

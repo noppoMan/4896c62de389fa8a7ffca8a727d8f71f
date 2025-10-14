@@ -1,7 +1,7 @@
-,AMS_ij
-nodejs/node -> python/cpython,-0.9745579132310757
-ruby/ruby -> python/cpython,-0.6883872355150967
-python/cpython -> nodejs/node,0.026856428382505557
-ruby/ruby -> nodejs/node,-1.0910952491494808
-python/cpython -> ruby/ruby,-0.18825164234068467
-nodejs/node -> ruby/ruby,-1.2396732113897924
+,AMS_ij,normalized_AMS_ij
+EleutherAI/gpt-neox -> huggingface/transformers,0.14663529892069915,2.9098234157863114
+eleutherai/gpt-neo -> huggingface/transformers,1.5357014573372596,17.93055520808524
+huggingface/transformers -> EleutherAI/gpt-neox,0.0469751590830689,1.8429161245464205
+eleutherai/gpt-neo -> EleutherAI/gpt-neox,-1.9852392485500419,-22.831923114282134
+huggingface/transformers -> eleutherai/gpt-neo,-0.14965194244284938,-4.375126557164892
+EleutherAI/gpt-neox -> eleutherai/gpt-neo,-0.16379650485624053,-5.500339953806783

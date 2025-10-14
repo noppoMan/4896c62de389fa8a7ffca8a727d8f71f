@@ -1,7 +1,7 @@
-,AMS_ij
-h2o/h2o -> apache/httpd,0.29543846249662187
-nginx/nginx -> apache/httpd,-1.05651941404852
-apache/httpd -> h2o/h2o,0.5155754377790375
-nginx/nginx -> h2o/h2o,3.3743656604179333
-apache/httpd -> nginx/nginx,-0.3533939920938921
-h2o/h2o -> nginx/nginx,0.02988534972647629
+,AMS_ij,normalized_AMS_ij
+vercel/hyper -> Eugeny/terminus,4.456978315534065,51.92089264190183
+railsware/upterm -> Eugeny/terminus,1.5311797793608353,16.581879933452186
+Eugeny/terminus -> vercel/hyper,0.38179723716739067,5.42490449644829
+railsware/upterm -> vercel/hyper,-1.0925408047481788,-31.815493614276203
+Eugeny/terminus -> railsware/upterm,-7.63702227295935,-26.058470966654628
+vercel/hyper -> railsware/upterm,-1.176359789379251,-26.351681153446947

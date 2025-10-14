@@ -1,7 +1,0 @@
-,AMS_ij
-django/django -> rails/rails,1.21276393012166
-laravel/framework -> rails/rails,-1.7037150917088968
-rails/rails -> django/django,0.09283905093043823
-laravel/framework -> django/django,-0.3376532903807409
-rails/rails -> laravel/framework,0.49596834465452233
-django/django -> laravel/framework,-0.587524870306822

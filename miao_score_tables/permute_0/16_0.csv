@@ -1,7 +1,7 @@
-,AMS_ij
-drupal/drupal -> WordPress/WordPress,-2.190598595148919
-apache/lenya -> WordPress/WordPress,1.5765713818053029
-WordPress/WordPress -> drupal/drupal,-0.656902781250009
-apache/lenya -> drupal/drupal,0.89255959029944
-WordPress/WordPress -> apache/lenya,-0.35819963625094264
-drupal/drupal -> apache/lenya,3.86834215300806
+,AMS_ij,normalized_AMS_ij
+google/glog -> gabime/spdlog,3.8794594288473507,14.91782629928082
+amrayn/easyloggingpp -> gabime/spdlog,0.03972871742601346,-0.2621552801383505
+gabime/spdlog -> google/glog,0.02139615168948847,1.7315034555534938
+amrayn/easyloggingpp -> google/glog,0.07329563670921466,4.99943863789121
+gabime/spdlog -> amrayn/easyloggingpp,-0.043982516760542184,-2.810947343765972
+google/glog -> amrayn/easyloggingpp,-2.430641947200637,20.596467059129452

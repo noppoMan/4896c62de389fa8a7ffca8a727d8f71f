@@ -1,7 +1,7 @@
-,AMS_ij
-tidev/titanium-sdk -> facebook/react-native,0.040863380427416024
-flutter/flutter -> facebook/react-native,-4.04303334917378
-facebook/react-native -> tidev/titanium-sdk,0.19869285471503953
-flutter/flutter -> tidev/titanium-sdk,-4.11321244480926
-facebook/react-native -> flutter/flutter,-0.7992585690263563
-tidev/titanium-sdk -> flutter/flutter,-3.0205320059878367
+,AMS_ij,normalized_AMS_ij
+recharts/recharts -> antvis/g2,-2.9715299923602423,-20.249487668464486
+alibaba/bizcharts -> antvis/g2,4.454724281485248,38.35175153382931
+antvis/g2 -> recharts/recharts,-1.7553150763548095,-22.45139190535001
+alibaba/bizcharts -> recharts/recharts,0.9142353210397752,2.613436206457531
+antvis/g2 -> alibaba/bizcharts,-0.20746985506415822,-1.0483418946613496
+recharts/recharts -> alibaba/bizcharts,-0.4558416421189124,-13.31974463526663

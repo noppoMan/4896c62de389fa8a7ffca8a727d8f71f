@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+apache/solr -> elastic/elasticsearch,0.3799592105485658,9.587734339533704
+blevesearch/bleve -> elastic/elasticsearch,1.5116904757039626,19.21446675883795
+elastic/elasticsearch -> apache/solr,-0.2884878694527566,-3.893134826735671
+blevesearch/bleve -> apache/solr,-3.7188280554443613,-33.24835512316394
+elastic/elasticsearch -> blevesearch/bleve,0.002866906131764814,-0.8272845908843349
+apache/solr -> blevesearch/bleve,0.05203838112963902,14.57491464568927

@@ -1,7 +1,7 @@
-,AMS_ij
-jquery/jquery -> facebook/react,-0.0409696574837507
-angular/angular -> facebook/react,-0.47373937319206955
-facebook/react -> jquery/jquery,0.011157767466670392
-angular/angular -> jquery/jquery,-0.036098521310015244
-facebook/react -> angular/angular,-0.3513654598433505
-jquery/jquery -> angular/angular,0.03534918926284562
+,AMS_ij,normalized_AMS_ij
+necolas/react-native-web -> flutter/flutter,11.244284890206238,52.94420693663102
+microsoft/reactxp -> flutter/flutter,22.84522853303849,139.94748801398583
+flutter/flutter -> necolas/react-native-web,0.25082846375672224,6.2578165245460475
+microsoft/reactxp -> necolas/react-native-web,-3.406308145159776,-63.37511850087842
+flutter/flutter -> microsoft/reactxp,0.012514858878689486,20.098207690526838
+necolas/react-native-web -> microsoft/reactxp,-3.299371213845014,-62.709855664636116

@@ -1,7 +1,7 @@
-,AMS_ij
-jetbrains/intellij-community -> microsoft/vscode,-0.4280784851103063
-atom/atom -> microsoft/vscode,1.7616031622433055
-microsoft/vscode -> jetbrains/intellij-community,-4.320186637942825
-atom/atom -> jetbrains/intellij-community,2.7473668361192973
-microsoft/vscode -> atom/atom,0.9124617899844294
-jetbrains/intellij-community -> atom/atom,0.07474702243133087
+,AMS_ij,normalized_AMS_ij
+lyft/confidant -> hashicorp/vault,-5.433199173558064,-47.33797257506619
+square/keywhiz -> hashicorp/vault,-0.02137916488843991,21.42126122595979
+hashicorp/vault -> lyft/confidant,0.3256765399551831,9.022822985273693
+square/keywhiz -> lyft/confidant,0.04536422821861598,-11.046522343248949
+hashicorp/vault -> square/keywhiz,-0.4911856511171443,-1.7360889462927682
+lyft/confidant -> square/keywhiz,-0.016611244942009107,-18.332011150216648

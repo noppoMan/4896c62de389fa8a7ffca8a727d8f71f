@@ -1,7 +1,7 @@
-,AMS_ij
-emberjs/ember.js -> facebook/react,0.23592073481047743
-angular/angular.js -> facebook/react,0.1184260485869497
-facebook/react -> emberjs/ember.js,-0.6394154676392909
-angular/angular.js -> emberjs/ember.js,0.1605260574085426
-facebook/react -> angular/angular.js,-0.003385254666747911
-emberjs/ember.js -> angular/angular.js,0.6406151327480305
+,AMS_ij,normalized_AMS_ij
+graysky2/xscreensaver-aerial -> OrangeJedi/Aerial,0.06307954007747618,4.970641495808119
+johncoates/aerial -> OrangeJedi/Aerial,-0.09715683409020079,-11.07658547788652
+OrangeJedi/Aerial -> graysky2/xscreensaver-aerial,0.1778549707822545,6.106612110341045
+johncoates/aerial -> graysky2/xscreensaver-aerial,-0.33609084599198136,-17.826367269779354
+OrangeJedi/Aerial -> johncoates/aerial,-2.1985938540089682,-62.6984039376027
+graysky2/xscreensaver-aerial -> johncoates/aerial,-1.1757269495327969,-27.083145962733113

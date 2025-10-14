@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+ceph/ceph -> seaweedfs/seaweedfs,-0.4864037996598974,-7.156778498516225
+minio/minio -> seaweedfs/seaweedfs,-0.5622804633357106,-30.17503039606918
+seaweedfs/seaweedfs -> ceph/ceph,-17.98020979227383,-53.24132643749719
+minio/minio -> ceph/ceph,-11.736882092585391,-29.895366567611926
+seaweedfs/seaweedfs -> minio/minio,-1.1781820090299437,-21.415086099537323
+ceph/ceph -> minio/minio,-0.10581901879909088,-1.5114545491760776

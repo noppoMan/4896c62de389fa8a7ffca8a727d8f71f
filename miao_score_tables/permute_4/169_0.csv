@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+mobxjs/mobx -> reduxjs/redux,-0.19470314651043713,-7.356715520905658
+reduxjs/redux-toolkit -> reduxjs/redux,0.12794489940385045,-0.46391256396896163
+reduxjs/redux -> mobxjs/mobx,-1.3205967372124312,8.646930272663012
+reduxjs/redux-toolkit -> mobxjs/mobx,0.18242226772523104,14.449312041368295
+reduxjs/redux -> reduxjs/redux-toolkit,-4.367982055228102,-61.227969090218515
+mobxjs/mobx -> reduxjs/redux-toolkit,1.2737806537344216,26.067554300611356

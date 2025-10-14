@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+lightbend/kalix-jvm-sdk -> akka/akka,0.6305554277994347,-0.48329899566319423
+lagom/lagom -> akka/akka,-5.213270206985038,-49.36511330047955
+akka/akka -> lightbend/kalix-jvm-sdk,2.1501059655085326,7.585711634411098
+lagom/lagom -> lightbend/kalix-jvm-sdk,4.751937219235422,22.7523611271526
+akka/akka -> lagom/lagom,-1.8785658910753564,-34.08150276491807
+lightbend/kalix-jvm-sdk -> lagom/lagom,1.911793298011945,2.929970132194609

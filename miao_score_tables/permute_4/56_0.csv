@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+kristerkari/stylelint-scss -> stylelint/stylelint,-0.6802192042215163,-3.7650898728008753
+sds/scss-lint -> stylelint/stylelint,-2.2190117300812715,-21.99636649562579
+stylelint/stylelint -> kristerkari/stylelint-scss,-1.1565116954075407,-28.770858020211733
+sds/scss-lint -> kristerkari/stylelint-scss,0.1703072574560076,9.482859732275244
+stylelint/stylelint -> sds/scss-lint,-0.31621131863172874,-16.19036940027982
+kristerkari/stylelint-scss -> sds/scss-lint,-0.08762770117066357,-1.0772189234627767

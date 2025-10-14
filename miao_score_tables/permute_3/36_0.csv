@@ -1,7 +1,7 @@
-,AMS_ij
-chef/chef -> hashicorp/terraform,-3.1323638610574385
-pulumi/pulumi -> hashicorp/terraform,-7.693216836440191
-hashicorp/terraform -> chef/chef,-0.2386701727739161
-pulumi/pulumi -> chef/chef,0.7688329816457631
-hashicorp/terraform -> pulumi/pulumi,-0.3825201443786183
-chef/chef -> pulumi/pulumi,-0.17442866109012292
+,AMS_ij,normalized_AMS_ij
+browserify/browserify -> webpack/webpack,-0.04248831247109705,-3.0832233313456814
+componentjs/component -> webpack/webpack,-1.3206636970912884,-0.5014585609459797
+webpack/webpack -> browserify/browserify,-6.24198691323897,-16.92177356898228
+componentjs/component -> browserify/browserify,-0.07147193835960816,-1.9402578333544758
+webpack/webpack -> componentjs/component,0.8335248362891036,16.8387770107971
+browserify/browserify -> componentjs/component,-0.1458687038054327,-5.696497483328857

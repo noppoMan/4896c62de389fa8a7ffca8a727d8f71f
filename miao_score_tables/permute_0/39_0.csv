@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+moxystudio/node-cross-spawn -> lovell/sharp,0.07766421815258395,-9.560165263757952
+aheckmann/gm -> lovell/sharp,-0.021058114371961992,1.4062685144709715
+lovell/sharp -> moxystudio/node-cross-spawn,-0.027192048569663632,-4.207214743750266
+aheckmann/gm -> moxystudio/node-cross-spawn,0.45143916487944913,11.376963481031437
+lovell/sharp -> aheckmann/gm,-0.7356710799376946,-29.607455105323492
+moxystudio/node-cross-spawn -> aheckmann/gm,0.23198022088632153,5.4740877894756945

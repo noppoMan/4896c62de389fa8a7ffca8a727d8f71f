@@ -1,7 +1,7 @@
-,AMS_ij
-facebook/react -> angular/angular.js,-0.4441858279571246
-knockout/knockout -> angular/angular.js,-0.6393566272259533
-angular/angular.js -> facebook/react,0.16749787456577742
-knockout/knockout -> facebook/react,-0.8941450089839285
-angular/angular.js -> knockout/knockout,0.10122916041372668
-facebook/react -> knockout/knockout,0.07832578360802675
+,AMS_ij,normalized_AMS_ij
+xcpretty/xcpretty -> facebook/xcbuild,-5.04779744004605,-57.34238480384004
+facebook/xctool -> facebook/xcbuild,-2.1940198811400218,-34.313694386792
+facebook/xcbuild -> xcpretty/xcpretty,-0.14226194755583002,-11.65032956516838
+facebook/xctool -> xcpretty/xcpretty,-0.7750004781684015,-43.80144602545252
+facebook/xcbuild -> facebook/xctool,-0.07127162757975318,-7.416967454226368
+xcpretty/xcpretty -> facebook/xctool,0.4244607579656263,18.08909235524776

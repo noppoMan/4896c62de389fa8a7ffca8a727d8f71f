@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+youzan/vant -> ant-design/ant-design,-1.8742392591880286,1.968775636149571
+ElemeFE/element -> ant-design/ant-design,1.7990757758010019,0.14002155216172596
+ant-design/ant-design -> youzan/vant,-2.351949566927972,-2.250230059634953
+ElemeFE/element -> youzan/vant,3.231664386038113,33.717043454481875
+ant-design/ant-design -> ElemeFE/element,-0.3444419672844504,-0.9618203800087556
+youzan/vant -> ElemeFE/element,-0.44375140960087056,12.398457481797967

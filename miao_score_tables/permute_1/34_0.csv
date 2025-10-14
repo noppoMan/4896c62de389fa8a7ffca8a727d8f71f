@@ -1,7 +1,7 @@
-,AMS_ij
-hashicorp/nomad -> apache/mesos,-0.5531627658456305
-kubernetes/kubernetes -> apache/mesos,-0.42670500440263515
-apache/mesos -> hashicorp/nomad,0.46779474890118117
-kubernetes/kubernetes -> hashicorp/nomad,-0.8426020855069668
-apache/mesos -> kubernetes/kubernetes,-5.274673352408524
-hashicorp/nomad -> kubernetes/kubernetes,-3.141514151107136
+,AMS_ij,normalized_AMS_ij
+denoland/fresh -> vercel/next.js,-19.9554209839326,-55.2044914650632
+alephjs/aleph.js -> vercel/next.js,9.119091915212332,39.36723774378226
+vercel/next.js -> denoland/fresh,-0.22196571748318303,-7.478618284087809
+alephjs/aleph.js -> denoland/fresh,0.7836530547960721,38.60787185604455
+vercel/next.js -> alephjs/aleph.js,0.0898793631013059,14.283831961311726
+denoland/fresh -> alephjs/aleph.js,-12.256560707465587,-15.588909919574245

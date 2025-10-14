@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+decaporg/decap-cms -> TryGhost/Ghost,-2.944145763969079,-9.436794589631244
+strapi/strapi -> TryGhost/Ghost,-0.6426378472628407,-1.4516732777481052
+TryGhost/Ghost -> decaporg/decap-cms,0.2036968711629416,4.827602455986421
+strapi/strapi -> decaporg/decap-cms,0.07950755221269444,2.6185545442213165
+TryGhost/Ghost -> strapi/strapi,-6.190466184635422,-9.262413985253119
+decaporg/decap-cms -> strapi/strapi,52.608798797132415,95.69356898954437

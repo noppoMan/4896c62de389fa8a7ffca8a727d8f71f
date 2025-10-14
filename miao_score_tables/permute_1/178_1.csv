@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+mintty/mintty -> alacritty/alacritty,1.1523594979782505,28.542439142230137
+microsoft/terminal -> alacritty/alacritty,-0.1919369993300121,-8.81917431132308
+alacritty/alacritty -> mintty/mintty,-0.051602568878368366,32.462415556332715
+microsoft/terminal -> mintty/mintty,-0.07747810273678492,-4.816756963630846
+alacritty/alacritty -> microsoft/terminal,-1.1622653641124836,-23.596188996100757
+mintty/mintty -> microsoft/terminal,0.3350698958998786,23.77666865206302

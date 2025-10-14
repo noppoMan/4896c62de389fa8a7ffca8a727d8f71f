@@ -1,7 +1,7 @@
-,AMS_ij
-redis/redis -> memcached/memcached,-0.1902093571734329
-basho/riak_kv -> memcached/memcached,-0.0016721134518959723
-memcached/memcached -> redis/redis,2.7160843750282173
-basho/riak_kv -> redis/redis,-0.3662355730041207
-memcached/memcached -> basho/riak_kv,2.623111451054922
-redis/redis -> basho/riak_kv,0.006622583656805802
+,AMS_ij,normalized_AMS_ij
+sass/dart-sass -> stylus/stylus,0.025642520254184162,2.1047950441118495
+sass/node-sass -> stylus/stylus,0.3083485954860875,11.836434622337531
+stylus/stylus -> sass/dart-sass,2.0024558277807767,-6.047917431038285
+sass/node-sass -> sass/dart-sass,-2.7188636419020407,-25.37861010776945
+stylus/stylus -> sass/node-sass,0.7685382229861982,10.033157531196164
+sass/dart-sass -> sass/node-sass,-0.5219904637304469,-8.409023740987452

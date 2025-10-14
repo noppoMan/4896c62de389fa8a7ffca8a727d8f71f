@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+Semantic-Org/Semantic-UI -> twbs/bootstrap,-0.1023001740118368,-2.3002985188218665
+olefredrik/foundationpress -> twbs/bootstrap,0.7536635622100774,6.039679111756537
+twbs/bootstrap -> Semantic-Org/Semantic-UI,0.2810255858870806,2.746943911349872
+olefredrik/foundationpress -> Semantic-Org/Semantic-UI,-0.8282630346383981,-13.875619655899829
+twbs/bootstrap -> olefredrik/foundationpress,-0.19747278947561941,-12.610089967600056
+Semantic-Org/Semantic-UI -> olefredrik/foundationpress,-0.15724455783363536,-14.363697643420101

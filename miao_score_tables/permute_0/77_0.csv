@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+NVIDIA/Megatron-LM -> openxla/xla,-0.5348684243572779,-15.285163812496434
+alpa-projects/alpa -> openxla/xla,17.811438166419194,95.5735187827967
+openxla/xla -> NVIDIA/Megatron-LM,-0.5291914942686863,-20.296178624136935
+alpa-projects/alpa -> NVIDIA/Megatron-LM,7.632034670750245,194.62241795205833
+openxla/xla -> alpa-projects/alpa,0.6314387538799433,34.82041684884305
+NVIDIA/Megatron-LM -> alpa-projects/alpa,0.9229071012532408,64.70518109604379

@@ -1,7 +1,7 @@
-,AMS_ij
-mrdoob/three.js -> playcanvas/engine,1.3931009062771216
-BabylonJS/Babylon.js -> playcanvas/engine,0.06622770113009158
-playcanvas/engine -> mrdoob/three.js,0.8202856627720767
-BabylonJS/Babylon.js -> mrdoob/three.js,-11.857051354464666
-playcanvas/engine -> BabylonJS/Babylon.js,-0.6329242266175938
-mrdoob/three.js -> BabylonJS/Babylon.js,-1.3341211064643081
+,AMS_ij,normalized_AMS_ij
+apollographql/rover -> dotansimha/graphql-code-generator,0.21094543819057066,1.9850979386093197
+apollographql/apollo-tooling -> dotansimha/graphql-code-generator,0.7811937705913283,13.965461743523052
+dotansimha/graphql-code-generator -> apollographql/rover,0.7126928234920344,9.175833642524898
+apollographql/apollo-tooling -> apollographql/rover,-1.0982546744191068,-19.596339759332135
+dotansimha/graphql-code-generator -> apollographql/apollo-tooling,0.2135905051259451,9.650561493675243
+apollographql/rover -> apollographql/apollo-tooling,0.07872067984900143,-1.765774429543182

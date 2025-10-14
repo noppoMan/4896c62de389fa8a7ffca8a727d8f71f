@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+apache/commons-lang -> google/guava,0.14915267062334192,-2.2393343074725394
+apache/commons-io -> google/guava,-0.7111642522732835,-18.434039366359944
+google/guava -> apache/commons-lang,0.7604854870534374,16.453474779417316
+apache/commons-io -> apache/commons-lang,1.2877425558616022,9.090085779935736
+google/guava -> apache/commons-io,-0.37268479457772274,-3.3319696043932145
+apache/commons-lang -> apache/commons-io,-1.645164038335701,-9.91714481165844

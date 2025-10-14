@@ -1,7 +1,7 @@
-,AMS_ij
-chainer/chainer -> tensorflow/tensorflow,-4.305190932583567
-Theano/Theano -> tensorflow/tensorflow,-0.7948687849642048
-tensorflow/tensorflow -> chainer/chainer,-1.4080774344835119
-Theano/Theano -> chainer/chainer,1.0185226214560674
-tensorflow/tensorflow -> Theano/Theano,0.29490336128697814
-chainer/chainer -> Theano/Theano,1.8396941194612837
+,AMS_ij,normalized_AMS_ij
+linkedin/venice -> apache/cassandra,9.48338771848951,45.935896456612205
+voldemort/voldemort -> apache/cassandra,-9.873548968660549,-46.54137229400882
+apache/cassandra -> linkedin/venice,0.1669820343990342,5.578894835512349
+voldemort/voldemort -> linkedin/venice,0.860974494015857,28.40748070921468
+apache/cassandra -> voldemort/voldemort,-0.5883124328645876,-15.759955449909402
+linkedin/venice -> voldemort/voldemort,-0.4154586682101548,24.226039458988506

@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+tensorflow/models -> pytorch/vision,-7.345393807806533,-244.13332490129508
+huggingface/transformers -> pytorch/vision,-0.22319518825429147,-13.696888451695946
+pytorch/vision -> tensorflow/models,-2.557140848364979,-110.70210198420463
+huggingface/transformers -> tensorflow/models,0.07810554460089708,-6.790002685553878
+pytorch/vision -> huggingface/transformers,-6.553920848202988,-37.89649264680398
+tensorflow/models -> huggingface/transformers,-15.03347404540127,-146.63334486512707

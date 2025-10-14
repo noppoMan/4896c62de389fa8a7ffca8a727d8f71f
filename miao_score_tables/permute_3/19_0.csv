@@ -1,7 +1,7 @@
-,AMS_ij
-jestjs/jest -> mochajs/mocha,0.06066131383116699
-karma-runner/karma -> mochajs/mocha,-0.039485965704148585
-mochajs/mocha -> jestjs/jest,0.2899908518129595
-karma-runner/karma -> jestjs/jest,-0.17311899904778474
-mochajs/mocha -> karma-runner/karma,0.6877530033692817
-jestjs/jest -> karma-runner/karma,-0.29543605503543907
+,AMS_ij,normalized_AMS_ij
+google/trax -> huggingface/transformers,-0.8585928611800069,-13.46750397273313
+tensorflow/tensor2tensor -> huggingface/transformers,-6.95114649582537,-60.00802487860456
+huggingface/transformers -> google/trax,-0.34082869873960764,-12.008020766255381
+tensorflow/tensor2tensor -> google/trax,0.06630574244460766,-24.141803278117937
+huggingface/transformers -> tensorflow/tensor2tensor,-0.002582727128738277,-1.8652300667757957
+google/trax -> tensorflow/tensor2tensor,0.10174758349417454,-2.5358055797952828

@@ -1,7 +1,0 @@
-,AMS_ij
-redis/redis -> memcached/memcached,-0.3205589302431922
-basho/riak_kv -> memcached/memcached,0.025892878197018392
-memcached/memcached -> redis/redis,0.5348716338644184
-basho/riak_kv -> redis/redis,-0.6070124282535829
-memcached/memcached -> basho/riak_kv,1.0708975778993364
-redis/redis -> basho/riak_kv,1.5660201653954544

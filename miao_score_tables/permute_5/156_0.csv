@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+ant-design/ant-design -> mui/material-ui,1.068848422400649,5.7277568710952655
+twbs/bootstrap -> mui/material-ui,1.569003317882037,11.490628257982864
+mui/material-ui -> ant-design/ant-design,-6.304688887365849,-12.062119276514197
+twbs/bootstrap -> ant-design/ant-design,0.06326144294578936,-2.83573497330737
+mui/material-ui -> twbs/bootstrap,-5.361910860151044,-4.428826472365314
+ant-design/ant-design -> twbs/bootstrap,-1.8060300732875019,-5.9366370474418915

@@ -1,7 +1,7 @@
-,AMS_ij
-flutter/flutter -> facebook/react-native,-4.677834765397523
-apache/cordova-android -> facebook/react-native,1.474639421374546
-facebook/react-native -> flutter/flutter,-0.6469394638460596
-apache/cordova-android -> flutter/flutter,-3.4053953407161615
-facebook/react-native -> apache/cordova-android,-0.058710458554933065
-flutter/flutter -> apache/cordova-android,0.3425343627240931
+,AMS_ij,normalized_AMS_ij
+sass/sassc -> sass/dart-sass,2.033899949154501,3.5002972346649632
+sass/libsass -> sass/dart-sass,-2.155919533551106,-21.049483106435343
+sass/dart-sass -> sass/sassc,-0.13721390708091652,-11.109791600492564
+sass/libsass -> sass/sassc,0.08781676010075742,3.0532152099152365
+sass/dart-sass -> sass/libsass,-1.7843970810566607,-21.265818346925865
+sass/sassc -> sass/libsass,-11.286418176543954,-147.46869199384778

@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+jgthms/bulma -> tailwindlabs/tailwindcss,-1.0414518449616348,51.585793849942306
+twbs/bootstrap -> tailwindlabs/tailwindcss,-1.4865919190353327,-47.652016416143454
+tailwindlabs/tailwindcss -> jgthms/bulma,-0.17572716579026923,-11.03842274105368
+twbs/bootstrap -> jgthms/bulma,0.040512407515903674,5.373088732347826
+tailwindlabs/tailwindcss -> twbs/bootstrap,-1.5867122343477864,-36.93506454265575
+jgthms/bulma -> twbs/bootstrap,1.4153770658217455,70.82128575134017

@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+sphinx-doc/sphinx -> hexojs/hexo,1.2476588717693111,21.441857805794204
+gohugoio/hugo -> hexojs/hexo,-0.8498169826669384,5.8356735645114215
+hexojs/hexo -> sphinx-doc/sphinx,1.7896965024155798,29.644043998567494
+gohugoio/hugo -> sphinx-doc/sphinx,-0.12658608346554442,-14.532425011513759
+hexojs/hexo -> gohugoio/hugo,1.7280210871792638,25.809237608445297
+sphinx-doc/sphinx -> gohugoio/hugo,-1.279124092169465,-12.128074694109944

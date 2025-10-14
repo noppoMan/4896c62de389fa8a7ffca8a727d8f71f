@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+rs/zerolog -> uber-go/zap,0.11359904678546087,-19.062351607520043
+sirupsen/logrus -> uber-go/zap,-0.17693734454506632,3.6130678708865687
+uber-go/zap -> rs/zerolog,-0.4125005699812627,-8.591321425631852
+sirupsen/logrus -> rs/zerolog,-0.626467726890034,-27.185574300886124
+uber-go/zap -> sirupsen/logrus,-0.9170614478880613,-7.897314159615387
+rs/zerolog -> sirupsen/logrus,-1.7459243207436166,-34.131053078982845

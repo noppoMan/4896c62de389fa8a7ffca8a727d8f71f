@@ -1,7 +1,7 @@
-,AMS_ij
-apache/mesos -> kubernetes/kubernetes,-2.6533042283440524
-docker-archive/classicswarm -> kubernetes/kubernetes,-20.11763685601871
-kubernetes/kubernetes -> apache/mesos,-1.6057855952782358
-docker-archive/classicswarm -> apache/mesos,1.291233667244149
-kubernetes/kubernetes -> docker-archive/classicswarm,-0.7647008728446861
-apache/mesos -> docker-archive/classicswarm,1.6515715137854448
+,AMS_ij,normalized_AMS_ij
+spring-projects/spring-authorization-server -> spring-projects/spring-security,-0.6717666545596839,-5.215487805013106
+spring-attic/spring-security-oauth -> spring-projects/spring-security,-9.76797804767068,-74.09646414407493
+spring-projects/spring-security -> spring-projects/spring-authorization-server,-0.11092676022228327,-2.373778227218336
+spring-attic/spring-security-oauth -> spring-projects/spring-authorization-server,1.8724807117715618,45.88441231661898
+spring-projects/spring-security -> spring-attic/spring-security-oauth,-0.015249097410934304,-1.6894734623699008
+spring-projects/spring-authorization-server -> spring-attic/spring-security-oauth,0.05763078808290688,5.963054519077419

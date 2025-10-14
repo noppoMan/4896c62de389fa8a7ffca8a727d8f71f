@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+saltstack/salt -> cfengine/core,0.30260426482853153,4.4380949395345075
+ansible/ansible -> cfengine/core,-0.001972260941669866,0.0066933714645793715
+cfengine/core -> saltstack/salt,4.967708273121311,7.920594529351424
+ansible/ansible -> saltstack/salt,0.04441270467261657,0.024129935787974642
+cfengine/core -> ansible/ansible,4.6465272200763055,0.58198441306067
+saltstack/salt -> ansible/ansible,5.5568513243508235,0.24765167898427132

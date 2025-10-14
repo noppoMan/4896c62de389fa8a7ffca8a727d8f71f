@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+reactivex/rxjava -> reactor/reactor-core,-2.0345945697034824,-6.217037006754364
+Kotlin/kotlinx.coroutines -> reactor/reactor-core,-0.2080654259583467,-7.031281277191148
+reactor/reactor-core -> reactivex/rxjava,0.020317988124464337,-1.5008996459703725
+Kotlin/kotlinx.coroutines -> reactivex/rxjava,-0.48976547538773835,-36.03923248216231
+reactor/reactor-core -> Kotlin/kotlinx.coroutines,0.10205173204895265,2.1789708983782696
+reactivex/rxjava -> Kotlin/kotlinx.coroutines,-2.5353624673514927,-35.89172985967761

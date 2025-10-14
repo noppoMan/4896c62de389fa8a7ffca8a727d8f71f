@@ -1,7 +1,7 @@
-,AMS_ij
-foundation/foundation-sites -> twbs/bootstrap,-1.3496311765343325
-Semantic-Org/Semantic-UI -> twbs/bootstrap,-2.0762710084721627
-twbs/bootstrap -> foundation/foundation-sites,-0.27106066730062706
-Semantic-Org/Semantic-UI -> foundation/foundation-sites,3.438416809813781
-twbs/bootstrap -> Semantic-Org/Semantic-UI,0.7871294439550884
-foundation/foundation-sites -> Semantic-Org/Semantic-UI,1.9152608261401485
+,AMS_ij,normalized_AMS_ij
+facebookresearch/detectron2 -> pytorch/vision,-0.1356346510805133,4.311331491624228
+fizyr/keras-retinanet -> pytorch/vision,1.5704036868376892,42.79395756626151
+pytorch/vision -> facebookresearch/detectron2,-0.32579440563412265,-5.473972216446691
+fizyr/keras-retinanet -> facebookresearch/detectron2,-0.544978792621263,-26.87995267482789
+pytorch/vision -> fizyr/keras-retinanet,0.32191812958890054,18.189088007825283
+facebookresearch/detectron2 -> fizyr/keras-retinanet,0.09031331059632697,-4.338220785478191

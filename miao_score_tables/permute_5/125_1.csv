@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+moby/moby -> containerd/containerd,-0.6920419552465846,-1.7403764632483363
+canonical/lxd -> containerd/containerd,0.1728580254372119,1.9320420056773522
+containerd/containerd -> moby/moby,0.032162691727595484,-2.2804699355746134
+canonical/lxd -> moby/moby,0.11537075775893282,3.186602533661921
+containerd/containerd -> canonical/lxd,-0.5685401084395172,-2.1941693994358302
+moby/moby -> canonical/lxd,-5.6926771539561525,2.8743519930496206

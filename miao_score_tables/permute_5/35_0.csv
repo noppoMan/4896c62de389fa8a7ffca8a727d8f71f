@@ -1,7 +1,7 @@
-,AMS_ij
-vercel/next.js -> remix-run/remix,-0.9617802758749637
-nuxt/nuxt -> remix-run/remix,-1.9434663678039947
-remix-run/remix -> vercel/next.js,1.0799962777856091
-nuxt/nuxt -> vercel/next.js,-6.395462068588101
-remix-run/remix -> nuxt/nuxt,-0.24858081401738308
-vercel/next.js -> nuxt/nuxt,-2.790475589917448
+,AMS_ij,normalized_AMS_ij
+ngneat/elf -> ngrx/platform,0.03664819340660415,0.5718579881883747
+datorama/akita -> ngrx/platform,-0.5054766387257237,-12.13593835806265
+ngrx/platform -> ngneat/elf,3.806080526582135,85.65472583099691
+datorama/akita -> ngneat/elf,-4.988087393507417,-143.23145605150373
+ngrx/platform -> datorama/akita,0.02194518341265793,15.427991606034755
+ngneat/elf -> datorama/akita,-0.09131565270969053,-18.67798721822335

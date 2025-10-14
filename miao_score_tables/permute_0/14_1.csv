@@ -1,7 +1,0 @@
-,AMS_ij
-dojo/dojo -> jquery/jquery,3.8971904515691014
-yui/yui3 -> jquery/jquery,0.8700613411265135
-jquery/jquery -> dojo/dojo,-2.705830691685832
-yui/yui3 -> dojo/dojo,-0.6822094314145848
-jquery/jquery -> yui/yui3,6.495988775344726
-dojo/dojo -> yui/yui3,-20.349666706471154

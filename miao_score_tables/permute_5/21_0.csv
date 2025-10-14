@@ -1,7 +1,7 @@
-,AMS_ij
-apple/swift-package-manager -> CocoaPods/CocoaPods,-0.8785780680443438
-Carthage/Carthage -> CocoaPods/CocoaPods,0.13775382064871095
-CocoaPods/CocoaPods -> apple/swift-package-manager,-0.587573118492255
-Carthage/Carthage -> apple/swift-package-manager,-0.2868676134372258
-CocoaPods/CocoaPods -> Carthage/Carthage,0.7852445588527948
-apple/swift-package-manager -> Carthage/Carthage,-0.3370178583134221
+,AMS_ij,normalized_AMS_ij
+XRPLF/clio -> stellar/stellar-core,-2.7993316536533355,-25.967863746988883
+ripple/rippled -> stellar/stellar-core,0.40760155468928694,0.4704678614656255
+stellar/stellar-core -> XRPLF/clio,-0.41873014763241656,-7.216865200700473
+ripple/rippled -> XRPLF/clio,0.4250487812075675,5.811619966795702
+stellar/stellar-core -> ripple/rippled,0.08914556187051173,-1.1239694407930685
+XRPLF/clio -> ripple/rippled,-0.5381379633151973,-10.939673128683381

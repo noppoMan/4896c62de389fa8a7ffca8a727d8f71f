@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+rust-lang/rust -> nim-lang/Nim,-1.2153525997128858,-17.42866633252682
+golang/go -> nim-lang/Nim,0.6809481655869589,12.152616687550616
+nim-lang/Nim -> rust-lang/rust,-28.69228913772005,-78.94836068577243
+golang/go -> rust-lang/rust,0.9531174023170779,8.892435766123226
+nim-lang/Nim -> golang/go,-10.537790679397506,1.2521644797278935
+rust-lang/rust -> golang/go,-3.245859926546566,-6.013452386444475

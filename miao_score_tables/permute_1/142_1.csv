@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+seleniumhq/selenium -> DevExpress/testcafe,-0.3854845512881657,-6.127557611706097
+cypress-io/cypress -> DevExpress/testcafe,0.02913711250410299,4.724087425101808
+DevExpress/testcafe -> seleniumhq/selenium,3.2005235627054787,10.846569065857176
+cypress-io/cypress -> seleniumhq/selenium,-0.9196868742698929,0.14554216278162327
+DevExpress/testcafe -> cypress-io/cypress,9.550330860375444,56.079329818205814
+seleniumhq/selenium -> cypress-io/cypress,-0.5570821218391218,2.26399455109528

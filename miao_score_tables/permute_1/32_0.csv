@@ -1,7 +1,7 @@
-,AMS_ij
-apache/cassandra -> mongodb/mongo,-3.1600785067804615
-apache/couchdb -> mongodb/mongo,-3.670753512957729
-mongodb/mongo -> apache/cassandra,-0.23976528775886685
-apache/couchdb -> apache/cassandra,-0.28135365486882824
-mongodb/mongo -> apache/couchdb,-1.1479216879497214
-apache/cassandra -> apache/couchdb,0.33662187298331653
+,AMS_ij,normalized_AMS_ij
+apollographql/apollo-server -> graphile/postgraphile,1.0903185547945144,3.343514275144605
+graphql/express-graphql -> graphile/postgraphile,1.0979927562393872,-5.517000243761432
+graphile/postgraphile -> apollographql/apollo-server,-0.05231264454334064,1.866768881693496
+graphql/express-graphql -> apollographql/apollo-server,3.040362722258192,17.043931971254793
+graphile/postgraphile -> graphql/express-graphql,0.03388715039361906,-0.6665320387742386
+apollographql/apollo-server -> graphql/express-graphql,0.5069024337655839,8.898346970136567

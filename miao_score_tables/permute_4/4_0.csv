@@ -1,7 +1,7 @@
-,AMS_ij
-laravel/framework -> symfony/symfony,-0.6702643039076989
-bcit-ci/CodeIgniter -> symfony/symfony,0.7532180828691234
-symfony/symfony -> laravel/framework,-1.1832768764877608
-bcit-ci/CodeIgniter -> laravel/framework,1.1869548015229678
-symfony/symfony -> bcit-ci/CodeIgniter,0.053742696341828336
-laravel/framework -> bcit-ci/CodeIgniter,0.5073318461382689
+,AMS_ij,normalized_AMS_ij
+koush/ion -> androidx/androidx,-2.1582078870557067,19.12812314105436
+koush/androidasync -> androidx/androidx,13.867815913613754,30.51954449086609
+androidx/androidx -> koush/ion,0.44081141276814645,2.181231734734072
+koush/androidasync -> koush/ion,-3.1226259581039892,-65.69111322588681
+androidx/androidx -> koush/androidasync,0.03240464866016464,1.9407429456685825
+koush/ion -> koush/androidasync,-4.635939964147768,-97.38230028110276

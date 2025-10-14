@@ -1,7 +1,7 @@
-,AMS_ij
-square/okhttp -> apache/httpcomponents-client,-0.42253865824833076
-google/volley -> apache/httpcomponents-client,0.00528813339732733
-apache/httpcomponents-client -> square/okhttp,0.0005570335054403582
-google/volley -> square/okhttp,-0.03747013020514728
-apache/httpcomponents-client -> google/volley,-1.0901636238458545
-square/okhttp -> google/volley,6.937425439464116
+,AMS_ij,normalized_AMS_ij
+BlueMap-Minecraft/BlueMap -> webbukkit/dynmap,0.2856308605612857,7.8490535666271875
+overviewer/minecraft-overviewer -> webbukkit/dynmap,-3.0427217123371415,-41.138882636224096
+webbukkit/dynmap -> BlueMap-Minecraft/BlueMap,-0.9472723099547058,0.8480932107612431
+overviewer/minecraft-overviewer -> BlueMap-Minecraft/BlueMap,-2.724469636101099,-34.82568653424051
+webbukkit/dynmap -> overviewer/minecraft-overviewer,0.5529715949523641,10.785927453118438
+BlueMap-Minecraft/BlueMap -> overviewer/minecraft-overviewer,0.30281437560647395,2.39474627230951

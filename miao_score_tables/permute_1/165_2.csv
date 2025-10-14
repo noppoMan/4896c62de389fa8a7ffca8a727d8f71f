@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+friendica/friendica -> diaspora/diaspora,0.04859812097017816,1.485183849206459
+mastodon/mastodon -> diaspora/diaspora,0.21670555453957074,6.623114389692152
+diaspora/diaspora -> friendica/friendica,0.41556464895722,5.724996892303337
+mastodon/mastodon -> friendica/friendica,-0.2490111995370669,-3.439171372179524
+diaspora/diaspora -> mastodon/mastodon,-0.7953543974159694,-16.896827086694767
+friendica/friendica -> mastodon/mastodon,0.1912625554475559,4.028762462382054

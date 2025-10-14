@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+nwjs/nw.js -> AvaloniaUI/Avalonia,0.8269041737266555,-1.792104209870327
+electron/electron -> AvaloniaUI/Avalonia,-17.927337349162578,-73.39298370620291
+AvaloniaUI/Avalonia -> nwjs/nw.js,-0.22731330847687686,-4.639320810636991
+electron/electron -> nwjs/nw.js,-2.041569268409817,-46.24934705423899
+AvaloniaUI/Avalonia -> electron/electron,-0.753871384423999,-17.19869329780436
+nwjs/nw.js -> electron/electron,-2.1472518398376206,-33.26545873051628

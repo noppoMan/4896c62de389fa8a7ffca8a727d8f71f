@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+NativeScript/NativeScript -> ionic-team/ionic-framework,-0.6914737238047839,0.24434395726277816
+flutter/flutter -> ionic-team/ionic-framework,-0.27093656755588175,-5.453767633308824
+ionic-team/ionic-framework -> NativeScript/NativeScript,-0.10893084673577955,7.627255672852059
+flutter/flutter -> NativeScript/NativeScript,-0.10648549559389199,-0.7327237592345851
+ionic-team/ionic-framework -> flutter/flutter,-3.421566961391392,-17.19834677950608
+NativeScript/NativeScript -> flutter/flutter,-0.2951453851243919,2.3210456170028695

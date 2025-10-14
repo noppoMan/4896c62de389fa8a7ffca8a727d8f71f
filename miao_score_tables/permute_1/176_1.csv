@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+mkdocs/mkdocs -> docsifyjs/docsify,-0.18874515049039436,-21.908020899746383
+facebook/docusaurus -> docsifyjs/docsify,-0.09159321392127885,-2.130798933228708
+docsifyjs/docsify -> mkdocs/mkdocs,-1.1961317593239391,-29.489650399637025
+facebook/docusaurus -> mkdocs/mkdocs,0.28095049484797413,0.669331376485108
+docsifyjs/docsify -> facebook/docusaurus,-3.557757764051075,-27.548926911755988
+mkdocs/mkdocs -> facebook/docusaurus,2.96769515511472,22.657173337529272

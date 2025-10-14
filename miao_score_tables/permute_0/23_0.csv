@@ -1,7 +1,7 @@
-,AMS_ij
-webpack/webpack -> browserify/browserify,-2.1612684873667094
-requirejs/requirejs -> browserify/browserify,-1.1073929828886397
-browserify/browserify -> webpack/webpack,0.0008895320278635988
-requirejs/requirejs -> webpack/webpack,-0.664082129933448
-browserify/browserify -> requirejs/requirejs,-0.025917052899595262
-webpack/webpack -> requirejs/requirejs,0.10640152286362622
+,AMS_ij,normalized_AMS_ij
+pytorch/text -> facebookresearch/fairseq,-0.5055043989031017,43.10776841775481
+facebookresearch/pytext -> facebookresearch/fairseq,-6.927265151618354,-197.86844791792268
+facebookresearch/fairseq -> pytorch/text,0.18618943069359384,9.87511394919248
+facebookresearch/pytext -> pytorch/text,2.510413929479489,83.41372398277488
+facebookresearch/fairseq -> facebookresearch/pytext,-5.126053549348674,-136.10136430949376
+pytorch/text -> facebookresearch/pytext,2.4644074469807005,99.59387430847855

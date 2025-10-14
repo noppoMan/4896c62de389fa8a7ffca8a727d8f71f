@@ -1,7 +1,7 @@
-,AMS_ij
-dojo/dojo -> jquery/jquery,3.0225574674535496
-yui/yui3 -> jquery/jquery,0.295845726255518
-jquery/jquery -> dojo/dojo,-0.8438183510934704
-yui/yui3 -> dojo/dojo,0.015033795517792114
-jquery/jquery -> yui/yui3,7.819355153904654
-dojo/dojo -> yui/yui3,7.89245065755645
+,AMS_ij,normalized_AMS_ij
+hammerspoon/hammerspoon -> pqrs-org/karabiner-elements,1.607555818152696,17.91811551571616
+tekezo/karabiner -> pqrs-org/karabiner-elements,4.858450848355201,38.38606223547491
+pqrs-org/karabiner-elements -> hammerspoon/hammerspoon,1.1092629166208576,15.677661841191748
+tekezo/karabiner -> hammerspoon/hammerspoon,-5.124098547016585,-59.08179143749596
+pqrs-org/karabiner-elements -> tekezo/karabiner,-0.23590706684986987,-13.493122769769956
+hammerspoon/hammerspoon -> tekezo/karabiner,0.07873679191969989,4.415848045113459

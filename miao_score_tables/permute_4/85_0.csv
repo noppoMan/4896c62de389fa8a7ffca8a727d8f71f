@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+idris-lang/Idris2 -> agda/agda,1.4789131584593722,11.863791766472396
+idris-lang/Idris-dev -> agda/agda,-1.6752434470083206,37.977009153947364
+agda/agda -> idris-lang/Idris2,0.20659010703798725,1.6461234120983794
+idris-lang/Idris-dev -> idris-lang/Idris2,0.7023656511382989,2.884469894628991
+agda/agda -> idris-lang/Idris-dev,-0.024783315473431086,-3.6775868877637707
+idris-lang/Idris2 -> idris-lang/Idris-dev,-0.0892584752774747,-1.6393065144392052

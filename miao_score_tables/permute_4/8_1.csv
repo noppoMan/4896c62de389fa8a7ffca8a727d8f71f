@@ -1,7 +1,0 @@
-,AMS_ij
-mongodb/mongo -> apache/couchdb,-0.674778149657237
-rethinkdb/rethinkdb -> apache/couchdb,-1.2517273355237737
-apache/couchdb -> mongodb/mongo,-0.12608913376439546
-rethinkdb/rethinkdb -> mongodb/mongo,1.114062702174021
-apache/couchdb -> rethinkdb/rethinkdb,-1.9568842818424328
-mongodb/mongo -> rethinkdb/rethinkdb,3.929297796345079

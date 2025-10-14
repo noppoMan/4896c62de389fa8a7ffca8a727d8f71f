@@ -1,7 +1,0 @@
-,AMS_ij
-jestjs/jest -> mochajs/mocha,0.08006719199245996
-karma-runner/karma -> mochajs/mocha,-0.25320133831261765
-mochajs/mocha -> jestjs/jest,-0.36090070113834516
-karma-runner/karma -> jestjs/jest,1.07398737055649
-mochajs/mocha -> karma-runner/karma,0.38565119624415883
-jestjs/jest -> karma-runner/karma,0.7234507629462371

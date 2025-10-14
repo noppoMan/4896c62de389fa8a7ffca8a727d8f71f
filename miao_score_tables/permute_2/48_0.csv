@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+fraction/oasis -> staltz/manyverse,-0.29718875346243123,-2.772315807417215
+ssbc/patchwork -> staltz/manyverse,-0.5479019607842184,-5.455612223580959
+staltz/manyverse -> fraction/oasis,-0.14791120339269773,-2.2040134867760677
+ssbc/patchwork -> fraction/oasis,-1.6918543204456324,-28.70303413581312
+staltz/manyverse -> ssbc/patchwork,0.03194343141950991,1.6642417506879867
+fraction/oasis -> ssbc/patchwork,0.12493143115737837,3.4942476529087148
