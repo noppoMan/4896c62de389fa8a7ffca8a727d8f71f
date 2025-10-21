@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+godotengine/godot-cpp -> godot-rust/gdext,0.35651109707823836,5.036967201605689
+godot-rust/godot-rust -> godot-rust/gdext,-0.7586194806669688,-6.871384190234905
+godot-rust/gdext -> godotengine/godot-cpp,-0.04627715342289865,-1.6243444422009972
+godot-rust/godot-rust -> godotengine/godot-cpp,-1.1513073464303838,-18.831173561380254
+godot-rust/gdext -> godot-rust/godot-rust,0.13229507631151033,4.2681207226358
+godotengine/godot-cpp -> godot-rust/godot-rust,-0.21315900198966942,-5.119042684084602

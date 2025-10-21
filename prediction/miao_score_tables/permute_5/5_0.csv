@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+lyft/confidant -> hashicorp/vault,1.8235966322966937,9.11146937999911
+square/keywhiz -> hashicorp/vault,-0.3330975675243318,1.656809732369105
+hashicorp/vault -> lyft/confidant,-0.026900572484671027,-0.65287622014537
+square/keywhiz -> lyft/confidant,0.036463695459036286,-5.68181758737889
+hashicorp/vault -> square/keywhiz,-0.05291655789434595,-0.9951282294061319
+lyft/confidant -> square/keywhiz,-2.5237716457503336,-25.57412728164824

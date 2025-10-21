@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+google/closure-compiler -> microsoft/typescript,2.8648996167541396,6.7278283744116205
+rescript-lang/rescript-compiler -> microsoft/typescript,-4.427240854891494,7.627973219860581
+microsoft/typescript -> google/closure-compiler,-0.05757835460727924,0.43502017409013766
+rescript-lang/rescript-compiler -> google/closure-compiler,-0.47184153599019907,-6.032144196731183
+microsoft/typescript -> rescript-lang/rescript-compiler,0.2819742808652463,2.9189740155274966
+google/closure-compiler -> rescript-lang/rescript-compiler,-1.6960112632347926,-17.364882489384463

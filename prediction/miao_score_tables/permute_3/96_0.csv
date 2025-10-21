@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+webpack/webpack -> rollup/rollup,-0.5027601131790184,-2.7602797620081767
+parcel-bundler/parcel -> rollup/rollup,-1.1517795114446154,-8.50122785321802
+rollup/rollup -> webpack/webpack,-1.5259058798088758,-5.253220290433501
+parcel-bundler/parcel -> webpack/webpack,-0.39832381243913134,-0.040448090779550624
+rollup/rollup -> parcel-bundler/parcel,-0.027380170373579597,-1.3028555972333706
+webpack/webpack -> parcel-bundler/parcel,0.2011405132651847,1.88737069640822

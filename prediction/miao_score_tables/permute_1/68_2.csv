@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+scala/scala -> apache/groovy,-0.10885729762373147,-1.896890004013755
+jetbrains/kotlin -> apache/groovy,-0.05172653633080121,-0.82537569756631
+apache/groovy -> scala/scala,-0.5432185267436759,-5.345321216314295
+jetbrains/kotlin -> scala/scala,-0.7541908086418676,-2.1261047807895923
+apache/groovy -> jetbrains/kotlin,-3.0273884367503263,-4.456685614173036
+scala/scala -> jetbrains/kotlin,-2.926436298739432,-3.4438800888446406

@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+aquasecurity/trivy -> bridgecrewio/checkov,-0.4238169603819025,-7.420522035907945
+tfsec/tfsec -> bridgecrewio/checkov,-1.7684754607389988,-9.845882365145014
+bridgecrewio/checkov -> aquasecurity/trivy,-0.06960390330164044,-1.8237467956572544
+tfsec/tfsec -> aquasecurity/trivy,-0.0755603240123472,-1.7321592666041676
+bridgecrewio/checkov -> tfsec/tfsec,-0.0594372008596553,-1.6164646791525046
+aquasecurity/trivy -> tfsec/tfsec,1.8681113820447228,11.567548420762813

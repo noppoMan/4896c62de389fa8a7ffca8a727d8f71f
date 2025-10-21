@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+carla-simulator/carla -> apolloauto/apollo,2.030023008488959,0.7621875718842818
+commaai/openpilot -> apolloauto/apollo,6.724800923467242,8.021986263906353
+apolloauto/apollo -> carla-simulator/carla,0.03517169470724826,-0.25959624685034144
+commaai/openpilot -> carla-simulator/carla,-0.2493336369386286,1.9612702867268892
+apolloauto/apollo -> commaai/openpilot,0.04435354166380311,0.4467002827319715
+carla-simulator/carla -> commaai/openpilot,-0.18530857715707377,0.012983871544434351

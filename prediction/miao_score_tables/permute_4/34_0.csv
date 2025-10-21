@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+insin/nwb -> vercel/next.js,-1.4437782056567157,0.19656196001610546
+facebook/create-react-app -> vercel/next.js,-0.18106563242135273,7.356037001279982
+vercel/next.js -> insin/nwb,-0.6105353460737935,2.3273355805808604
+facebook/create-react-app -> insin/nwb,-0.5908046651209888,-7.808056596516806
+vercel/next.js -> facebook/create-react-app,-0.09665231237286437,6.900378643818886
+insin/nwb -> facebook/create-react-app,0.6023785339495088,1.44872298079771

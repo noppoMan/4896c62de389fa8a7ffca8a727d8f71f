@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+sinatra/sinatra -> django/django,-0.7653196511188969,-8.715673689154887
+rails/rails -> django/django,-0.2925334633428349,-2.9200709565595124
+django/django -> sinatra/sinatra,0.20267063399655372,-0.37679183897561
+rails/rails -> sinatra/sinatra,0.07309879135023045,0.04871671704624628
+django/django -> rails/rails,0.4733696551792944,-3.3987698959239143
+sinatra/sinatra -> rails/rails,-3.3507818969243535,-11.47082618790314

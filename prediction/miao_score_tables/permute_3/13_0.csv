@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+XRPLF/clio -> stellar/stellar-core,-0.6824170355026502,-8.622429761257825
+ripple/rippled -> stellar/stellar-core,0.2521134825576584,2.0354451686175947
+stellar/stellar-core -> XRPLF/clio,-0.15574773378213927,-3.436500184057531
+ripple/rippled -> XRPLF/clio,0.15536458744039305,2.6484875692256664
+stellar/stellar-core -> ripple/rippled,0.027991595234227087,0.504458958051194
+XRPLF/clio -> ripple/rippled,-0.1577297404562464,-4.3296039645080056

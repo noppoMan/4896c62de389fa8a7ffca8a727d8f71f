@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+intellij-rust/intellij-rust -> rust-lang/rust-analyzer,-0.5800282691303857,-5.247245125610978
+rust-lang/rls -> rust-lang/rust-analyzer,-0.11706978209857075,4.844982056328847
+rust-lang/rust-analyzer -> intellij-rust/intellij-rust,-0.22953788601564112,-3.1637586017039423
+rust-lang/rls -> intellij-rust/intellij-rust,-0.3735267093901248,-2.434388373900083
+rust-lang/rust-analyzer -> rust-lang/rls,0.0703451374319109,5.0916782273166525
+intellij-rust/intellij-rust -> rust-lang/rls,0.08036220726040458,3.4770794906504277

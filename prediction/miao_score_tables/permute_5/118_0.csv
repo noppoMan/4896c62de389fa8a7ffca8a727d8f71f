@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+ocornut/imgui -> Immediate-Mode-UI/Nuklear,-0.17605458266315527,0.37740350753734575
+lvgl/lvgl -> Immediate-Mode-UI/Nuklear,0.2762903440419446,10.312610057077842
+Immediate-Mode-UI/Nuklear -> ocornut/imgui,-1.1920150623606074,-12.200971531655185
+lvgl/lvgl -> ocornut/imgui,0.2050087929817037,2.003499799485538
+Immediate-Mode-UI/Nuklear -> lvgl/lvgl,1.0676125360972228,15.150718558995294
+ocornut/imgui -> lvgl/lvgl,-0.1276900227252938,0.8304382079483429

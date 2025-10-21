@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+highcharts/highcharts -> apache/echarts,0.11734231305910595,4.0557686715532855
+plotly/plotly.js -> apache/echarts,-0.4818196372595875,-7.0818393850674495
+apache/echarts -> highcharts/highcharts,8.100360367681152,35.41810609530545
+plotly/plotly.js -> highcharts/highcharts,0.21005886342550809,1.6569143332290055
+apache/echarts -> plotly/plotly.js,-1.9093130918728982,-15.333128931301637
+highcharts/highcharts -> plotly/plotly.js,-0.37390504529363877,-1.1209781928118512

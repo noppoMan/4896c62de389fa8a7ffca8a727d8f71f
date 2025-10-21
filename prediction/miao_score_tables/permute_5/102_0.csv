@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+chartjs/chart.js -> d3/d3,3.473024941953238,-1.1003600946464296
+highcharts/highcharts -> d3/d3,0.2190576351707144,4.092464045903023
+d3/d3 -> chartjs/chart.js,0.47035960020471407,4.678295110957873
+highcharts/highcharts -> chartjs/chart.js,-0.1327083193806657,-2.3267250990702113
+d3/d3 -> highcharts/highcharts,1.2673367659192305,8.756949126113033
+chartjs/chart.js -> highcharts/highcharts,-4.1643738416093665,0.6720670683670377

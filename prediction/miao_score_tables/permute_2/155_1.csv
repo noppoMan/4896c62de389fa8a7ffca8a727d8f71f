@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+seleniumhq/selenium -> puppeteer/puppeteer,-0.19060969073582915,-0.07495330258816295
+gocolly/colly -> puppeteer/puppeteer,2.9282607996303596,44.451109326757745
+puppeteer/puppeteer -> seleniumhq/selenium,-0.9730249462142224,-16.932730950488434
+gocolly/colly -> seleniumhq/selenium,7.112967548901455,81.24157430703967
+puppeteer/puppeteer -> gocolly/colly,0.04054051650915687,5.5997936857875645
+seleniumhq/selenium -> gocolly/colly,0.010312895350186297,-0.07421616623644609

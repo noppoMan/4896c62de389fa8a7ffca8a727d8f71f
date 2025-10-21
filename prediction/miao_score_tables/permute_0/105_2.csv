@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+cacti/cacti -> grafana/grafana,-0.23739690843887434,1.2739066886264698
+netdata/netdata -> grafana/grafana,-0.029888758399550575,4.6894557005080735
+grafana/grafana -> cacti/cacti,0.22125756076385622,1.3506648925283409
+netdata/netdata -> cacti/cacti,-0.21307427884778354,2.3763938075295146
+grafana/grafana -> netdata/netdata,-0.9949787292739817,-10.742756400388448
+cacti/cacti -> netdata/netdata,0.03358911491517925,2.0443623908449147

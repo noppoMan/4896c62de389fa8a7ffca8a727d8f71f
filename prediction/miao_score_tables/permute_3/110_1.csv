@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+ethereum/go-ethereum -> NethermindEth/nethermind,0.2834185976193989,11.944310285686234
+hyperledger/besu -> NethermindEth/nethermind,0.026790044836484405,4.257105457263148
+NethermindEth/nethermind -> ethereum/go-ethereum,-0.57727222062926,-6.01193959747361
+hyperledger/besu -> ethereum/go-ethereum,0.018004077570576406,1.4894012895653457
+NethermindEth/nethermind -> hyperledger/besu,-0.5117040646613189,-8.083271707906196
+ethereum/go-ethereum -> hyperledger/besu,-0.3284043148833574,-13.058821641965407

@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+eslint/eslint -> standard/standard,-0.3999301323996376,-4.567645012633899
+prettier/prettier -> standard/standard,-0.21244492156810008,-1.8015224119717872
+standard/standard -> eslint/eslint,0.17319902542189156,1.0405042774093942
+prettier/prettier -> eslint/eslint,-0.13601701948450867,-2.9348175044893408
+standard/standard -> prettier/prettier,0.07161103912371222,-1.563877119418651
+eslint/eslint -> prettier/prettier,-1.2723822841282668,-6.16193271518925

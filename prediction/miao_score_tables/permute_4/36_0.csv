@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+laravel/envoy -> deployphp/deployer,-1.3702254455465224,-15.051808737766581
+rocketeers/rocketeer -> deployphp/deployer,-0.2256577493622441,-3.4560824099085674
+deployphp/deployer -> laravel/envoy,-0.10511433050793595,-5.0120747006674
+rocketeers/rocketeer -> laravel/envoy,-0.024643487443896155,-0.6714098652530401
+deployphp/deployer -> rocketeers/rocketeer,-1.8712220922860354,3.4677895508995262
+laravel/envoy -> rocketeers/rocketeer,3.266655198898113,33.440103363342985

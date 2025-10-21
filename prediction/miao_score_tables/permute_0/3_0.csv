@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+koush/ion -> androidx/androidx,-7.475033184632482,0.10350239953901684
+koush/androidasync -> androidx/androidx,0.708048298789451,16.298719810396552
+androidx/androidx -> koush/ion,0.24796865387090367,4.684042364140882
+koush/androidasync -> koush/ion,-1.1316072969714506,-45.995633578457614
+androidx/androidx -> koush/androidasync,-0.042654974663686396,3.767359456219076
+koush/ion -> koush/androidasync,-1.6620168593954534,-57.04987772692951

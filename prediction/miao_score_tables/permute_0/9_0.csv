@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+google/glog -> gabime/spdlog,2.628864481021902,9.56842332845663
+amrayn/easyloggingpp -> gabime/spdlog,0.12045290446262338,0.2997708066360523
+gabime/spdlog -> google/glog,0.008895663312078052,1.2702052470699585
+amrayn/easyloggingpp -> google/glog,0.018101218434454606,2.9095020703645678
+gabime/spdlog -> amrayn/easyloggingpp,-0.036743715730527225,-2.6133382468085187
+google/glog -> amrayn/easyloggingpp,-3.941554586376929,18.15485599714298

@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+moment/luxon -> date-fns/date-fns,-0.291280722974311,1.4269754467910911
+moment/moment -> date-fns/date-fns,-0.20048683658273425,-3.531464659857901
+date-fns/date-fns -> moment/luxon,0.10894943094019977,2.5529898291889497
+moment/moment -> moment/luxon,-0.025824681437350755,-0.5010671580571441
+date-fns/date-fns -> moment/moment,0.1416006910223343,2.6729421125818016
+moment/luxon -> moment/moment,0.5376284159539189,5.35114411073871

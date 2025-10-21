@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+mlpack/mlpack -> scikit-learn/scikit-learn,-1.3607195809230657,2.0910562930074748
+statsmodels/statsmodels -> scikit-learn/scikit-learn,-0.27943765783319857,-0.4235629697463792
+scikit-learn/scikit-learn -> mlpack/mlpack,-0.23511408395236585,0.9112486366766154
+statsmodels/statsmodels -> mlpack/mlpack,0.134567035604019,0.2771773144946109
+scikit-learn/scikit-learn -> statsmodels/statsmodels,0.0741317270904304,-0.427016892623116
+mlpack/mlpack -> statsmodels/statsmodels,0.12482881346112126,0.7827561037531107

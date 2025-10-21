@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+zurb/foundation-sites -> primer/css,0.35214732521448744,2.8360797732727825
+twbs/bootstrap -> primer/css,-0.1770469746387361,-0.035903994743275686
+primer/css -> zurb/foundation-sites,3.481829246002878,3.682799307903808
+twbs/bootstrap -> zurb/foundation-sites,-0.7952665883718866,-2.7159885498365113
+primer/css -> twbs/bootstrap,3.9288416592741564,0.6689065553767349
+zurb/foundation-sites -> twbs/bootstrap,-2.3451466799492486,-3.105156353035443

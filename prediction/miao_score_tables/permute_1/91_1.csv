@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+jetty/jetty.project -> apache/httpcomponents-client,0.09398442160053391,1.7472675934685267
+square/okhttp -> apache/httpcomponents-client,-0.09974677893690115,1.4933744390424302
+apache/httpcomponents-client -> jetty/jetty.project,4.322101869763112,13.468560503334794
+square/okhttp -> jetty/jetty.project,-1.0225996254092424,-5.185818210272185
+apache/httpcomponents-client -> square/okhttp,1.0123429474691554,16.47530767047706
+jetty/jetty.project -> square/okhttp,0.33926706197384005,2.7401916511771653

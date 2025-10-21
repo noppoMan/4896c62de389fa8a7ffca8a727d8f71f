@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+vulkano-rs/vulkano -> gfx-rs/wgpu,1.6431337927492295,39.44207660052675
+gfx-rs/gfx -> gfx-rs/wgpu,0.6742521824863756,30.992835438863587
+gfx-rs/wgpu -> vulkano-rs/vulkano,0.04422334283220361,5.6222963243974595
+gfx-rs/gfx -> vulkano-rs/vulkano,0.0251852388031043,-3.2372240786604145
+gfx-rs/wgpu -> gfx-rs/gfx,-0.2828358869739698,-2.4607203623745457
+vulkano-rs/vulkano -> gfx-rs/gfx,1.9517728204220712,61.48082271922768

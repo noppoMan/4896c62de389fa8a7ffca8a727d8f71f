@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+NLnetLabs/unbound -> AdguardTeam/AdGuardHome,0.16331811807775581,6.754171758799463
+pi-hole/pi-hole -> AdguardTeam/AdGuardHome,-0.05908361198220957,-2.875557346534559
+AdguardTeam/AdGuardHome -> NLnetLabs/unbound,-0.39082592795301707,-6.300297147159497
+pi-hole/pi-hole -> NLnetLabs/unbound,0.11617804000716572,3.0300573323613142
+AdguardTeam/AdGuardHome -> pi-hole/pi-hole,-0.17678736920718113,-8.56486023712928
+NLnetLabs/unbound -> pi-hole/pi-hole,0.045830238814952934,0.29663421824218816

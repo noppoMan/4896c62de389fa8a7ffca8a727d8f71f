@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+tryghost/ghost -> WordPress/WordPress,-0.23375138261409745,0.6359826753980542
+getgrav/grav -> WordPress/WordPress,1.3915818021628863,4.422922604415503
+WordPress/WordPress -> tryghost/ghost,-4.031977565470315,-14.523125663266306
+getgrav/grav -> tryghost/ghost,5.000862233035163,19.051513532839596
+WordPress/WordPress -> getgrav/grav,0.42777135636589814,6.429335757610649
+tryghost/ghost -> getgrav/grav,0.20087543860831442,5.209693376441322

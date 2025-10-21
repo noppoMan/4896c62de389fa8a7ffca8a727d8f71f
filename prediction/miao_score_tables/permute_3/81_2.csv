@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+opencv/opencv -> scikit-image/scikit-image,-0.007201258141330942,-4.296354698436825
+davisking/dlib -> scikit-image/scikit-image,-0.7924351717089021,-3.7003430909743633
+scikit-image/scikit-image -> opencv/opencv,-1.4624304671657793,-13.073371144307627
+davisking/dlib -> opencv/opencv,-5.250587575476338,-29.38798225095435
+scikit-image/scikit-image -> davisking/dlib,0.3241084601755719,4.1534397420947
+opencv/opencv -> davisking/dlib,0.21051554131732658,3.701509736410151

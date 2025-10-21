@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+adblockplus/adblockplus -> gorhill/ublock,-0.7795774318756746,-0.42529605338280563
+brave/brave-browser -> gorhill/ublock,-0.7022190189615598,-25.993821408986673
+gorhill/ublock -> adblockplus/adblockplus,-0.27907281777800436,-1.667001334086113
+brave/brave-browser -> adblockplus/adblockplus,-0.21505960005040364,-3.103544056184323
+gorhill/ublock -> brave/brave-browser,0.8399532671919245,11.93970642519269
+adblockplus/adblockplus -> brave/brave-browser,-1.5777849105679387,-28.05989897723294

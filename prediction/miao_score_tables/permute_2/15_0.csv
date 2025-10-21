@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+flairNLP/flair -> huggingface/transformers,-0.4037734975598507,-3.130020784901171
+allenai/allennlp -> huggingface/transformers,-2.2603168328636087,-16.372805425840056
+huggingface/transformers -> flairNLP/flair,-0.1218442085153569,1.022215430137539
+allenai/allennlp -> flairNLP/flair,-0.46676128290247515,-1.8108531230264389
+huggingface/transformers -> allenai/allennlp,0.1266249920425095,1.8654749336904517
+flairNLP/flair -> allenai/allennlp,-0.10011746636422313,-1.7150856898843787

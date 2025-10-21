@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+getredash/redash -> apache/superset,7.208700170772222,3.884387634557681
+metabase/metabase -> apache/superset,-0.2506270890245589,0.7877240580072631
+apache/superset -> getredash/redash,0.2518274610818009,0.732821599985221
+metabase/metabase -> getredash/redash,0.7964774574481394,19.021081935329885
+apache/superset -> metabase/metabase,-1.2745790807532607,-1.3531881116621922
+getredash/redash -> metabase/metabase,8.022855022872513,47.39709443392892

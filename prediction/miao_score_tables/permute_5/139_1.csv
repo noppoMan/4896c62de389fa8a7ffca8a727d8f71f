@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+tensorflow/tensorflow -> apache/mxnet,-0.0733400630785345,-3.708740915908075
+pytorch/pytorch -> apache/mxnet,0.05322098235290661,0.31222379557834046
+apache/mxnet -> tensorflow/tensorflow,-5.609517308904419,-13.28849489255917
+pytorch/pytorch -> tensorflow/tensorflow,0.05670521863025031,0.12674467540297285
+apache/mxnet -> pytorch/pytorch,0.6002747742051762,0.3011213706462641
+tensorflow/tensorflow -> pytorch/pytorch,0.0031131648773337003,0.25607333606537247

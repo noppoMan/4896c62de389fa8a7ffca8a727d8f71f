@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+salesforce/lwc -> twbs/bootstrap,-0.5891390594424838,-2.6596019137347247
+exacttarget/fuelux -> twbs/bootstrap,-0.06536489343819493,-1.057846006066636
+twbs/bootstrap -> salesforce/lwc,0.23706099612860876,2.4658802965972715
+exacttarget/fuelux -> salesforce/lwc,-0.08996248880779312,-3.3261432866088683
+twbs/bootstrap -> exacttarget/fuelux,-0.2664159063205095,-2.0644168562569165
+salesforce/lwc -> exacttarget/fuelux,0.019115758157210054,-0.2360510499789626

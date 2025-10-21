@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+jquery/jquery -> fabiospampinato/cash,0.0334623198893239,2.62894780139551
+stimulusjs/stimulus -> fabiospampinato/cash,0.01874790448842878,2.202411405801484
+fabiospampinato/cash -> jquery/jquery,-0.15315958008635583,-23.61769601065547
+stimulusjs/stimulus -> jquery/jquery,-0.02172933225437971,1.7628273720060248
+fabiospampinato/cash -> stimulusjs/stimulus,-0.586841721359022,-3.1604700531078778
+jquery/jquery -> stimulusjs/stimulus,0.499556519825021,32.13685586348007

@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+final-form/react-final-form -> formium/formik,0.6336497889249536,3.125160242856372
+redux-form/redux-form -> formium/formik,0.22168032748344452,2.723678214256098
+formium/formik -> final-form/react-final-form,0.01814983949773123,-2.046618848190164
+redux-form/redux-form -> final-form/react-final-form,-0.027813120625154612,4.076081682192519
+formium/formik -> redux-form/redux-form,-0.044891994497026036,-1.7890982270057378
+final-form/react-final-form -> redux-form/redux-form,-0.48447571618565377,-10.175891019920446

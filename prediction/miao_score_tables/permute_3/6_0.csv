@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+apphud/ApphudSDK -> RevenueCat/purchases-ios,0.1985851034733023,9.402745239222165
+bizz84/swiftystorekit -> RevenueCat/purchases-ios,0.13268991602757466,5.95099560696723
+RevenueCat/purchases-ios -> apphud/ApphudSDK,0.3874007125553506,26.75362351285654
+bizz84/swiftystorekit -> apphud/ApphudSDK,0.05796241155671375,5.228946828323703
+RevenueCat/purchases-ios -> bizz84/swiftystorekit,-0.21452162621095422,-5.00725872663887
+apphud/ApphudSDK -> bizz84/swiftystorekit,-0.18904666000543646,-10.867862049712901

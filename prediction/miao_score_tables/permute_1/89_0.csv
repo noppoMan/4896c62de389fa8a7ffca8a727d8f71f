@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+django/django -> expressjs/express,0.976935513221911,4.882825413885417
+pallets/flask -> expressjs/express,-4.1626932619401416,-12.390785893943306
+expressjs/express -> django/django,0.6060402935673779,4.846109183352334
+pallets/flask -> django/django,3.0048267163724947,6.89790486101466
+expressjs/express -> pallets/flask,-0.15432179384708009,-0.8509823107616024
+django/django -> pallets/flask,0.7292159987023297,2.654021969997318

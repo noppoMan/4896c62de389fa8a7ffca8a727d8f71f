@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+balderdashy/sails -> expressjs/express,0.2852170119648473,20.69934940889038
+hapijs/hapi -> expressjs/express,0.004426211677241259,10.444007918651094
+expressjs/express -> balderdashy/sails,0.3257284402321571,23.934003929044202
+hapijs/hapi -> balderdashy/sails,-0.4891032119482531,-18.211966716563705
+expressjs/express -> hapijs/hapi,-0.037766276210322115,15.246852758615825
+balderdashy/sails -> hapijs/hapi,0.09696038176751795,-0.1268945157983996

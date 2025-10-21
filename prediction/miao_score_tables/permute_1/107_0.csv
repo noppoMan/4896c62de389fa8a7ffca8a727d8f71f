@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+apache/tomee -> dropwizard/dropwizard,0.1139521522572012,-0.7906828598203028
+spring-projects/spring-boot -> dropwizard/dropwizard,-0.15604619320914456,-1.2687803409303564
+dropwizard/dropwizard -> apache/tomee,-1.070104385851879,-7.602664417201178
+spring-projects/spring-boot -> apache/tomee,0.6726588133352575,5.478658349929949
+dropwizard/dropwizard -> spring-projects/spring-boot,-0.2464711941407702,-0.3389673715242705
+apache/tomee -> spring-projects/spring-boot,3.706916142581832,13.88648138942132

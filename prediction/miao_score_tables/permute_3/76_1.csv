@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+redis/redis -> tarantool/tarantool,-0.48401757751922364,0.10562534876640746
+memcached/memcached -> tarantool/tarantool,-1.9109435059260824,-3.7000895268445384
+tarantool/tarantool -> redis/redis,0.08158095773642533,1.1819791124141676
+memcached/memcached -> redis/redis,-1.8515142136147815,-4.1875223918509885
+tarantool/tarantool -> memcached/memcached,0.011894206737656985,0.7607336878811018
+redis/redis -> memcached/memcached,-0.21714584269969656,-3.3960305712405576

@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+neovim/neovim -> microsoft/vscode,-1.2256928156699005,-1.028832609348324
+pulsar-edit/pulsar -> microsoft/vscode,1.0446121048188362,1.9048269630238017
+microsoft/vscode -> neovim/neovim,0.2672535390029683,0.6809782522116966
+pulsar-edit/pulsar -> neovim/neovim,-0.1452597237255172,-0.19627634746479852
+microsoft/vscode -> pulsar-edit/pulsar,0.8660876699763969,1.8493794464600144
+neovim/neovim -> pulsar-edit/pulsar,-0.09150371110980178,0.016873431909292833

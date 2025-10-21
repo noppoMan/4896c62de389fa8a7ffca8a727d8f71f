@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+recharts/recharts -> antvis/g2,-1.1766159771773235,-12.606130199266902
+alibaba/bizcharts -> antvis/g2,0.8762534879529971,18.25837062848241
+antvis/g2 -> recharts/recharts,-0.5677056922712513,-7.922733476343599
+alibaba/bizcharts -> recharts/recharts,0.2969319874354689,5.46188063831974
+antvis/g2 -> alibaba/bizcharts,-0.3381170945608108,0.702261937219692
+recharts/recharts -> alibaba/bizcharts,-0.30085112521533774,-2.4988391592203367

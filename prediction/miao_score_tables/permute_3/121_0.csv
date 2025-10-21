@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+mermaid-js/mermaid -> plantuml/plantuml,0.11491154999120363,2.99403780783254
+yuzutech/kroki -> plantuml/plantuml,0.3901940860289904,17.101656968207934
+plantuml/plantuml -> mermaid-js/mermaid,-0.4381706128856628,-14.184116702009842
+yuzutech/kroki -> mermaid-js/mermaid,0.1089679876876883,3.8525321679972286
+plantuml/plantuml -> yuzutech/kroki,-0.4144892746609765,3.1382109517846875
+mermaid-js/mermaid -> yuzutech/kroki,-0.32908795617543407,-1.729367899473378

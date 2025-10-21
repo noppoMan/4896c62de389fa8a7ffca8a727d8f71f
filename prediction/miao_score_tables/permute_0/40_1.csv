@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+carrierwaveuploader/carrierwave -> rails/rails,1.2353867125440232,-2.8637076662367638
+thoughtbot/paperclip -> rails/rails,-1.3691197995853888,-7.153613199469874
+rails/rails -> carrierwaveuploader/carrierwave,-0.006343204975769907,0.4653476914078721
+thoughtbot/paperclip -> carrierwaveuploader/carrierwave,0.1428987577562604,7.815749499167696
+rails/rails -> thoughtbot/paperclip,0.029273644467961102,0.23812565107844308
+carrierwaveuploader/carrierwave -> thoughtbot/paperclip,-0.2522761579341719,-3.595038708314862

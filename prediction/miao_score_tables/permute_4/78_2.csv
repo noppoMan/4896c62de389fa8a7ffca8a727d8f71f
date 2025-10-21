@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+faye/faye -> socketio/socket.io,3.835457936932201,27.232609313555255
+websockets/ws -> socketio/socket.io,2.3319811978903067,8.024325847640956
+socketio/socket.io -> faye/faye,0.007450204342716676,-0.8828475601163753
+websockets/ws -> faye/faye,0.0664825712523475,1.0009390659544075
+socketio/socket.io -> websockets/ws,0.17519032387706168,4.544845425450572
+faye/faye -> websockets/ws,-0.4998247272765596,-25.25933109904462

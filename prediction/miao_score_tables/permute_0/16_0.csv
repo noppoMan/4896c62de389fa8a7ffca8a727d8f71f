@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+google/flax -> pytorch/pytorch,-2.344350857284629,0.4278421586634034
+deepmind/dm-haiku -> pytorch/pytorch,2.462296448736159,7.248633205524927
+pytorch/pytorch -> google/flax,-0.13471058713189643,0.019919828756837434
+deepmind/dm-haiku -> google/flax,-10.69583729939979,-70.57956479789038
+pytorch/pytorch -> deepmind/dm-haiku,-0.024083557434493856,0.38582211933566685
+google/flax -> deepmind/dm-haiku,-0.21286689355821414,-9.568515279483957

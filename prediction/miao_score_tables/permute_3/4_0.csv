@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+google/volley -> square/retrofit,0.006753557374986329,0.15625014492951322
+stephanenicolas/robospice -> square/retrofit,-0.052665658762548154,-0.5295894393977743
+square/retrofit -> google/volley,-8.735066465305142,-3.404209583159096
+stephanenicolas/robospice -> google/volley,-0.24136584049130982,0.09344047952773323
+square/retrofit -> stephanenicolas/robospice,-0.3729938888150702,-6.204107264038609
+google/volley -> stephanenicolas/robospice,-0.0061420243417883835,-0.08528985849999349

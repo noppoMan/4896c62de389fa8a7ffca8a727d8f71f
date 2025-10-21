@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+getsentry/sentry -> grafana/grafana,-1.514356507516283,-6.989075832308645
+elastic/kibana -> grafana/grafana,-0.46128881318985027,-2.0550278253638736
+grafana/grafana -> getsentry/sentry,-3.5429714733984046,-9.034811448062028
+elastic/kibana -> getsentry/sentry,-2.2218743346753866,-7.052640001081495
+grafana/grafana -> elastic/kibana,-4.717163758069146,-8.31920877077086
+getsentry/sentry -> elastic/kibana,-1.699164220349294,-4.443253549870132

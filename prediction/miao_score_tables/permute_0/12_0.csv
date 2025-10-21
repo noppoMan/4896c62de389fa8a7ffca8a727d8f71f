@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+sass/dart-sass -> stylus/stylus,0.012403197998022527,0.7229798778822398
+sass/node-sass -> stylus/stylus,0.08805354473856426,5.7359003216312985
+stylus/stylus -> sass/dart-sass,2.081309419625001,0.4038204377493264
+sass/node-sass -> sass/dart-sass,-0.41383858953628677,-4.988512703072282
+stylus/stylus -> sass/node-sass,0.205456328155131,5.8259127720665065
+sass/dart-sass -> sass/node-sass,-0.19337781968482773,-4.161958067091016

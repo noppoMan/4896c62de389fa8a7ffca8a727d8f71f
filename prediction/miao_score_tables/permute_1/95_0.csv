@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+iterate-ch/cyberduck -> aws/aws-cli,-0.5022054013877897,-1.9889841142910745
+rclone/rclone -> aws/aws-cli,1.9365878888974986,3.8358247840445117
+aws/aws-cli -> iterate-ch/cyberduck,-5.364473795193345,-14.254877336065302
+rclone/rclone -> iterate-ch/cyberduck,11.281852113530904,9.99297800598696
+aws/aws-cli -> rclone/rclone,0.14523906356266492,-2.888489604025353
+iterate-ch/cyberduck -> rclone/rclone,-0.035118405200992436,-1.608959168529012

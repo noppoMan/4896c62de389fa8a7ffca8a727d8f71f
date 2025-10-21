@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+apollographql/apollo-server -> graphile/postgraphile,0.4068503700915205,0.5143822829629261
+graphql/express-graphql -> graphile/postgraphile,0.6076642852432216,-2.293460813009963
+graphile/postgraphile -> apollographql/apollo-server,-0.10844460832063371,0.4489937646721451
+graphql/express-graphql -> apollographql/apollo-server,1.2986811380237637,15.614189810463289
+graphile/postgraphile -> graphql/express-graphql,0.018228438191798278,-0.3121419262819851
+apollographql/apollo-server -> graphql/express-graphql,0.15397790417659893,5.701948608479876

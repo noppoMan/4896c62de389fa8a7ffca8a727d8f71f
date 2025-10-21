@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+sveltejs/svelte -> angular/angular,-0.400599959995658,-1.1557817010081815
+facebook/react -> angular/angular,-0.14849112645505613,-2.261680358950776
+angular/angular -> sveltejs/svelte,-0.8250252928031225,-3.2229642647787284
+facebook/react -> sveltejs/svelte,-2.460185912058937,-24.56425336177866
+angular/angular -> facebook/react,-0.4511245169381274,-4.689369262140273
+sveltejs/svelte -> facebook/react,-0.2949172280325475,-4.0000179111776974

@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+bitcoinj/bitcoinj -> bitcoin/bitcoin,-0.14412162057418818,-6.879870011400543
+libbitcoin/libbitcoin-system -> bitcoin/bitcoin,-0.31464548113311197,-2.4620833434839975
+bitcoin/bitcoin -> bitcoinj/bitcoinj,0.1552899340664895,-1.0420519054597353
+libbitcoin/libbitcoin-system -> bitcoinj/bitcoinj,0.1613122141505568,-5.319447939155112
+bitcoin/bitcoin -> libbitcoin/libbitcoin-system,0.07020502547966932,-5.750002881949877
+bitcoinj/bitcoinj -> libbitcoin/libbitcoin-system,-0.1733118091685376,-1.7948944271653826

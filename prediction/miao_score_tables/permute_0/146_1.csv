@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+alacritty/alacritty -> gnome-terminator/terminator,0.6575576454219776,22.115842628528398
+eugeny/tabby -> gnome-terminator/terminator,-0.042087429279026464,-2.772407300582705
+gnome-terminator/terminator -> alacritty/alacritty,-0.193728097160148,-1.70369721972045
+eugeny/tabby -> alacritty/alacritty,-0.05694197160722422,-3.3683063219698113
+gnome-terminator/terminator -> eugeny/tabby,-1.8471506457227047,-12.795161528506451
+alacritty/alacritty -> eugeny/tabby,-5.036021299179035,-10.875006461700943

@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+kubernetes/kubernetes -> docker-archive/classicswarm,0.3133121168372742,2.138377352294511
+hashicorp/nomad -> docker-archive/classicswarm,-0.1519409312075221,-0.8296667816313601
+docker-archive/classicswarm -> kubernetes/kubernetes,-10.770913883797448,-23.97859042968537
+hashicorp/nomad -> kubernetes/kubernetes,-1.0158954277530752,-1.1738943461145308
+docker-archive/classicswarm -> hashicorp/nomad,-3.0744055251575,-10.130616210745833
+kubernetes/kubernetes -> hashicorp/nomad,-0.5023427344213214,-0.37449099624359916

@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+agenda/agenda -> OptimalBits/bull,-0.09486007774930519,6.298474782960422
+automattic/kue -> OptimalBits/bull,0.2399899439561931,2.1440045272479282
+OptimalBits/bull -> agenda/agenda,0.07661344149703599,6.567083316520442
+automattic/kue -> agenda/agenda,-0.23108441541188363,-13.910252300255744
+OptimalBits/bull -> automattic/kue,0.42141255920904563,5.636155872187923
+agenda/agenda -> automattic/kue,-0.027420279124258665,-9.118720847681328

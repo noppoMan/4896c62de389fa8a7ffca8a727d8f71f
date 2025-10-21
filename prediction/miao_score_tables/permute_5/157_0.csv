@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+vuejs/core -> sveltejs/svelte,2.989428656860325,7.473920961513561
+facebook/react -> sveltejs/svelte,-8.192755604845168,-44.07203202524326
+sveltejs/svelte -> vuejs/core,1.2119370652125052,5.060433701850961
+facebook/react -> vuejs/core,1.6203668168600491,6.168644393902407
+sveltejs/svelte -> facebook/react,-1.9394290286245037,-17.03767828306708
+vuejs/core -> facebook/react,1.3715782708656756,5.736318131168418

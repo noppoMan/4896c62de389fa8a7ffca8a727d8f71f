@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+apple/swift -> rust-lang/rust,0.2094745778371426,0.16630633925939103
+JetBrains/kotlin -> rust-lang/rust,-0.09832783235789502,-0.9350812959907495
+rust-lang/rust -> apple/swift,-0.8082080219640411,-2.213201572112845
+JetBrains/kotlin -> apple/swift,-0.8324574248851948,-2.1048579345306493
+rust-lang/rust -> JetBrains/kotlin,-0.6067342834488518,-1.4068247658064092
+apple/swift -> JetBrains/kotlin,-0.03942937227770555,0.17030755254821353

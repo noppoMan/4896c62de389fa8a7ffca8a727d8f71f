@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+microlinkhq/metascraper -> seleniumhq/selenium,-0.8493539559051515,-3.7136190394187065
+scrapy/scrapy -> seleniumhq/selenium,0.47496822467612715,1.9566929193759894
+seleniumhq/selenium -> microlinkhq/metascraper,0.09347794182966263,3.624989308635479
+scrapy/scrapy -> microlinkhq/metascraper,-0.03367470676395626,-0.6538538830463299
+seleniumhq/selenium -> scrapy/scrapy,-0.12479199593342098,-2.785997592313159
+microlinkhq/metascraper -> scrapy/scrapy,0.686866810712522,22.991373918139875

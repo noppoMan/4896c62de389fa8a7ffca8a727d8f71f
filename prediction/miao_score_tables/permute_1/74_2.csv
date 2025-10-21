@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+apache/tomcat -> apache/struts,0.19257600140629794,1.5233189860254024
+spring-projects/spring-framework -> apache/struts,0.5294368485748167,8.081752092505647
+apache/struts -> apache/tomcat,-1.153577701037038,-5.233273721193879
+spring-projects/spring-framework -> apache/tomcat,0.48909810410734716,0.9561324175208611
+apache/struts -> spring-projects/spring-framework,-0.20530067830859633,7.847839780889082
+apache/tomcat -> spring-projects/spring-framework,-1.1220832487854622,-3.346443025932802

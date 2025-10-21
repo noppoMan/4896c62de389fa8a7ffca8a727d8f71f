@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+BlueMap-Minecraft/BlueMap -> webbukkit/dynmap,0.0923525681166158,3.104247577315988
+overviewer/minecraft-overviewer -> webbukkit/dynmap,-0.95608862255238,-14.772797434080164
+webbukkit/dynmap -> BlueMap-Minecraft/BlueMap,-0.12276430626398956,9.536217009401488
+overviewer/minecraft-overviewer -> BlueMap-Minecraft/BlueMap,-1.2187517527221008,-26.33887147222832
+webbukkit/dynmap -> overviewer/minecraft-overviewer,0.18357671641263995,9.52880938055519
+BlueMap-Minecraft/BlueMap -> overviewer/minecraft-overviewer,0.21418162565272436,2.427752130497438

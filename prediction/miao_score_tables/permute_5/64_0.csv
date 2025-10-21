@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+tesseract-ocr/tesseract -> faustomorales/keras-ocr,0.012590823345737958,0.3437226510071984
+PaddlePaddle/PaddleOCR -> faustomorales/keras-ocr,-0.00766784584094306,-1.479575051671981
+faustomorales/keras-ocr -> tesseract-ocr/tesseract,-3.7208091240870313,-39.40552370192874
+PaddlePaddle/PaddleOCR -> tesseract-ocr/tesseract,0.0006884455122984773,-0.34243187873799946
+faustomorales/keras-ocr -> PaddlePaddle/PaddleOCR,9.621350665655271,24.868514768397752
+tesseract-ocr/tesseract -> PaddlePaddle/PaddleOCR,0.3613838826719769,-1.5880746075894174

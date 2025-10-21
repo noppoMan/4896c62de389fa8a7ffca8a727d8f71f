@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+node-red/node-red -> ioBroker/ioBroker,0.37502933160455487,3.5623910373659697
+home-assistant/core -> ioBroker/ioBroker,0.08807217393049725,1.0521383345327076
+ioBroker/ioBroker -> node-red/node-red,-1.557434277276779,-1.5395193337141695
+home-assistant/core -> node-red/node-red,-0.04855072455838869,-0.7054199367733207
+ioBroker/ioBroker -> home-assistant/core,1.161318271448259,1.7140357911966866
+node-red/node-red -> home-assistant/core,-3.135192719692588,-10.540225410055532

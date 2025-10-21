@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+golang/go -> rust-lang/rust,-0.5499767426063067,-2.219268356108347
+swiftlang/swift -> rust-lang/rust,0.40104352069774907,-3.4846607455090384
+rust-lang/rust -> golang/go,-1.0097133576354156,-1.0695975283052277
+swiftlang/swift -> golang/go,-0.1854840209410081,1.0383840026128033
+rust-lang/rust -> swiftlang/swift,-1.2263355828158278,-2.277607380982188
+golang/go -> swiftlang/swift,-8.844722903734285,-6.884752205486394

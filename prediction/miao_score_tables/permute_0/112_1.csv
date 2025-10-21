@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+gitbucket/gitbucket -> gitlabhq/gitlabhq,-15.126336467138898,-12.203845178483292
+gogs/gogs -> gitlabhq/gitlabhq,5.364025992784183,6.484246387797171
+gitlabhq/gitlabhq -> gitbucket/gitbucket,-0.24420533258203356,-3.921539427811042
+gogs/gogs -> gitbucket/gitbucket,-2.252612954597385,-14.827107817696938
+gitlabhq/gitlabhq -> gogs/gogs,-0.09209877064958245,-2.4924807366950996
+gitbucket/gitbucket -> gogs/gogs,0.08153106485281242,5.040859171125037

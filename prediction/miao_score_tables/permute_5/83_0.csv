@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+lodash/lodash -> jashkenas/underscore,-0.4567185034847114,-6.655629679677275
+ramda/ramda -> jashkenas/underscore,-1.0416539659011006,-16.390493795877944
+jashkenas/underscore -> lodash/lodash,-0.0823310830763899,-3.9063054361542853
+ramda/ramda -> lodash/lodash,-0.12618002750567672,-7.065298257868083
+jashkenas/underscore -> ramda/ramda,-1.4549205664222005,-16.94723035379241
+lodash/lodash -> ramda/ramda,-0.30307651167567984,-6.080481213023317

@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+pytorch/text -> facebookresearch/fairseq,-0.7035077922217654,2.1311494534935624
+facebookresearch/pytext -> facebookresearch/fairseq,-1.269417989947514,-33.447878323366496
+facebookresearch/fairseq -> pytorch/text,-0.16671604770484544,-2.8007136026442696
+facebookresearch/pytext -> pytorch/text,0.4594832718582973,17.470159332900078
+facebookresearch/fairseq -> facebookresearch/pytext,-1.36920712062749,-22.016907009926307
+pytorch/text -> facebookresearch/pytext,0.6490489759201268,25.662775344059874

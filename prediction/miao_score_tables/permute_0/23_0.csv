@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+browserify/browserify -> webpack/webpack,0.1363883153133107,0.08485822871533198
+componentjs/component -> webpack/webpack,-0.9744044456912484,-9.753229471744145
+webpack/webpack -> browserify/browserify,-3.655967936261101,-23.47044177566516
+componentjs/component -> browserify/browserify,0.2377762496924013,3.8798877320092684
+webpack/webpack -> componentjs/component,0.28096582737553877,5.139027317151121
+browserify/browserify -> componentjs/component,0.10932529073085724,0.7932070502658728

@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+vercel/next.js -> gatsbyjs/gatsby,0.6989339773429506,14.292699173472073
+gohugoio/hugo -> gatsbyjs/gatsby,-1.5456261593951717,-7.110463397068161
+gatsbyjs/gatsby -> vercel/next.js,7.475948272761018,48.37469930346994
+gohugoio/hugo -> vercel/next.js,4.104375776788699,24.01677194306291
+gatsbyjs/gatsby -> gohugoio/hugo,0.45922269795263204,8.269853934171177
+vercel/next.js -> gohugoio/hugo,-0.15111167487863955,0.11925937944044195

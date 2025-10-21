@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+nteract/nteract -> microsoft/vscode,-0.44396419987650926,-0.5160163672725768
+nteract/hydrogen -> microsoft/vscode,2.0043646763125214,-8.265530601996348
+microsoft/vscode -> nteract/nteract,-0.1314382556333017,-0.4599404169545433
+nteract/hydrogen -> nteract/nteract,0.5370974929623147,-1.223834608839906
+microsoft/vscode -> nteract/hydrogen,-0.07303332167877491,-1.2221844185592623
+nteract/nteract -> nteract/hydrogen,-0.03436162839127099,-0.12481918537065664

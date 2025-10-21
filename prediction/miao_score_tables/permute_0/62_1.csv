@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+pallets/flask -> rails/rails,5.818960346570087,0.7456013360244081
+django/django -> rails/rails,-3.384825875175334,-6.9098049880151144
+rails/rails -> pallets/flask,0.04925599400102503,0.9888784306106277
+django/django -> pallets/flask,-0.0485925773917419,0.8653077583189558
+rails/rails -> django/django,-0.6718807851637629,-4.821237740203115
+pallets/flask -> django/django,-0.09594163096859436,-2.406322395105446

@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+emilk/egui -> iced-rs/iced,-0.4832479206679391,-6.279109852665838
+pistondevelopers/conrod -> iced-rs/iced,1.1399288091594864,9.93415219859689
+iced-rs/iced -> emilk/egui,0.057454862781448894,2.4308690256046357
+pistondevelopers/conrod -> emilk/egui,0.10305416653635288,0.7386012229280184
+iced-rs/iced -> pistondevelopers/conrod,-0.07760891820328972,-2.350714266338059
+emilk/egui -> pistondevelopers/conrod,0.1282134457606166,6.3134023293545685

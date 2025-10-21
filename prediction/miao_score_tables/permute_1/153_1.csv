@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+elastic/elasticsearch -> typesense/typesense,-0.4051793402734428,-1.4024345413360875
+meilisearch/meilisearch -> typesense/typesense,0.02922950526393964,0.9223331386566849
+typesense/typesense -> elastic/elasticsearch,-0.961184333620109,-3.364462429691047
+meilisearch/meilisearch -> elastic/elasticsearch,-0.009378833353280644,0.7934606819690394
+typesense/typesense -> meilisearch/meilisearch,0.6358479946405434,1.0939242933737752
+elastic/elasticsearch -> meilisearch/meilisearch,0.558617199734154,1.8099274375076608

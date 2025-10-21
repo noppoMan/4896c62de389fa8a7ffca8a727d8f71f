@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+iced-rs/iced -> slint-ui/slint,0.5968683850482842,3.2653667288809545
+redox-os/orbtk -> slint-ui/slint,-0.16109645678040352,-0.8253421509705936
+slint-ui/slint -> iced-rs/iced,-0.0142669948815905,-0.3170169106680167
+redox-os/orbtk -> iced-rs/iced,-0.10222547509069255,-1.1722121559313812
+slint-ui/slint -> redox-os/orbtk,-0.2518664813126963,-2.584792845227677
+iced-rs/iced -> redox-os/orbtk,-0.17415836749572117,-1.5969659653466222

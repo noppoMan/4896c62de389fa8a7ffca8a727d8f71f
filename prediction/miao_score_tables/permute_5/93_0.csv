@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+definitelytyped/definitelytyped -> sindresorhus/type-fest,0.010303926042195533,1.206713839614816
+microsoft/TypeScript -> sindresorhus/type-fest,0.048410112465330266,4.778108036752041
+sindresorhus/type-fest -> definitelytyped/definitelytyped,-3.274562388963514,7.36909684319815
+microsoft/TypeScript -> definitelytyped/definitelytyped,-3.4699417763689735,-11.076064344165431
+sindresorhus/type-fest -> microsoft/TypeScript,-14.408109377327,-16.939759686114453
+definitelytyped/definitelytyped -> microsoft/TypeScript,-0.7734554333925102,-6.142824760317975

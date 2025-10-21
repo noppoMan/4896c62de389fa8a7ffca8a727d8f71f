@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+aws/chalice -> serverless/serverless,-0.7241895320252729,-8.069823009969653
+apache/openwhisk -> serverless/serverless,-0.6128609655913091,6.824962455742861
+serverless/serverless -> aws/chalice,-0.08563699328444119,-1.9811940061990856
+apache/openwhisk -> aws/chalice,-1.1413607770610654,-23.714961342931947
+serverless/serverless -> apache/openwhisk,-0.02478471035598968,-0.7217012081182724
+aws/chalice -> apache/openwhisk,-0.3818221169748771,-17.07529682604604

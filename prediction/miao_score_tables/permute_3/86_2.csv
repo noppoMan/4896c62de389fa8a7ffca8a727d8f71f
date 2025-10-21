@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+mrdoob/three.js -> BabylonJS/Babylon.js,0.039385508466589766,0.0785373491162147
+playcanvas/engine -> BabylonJS/Babylon.js,3.7236834956327596,13.19816408155125
+BabylonJS/Babylon.js -> mrdoob/three.js,-2.870208906029806,-2.951426369067408
+playcanvas/engine -> mrdoob/three.js,0.606407480792867,0.7425435633928115
+BabylonJS/Babylon.js -> playcanvas/engine,-0.15214705327208358,-0.4912056742351804
+mrdoob/three.js -> playcanvas/engine,-0.004755457533444154,-0.12090938401576692

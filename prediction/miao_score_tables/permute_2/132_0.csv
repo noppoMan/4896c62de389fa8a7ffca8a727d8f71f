@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+haproxy/haproxy -> traefik/traefik,-0.20677818503202833,2.101592044793775
+kong/kong -> traefik/traefik,0.16005325504411566,2.476406445208783
+traefik/traefik -> haproxy/haproxy,0.3609198762319016,8.572266497084163
+kong/kong -> haproxy/haproxy,-0.12704115023021947,-1.5951432640643537
+traefik/traefik -> kong/kong,0.11269961184902498,4.084291267604105
+haproxy/haproxy -> kong/kong,0.08992132767459932,-1.1229811730321264

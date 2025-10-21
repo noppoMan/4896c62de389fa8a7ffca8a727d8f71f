@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+celluloid/celluloid -> puma/puma,-0.3573288597865987,-2.503694178434261
+eventmachine/eventmachine -> puma/puma,0.4230897098176586,6.020906085106213
+puma/puma -> celluloid/celluloid,-0.21170843260293726,-0.6428775482695998
+eventmachine/eventmachine -> celluloid/celluloid,2.7586029648079213,17.162248613199292
+puma/puma -> eventmachine/eventmachine,-0.024749192812776193,-4.88154593989914
+celluloid/celluloid -> eventmachine/eventmachine,0.27624169506197016,6.182120181324096

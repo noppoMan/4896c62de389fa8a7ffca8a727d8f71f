@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+necolas/react-native-web -> flutter/flutter,2.5052057139126314,25.844227760695226
+microsoft/reactxp -> flutter/flutter,4.632784021829885,47.415410401663586
+flutter/flutter -> necolas/react-native-web,-0.017422799130967448,3.246725060339481
+microsoft/reactxp -> necolas/react-native-web,-1.0678774595122897,-29.884268144527688
+flutter/flutter -> microsoft/reactxp,-0.4264789219712272,0.8621340976011421
+necolas/react-native-web -> microsoft/reactxp,-0.8594611384043069,-21.83531065226354

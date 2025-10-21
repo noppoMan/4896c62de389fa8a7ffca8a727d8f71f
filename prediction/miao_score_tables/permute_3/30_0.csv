@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+atom/atom -> microsoft/vscode,0.8403178408062313,1.5587203129604732
+adobe/brackets -> microsoft/vscode,6.842853796290965,14.772173802153086
+microsoft/vscode -> atom/atom,0.9599231123213414,1.8704957080488895
+adobe/brackets -> atom/atom,-5.484883979530805,-26.01549553758382
+microsoft/vscode -> adobe/brackets,0.11646839531637858,1.0615421049245333
+atom/atom -> adobe/brackets,-0.060646345248059466,-1.8273495265408626

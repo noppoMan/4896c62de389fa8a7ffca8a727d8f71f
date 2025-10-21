@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+codeigniter4/CodeIgniter4 -> laravel/framework,-1.369790892915797,-6.273604338032348
+chriskacerguis/codeigniter-restserver -> laravel/framework,2.4769511115409735,3.1008839396675594
+laravel/framework -> codeigniter4/CodeIgniter4,0.2463484911857727,1.23601677018426
+chriskacerguis/codeigniter-restserver -> codeigniter4/CodeIgniter4,0.2873325171850075,2.7109578147208593
+laravel/framework -> chriskacerguis/codeigniter-restserver,-0.013945110879711045,-2.1261798678310395
+codeigniter4/CodeIgniter4 -> chriskacerguis/codeigniter-restserver,-0.09003553346212192,-5.5098322674403

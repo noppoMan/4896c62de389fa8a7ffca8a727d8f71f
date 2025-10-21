@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+moscajs/aedes -> eclipse/mosquitto,0.1800865647434337,3.4278653763779268
+moscajs/mosca -> eclipse/mosquitto,-0.37463453975962957,-8.008292641052078
+eclipse/mosquitto -> moscajs/aedes,0.05591909447780649,-0.1145656649781789
+moscajs/mosca -> moscajs/aedes,-0.3999028344779858,-12.487383770776155
+eclipse/mosquitto -> moscajs/mosca,0.14620894608183982,2.347382212492966
+moscajs/aedes -> moscajs/mosca,-0.1519826302304155,-7.1545220298554675

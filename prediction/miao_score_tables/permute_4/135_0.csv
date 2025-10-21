@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+tajo/ladle -> storybookjs/storybook,5.328689143430301,5.893295033960431
+histoire-dev/histoire -> storybookjs/storybook,-0.4448410394293802,-1.698868629709591
+storybookjs/storybook -> tajo/ladle,0.05422911968270111,0.7153693104528281
+histoire-dev/histoire -> tajo/ladle,-0.4081519620187485,-13.668732050178495
+storybookjs/storybook -> histoire-dev/histoire,0.4532826991589797,3.013018162306574
+tajo/ladle -> histoire-dev/histoire,-1.872063784772791,-22.993108066693065

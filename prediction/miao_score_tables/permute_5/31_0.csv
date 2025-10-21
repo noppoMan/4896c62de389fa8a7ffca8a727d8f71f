@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+pt-plugins/PT-depiler -> Jackett/Jackett,2.2519650627194414,8.048352998000405
+ronggang/pt-plugin-plus -> Jackett/Jackett,0.9833599377967874,4.196788205209224
+Jackett/Jackett -> pt-plugins/PT-depiler,0.07674159924884708,2.543568929884151
+ronggang/pt-plugin-plus -> pt-plugins/PT-depiler,0.00637050661559228,-0.07905711857546542
+Jackett/Jackett -> ronggang/pt-plugin-plus,0.051571405636539086,1.6450903766360703
+pt-plugins/PT-depiler -> ronggang/pt-plugin-plus,0.7664400393493112,19.633668693730524

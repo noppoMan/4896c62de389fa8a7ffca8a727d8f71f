@@ -1,0 +1,7 @@
+,AMS_ij,normalized_AMS_ij
+vercel/hyper -> Eugeny/terminus,0.704400315845117,12.965749468439503
+railsware/upterm -> Eugeny/terminus,0.43654087127436986,7.3891533602323145
+Eugeny/terminus -> vercel/hyper,0.4103523576184973,9.120418102689124
+railsware/upterm -> vercel/hyper,-0.22276380913336222,-6.252133164250837
+Eugeny/terminus -> railsware/upterm,-5.7497231453587085,-77.43482299064691
+vercel/hyper -> railsware/upterm,-0.007745123606350678,-2.6721755465681167
