@@ -1,5 +1,5 @@
 /**
-his SQL extracts candidates for REV and NON_REV from the data of ghs(https://github.com/seart-group/ghs?tab=readme-ov-file).
+this SQL extracts candidates for REV and NON_REV from the data of ghs(https://github.com/seart-group/ghs?tab=readme-ov-file).
 Obtain the dump data from the following URL and import it into MySQL for use.
 https://www.dropbox.com/scl/fo/lqvp1mhsg0ezp2sgs0xdk/h/20240801?dl=0&subfolder_nav_tracking=1
 **/

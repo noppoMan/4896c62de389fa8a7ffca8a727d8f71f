@@ -10,6 +10,9 @@ This repository is the artifact for the our paper. We estimate SVAR models from 
 - `miao_score_tables/permute_{i}/*.csv`: MIAO score tables (AMS_ij, normalized_AMS_ij)
 - `datasets/decisiontree/{normalized, non-normalized}/permute_{i}.csv`: Features for the decision tree
 - `prediction/`: Outputs produced by applying the same pipeline in a prediction setting (see below)
+
+## File Overview
+- `collect-candidates.sql`: SQL to search for REV candidates and non-REV candidates from ghs
 - `dataset.yml`: The dataset used for all groups in the experiment
 
 ## Minimal Reproduction
