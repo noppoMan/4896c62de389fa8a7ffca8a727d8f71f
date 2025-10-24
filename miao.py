@@ -296,7 +296,6 @@ def find_optimal_lag(X: pd.DataFrame, maxlag: int, ic: str):
 
     significance_level = 0.1
 
-    # 候補ラグに関する推定結果をまとめて算出
     candidates = {}
     for lag in range(1, maxlag + 1):
         try:
@@ -324,7 +323,6 @@ def find_optimal_lag(X: pd.DataFrame, maxlag: int, ic: str):
             ic_map[name] = values[best_lag]
 
         return best_lag, ic_map, candidates[best_lag][2], candidates[best_lag][3]
-        # raise ValueError("No valid lag candidates found for VAR model")
 
     # Pareto Optimal Lag searching
     candidate_items = list(candidates.values())
@@ -372,10 +370,6 @@ def prepare_var_(data: List[Tuple[str, pd.Series]], maxlag, ic="aic", verbose = 
     VAR_X = pd.DataFrame(var_data).fillna(0)
     VAR_X.index = dates
     VAR_X = VAR_X.asfreq('D')
-
-    # display(VAR_X)
-    # for col in VAR_X.columns:
-    #     print(VAR_X[col].value_counts())
     
     lag, ics, var_whiteness_test_result, var_whiteness_test_lag = find_optimal_lag(VAR_X, maxlag, ic)
 
@@ -478,7 +472,6 @@ def miao_phase1_with_period_shifts(
 
         return result
 
-    best_shift_name = None
     shift_summaries = []
     var_result = pd.read_csv(f"{dataset_path}/var_estimation_results/permute_{permutation_id}.csv")
 
@@ -591,7 +584,7 @@ def miao_phase1_with_period_shifts(
         }
         shift_summaries.append(shift_summary)
 
-    return shift_summaries, best_shift_name
+    return shift_summaries
 
 def miao_phase2_with_period_shifts(shift_summaries: List[Dict[str, Any]]) -> pd.DataFrame:
     """
@@ -599,12 +592,8 @@ def miao_phase2_with_period_shifts(shift_summaries: List[Dict[str, Any]]) -> pd.
 
     Parameters:
     -----------
-    sces_with_shifts : Dict[str, List[float]]
-        SCE values for each direction across time windows
-    sces_stderr_with_shifts : Dict[str, List[float]], optional
-        Standard errors for each SCE value
-    use_uncertainty_weighting : bool, default=True
-        If True, weight each SCE by inverse of its uncertainty (1/stderr)
+    shift_summaries: List[Dict[str, Any]]
+        Shift summaries for each shift
 
     Returns:
     --------
@@ -614,9 +603,6 @@ def miao_phase2_with_period_shifts(shift_summaries: List[Dict[str, Any]]) -> pd.
 
     ams = {}
     normalized_ams = {}
-    # mad_normalized_ams = {}
-    # weighted_ams = {}
-    # exp_weighted_ams = {}
 
     sces_with_shifts = [summary["sces"] for summary in shift_summaries]
     normalized_sces_with_shifts = [summary["normalized_sces"] for summary in shift_summaries]
