@@ -628,3 +628,58 @@ def miao_phase2_with_period_shifts(shift_summaries: List[Dict[str, Any]]) -> pd.
     }, index=ams.keys())
 
     return table
+
+def to_symbol(db):
+    t = db["name"]
+    c1 = db["competitors"][0]["name"]
+    c2 = db["competitors"][1]["name"]
+    
+    return t, c1, c2
+
+def create_decision_tree_df(dataset_yml, score_dfs, normalize = True, column = "AMS_ij"):
+    data = {
+        "label": [],
+        "group_id": [],
+        "split_id": [],
+        "group": [],
+        "target": []
+    }
+
+    for df in score_dfs:
+        t = df.attrs["target"]
+        db = list(filter(lambda db: get_unique_idx(db) == t, dataset_yml))[0]
+        t, c1, c2 = to_symbol(db)
+        df_ = df.copy()
+
+        if normalize:
+            df_[column] = df_[column]/df.attrs["n_Tm"]
+
+        df_ = df_.rename(index={
+            f"{c1} -> {t}":  "c1 -> t",
+            f"{c2} -> {t}":  "c2 -> t",
+            f"{c2} -> {c1}":  "c2 -> c1",
+            f"{c1} -> {c2}":  "c1 -> c2",
+            f"{t} -> {c1}":  "t -> c1",
+            f"{t} -> {c2}":  "t -> c2",
+        })
+
+        for idx, score in zip(df_.index, df_[column]):
+            if idx not in data:
+                data[idx] = []
+
+            data[idx].append(score)
+        
+        data["label"].append(1 if db["rev"] else 0)
+
+        try:
+            group_id, split_id = df.attrs["group"].split("_")
+            data["group_id"].append(int(group_id))
+            data["split_id"].append(int(split_id))
+        except:
+            data["group_id"].append(int(df.attrs["group"]))
+            data["split_id"].append(0)
+
+        data["group"].append(df.attrs["group"])
+        data["target"].append(get_unique_idx(db))
+
+    return pd.DataFrame(data)
