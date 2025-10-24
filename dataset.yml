@@ -43,7 +43,7 @@
   - in_readme: 1
     name: path/android-priority-jobqueue
   name: stephanenicolas/robospice
-  note: 競合のntoll/RESTProviderがコミットが少ないため削除
+  note: Removed competitor ntoll/RESTProvider due to few commits
   rev: 1
 - competitors:
   - in_readme: 1
@@ -147,7 +147,7 @@
   - in_readme: 1
     name: tensorflow/tensorflow
   name: sightmachine/simplecv
-  note: pytorch/visionとtensorflow/tensorflowも競合との記述があるが、期間重複がないため削除
+  note: Although pytorch/vision and tensorflow/tensorflow are also listed as competitors, removed due to no overlapping period
   rev: 1
 - competitors:
   - in_readme: 1
@@ -460,7 +460,7 @@
   - in_readme: 1
     name: marmelab/react-admin
   - name: akveo/ngx-admin
-  note: akveo/ngx-adminは怪しい
+  note: akveo/ngx-admin seems questionable
   name: marmelab/ng-admin
   rev: 1
 - competitors:
@@ -717,7 +717,7 @@
     name: pote/gvp
   - in_readme: 1
     name: golang/go
-    note: go言語本体に実装あり. https://go.dev/blog/using-go-modules
+    note: Implemented in the Go language itself. https://go.dev/blog/using-go-modules
   - name: golang/dep
   name: masterminds/glide
   rev: 1
@@ -790,7 +790,7 @@
     name: liquidmetal-dev/flintlock
   - name: kubevirt/kubevirt
   - name: firecracker-microvm/firecracker
-    note: claude経由で検索
+    note: Searched via Claude
   name: weaveworks/ignite
   rev: 1
 - competitors:
@@ -872,7 +872,7 @@
   - in_readme: 1
     name: rcore-os/rCore-Tutorial-Book-v3
   name: rcore-os/rcore
-  note: 競合のrcore-os/arceos-tutorial-book,rcore-os/arceosがコミットが少ないため削除
+  note: Removed competitors rcore-os/arceos-tutorial-book and rcore-os/arceos due to few commits
   rev: 1
 - competitors:
   - in_readme: 1
@@ -934,7 +934,7 @@
   - in_readme: 1
     name: thedevdojo/genesis
   name: thedevdojo/voyager
-  note: 競合のthedevdojo/genesisがコミットが少ないため削除
+  note: Removed competitor thedevdojo/genesis due to few commits
   rev: 1
 - competitors:
   - in_readme: 1
@@ -991,7 +991,7 @@
   - name: Perl/perl5
   lifetime: 9073
   name: python/cpython
-  note: 競合は手動収集
+  note: Competitors were collected manually
   rev: 0
 - competitors:
   - name: sinatra/sinatra
@@ -1171,7 +1171,7 @@
   - name: vespa-engine/vespa
   lifetime: 5683
   name: elastic/elasticsearch
-  note: opensearchが代替案として有力であるが、elasticsearchのfolkであるため排除
+  note: Although OpenSearch is a strong alternative, excluded because it is a fork of Elasticsearch
   rev: 0
 - competitors:
   - name: websockets/ws
