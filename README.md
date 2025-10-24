@@ -3,8 +3,8 @@
 This repository is the artifact for the our paper. We estimate SVAR models from GitHub commit time series, derive cumulative IRF effects, aggregate them as MIAO scores (AMS_ij), and classify REV vs. non-REV with a decision tree. Reproduction primarily uses `demo.ipynb` and `miao.py`.
 
 ## Directory Overview (Key Artifacts)
-- `datasets/original/{daily, monthly}`: Daily/monthly commit counts per OSS project
-- `datasets/preprocessed/permute_{0..5}/{period_shift}/{Tm}/`: Stationary series A1, A2, A3 after fractional differencing and seasonal adjustment (by group/period)
+- `datasets/original/{daily, monthly}`: Daily/monthly original commit counts per OSS project
+- `datasets/preprocessed/permute_{0..5}/{period_shift}/{Tm}/`: Stationary series A1, A2, A3 for each Tms after fractional differencing (by group/period)
 - `adf_test_results/permute_{i}.csv`: ADF and fractional differencing logs (by period/group/Ai)
 - `var_estimation_results/permute_{i}.csv`: SVAR diagnostics (optimal lag, ICs, whiteness test)
 - `miao_score_tables/permute_{i}/*.csv`: MIAO score tables (AMS_ij, normalized_AMS_ij)

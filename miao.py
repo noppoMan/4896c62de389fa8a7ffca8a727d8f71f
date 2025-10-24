@@ -142,8 +142,6 @@ def auto_detect_tms_(db, N_MONTHS = 12, limit_y = 4, early_stopping_month = 0, d
                 end_date = end_dates_min
 
             if (end_date - start_date).days < anual_days:
-                print(start_date, end_date)
-
                 raise AutoDetectTmsError("E0003")
 
             tm_end = pd.Timestamp(end_date.year, end_date.month, end_date.day)
@@ -683,3 +681,46 @@ def create_decision_tree_df(dataset_yml, score_dfs, normalize = True, column = "
         data["target"].append(get_unique_idx(db))
 
     return pd.DataFrame(data)
+
+def calculate_overlap(period_a, period_b):
+    """2つの期間の重複時間を計算する関数"""
+    # 重複部分の開始時刻は、それぞれの開始時刻の遅い方
+    overlap_start = max(period_a['__start__'], period_b['__start__'])
+    
+    # 重複部分の終了時刻は、それぞれの終了時刻の早い方
+    overlap_end = min(period_a['__end__'], period_b['__end__'])
+    
+    # 重複期間の長さを計算 (重複がない場合は0)
+    overlap_duration = max(0, overlap_end - overlap_start)
+    
+    return overlap_duration
+
+def sort_periods_by_overlap(base_period, periods_list):
+    """
+    基準期間との重複期間が長い順にリストをソートする関数
+    
+    :param base_period: 基準となる期間 {'start': start0, 'end': end0}
+    :param periods_list: ソート対象の期間のリスト [{'start':...}, {'end':...}]
+    :return: ソートされた新しいリスト
+    """
+    # sorted関数のkeyに、各要素とbase_periodとの重複期間を計算するラムダ式を指定
+    # reverse=Trueで降順（長い順）にソート
+    sorted_list = sorted(
+        periods_list, 
+        key=lambda p: calculate_overlap(base_period, p), 
+        reverse=True
+    )
+    return sorted_list
+
+def competitors_sorted_by_lifetime_duplication(db, dataset):
+    target = dataset[db["name"]]
+
+    for c in db["competitors"]:
+        comp = dataset[c["name"]]
+        c["__start__"] = comp.index[0].timestamp()
+        c["__end__"] = comp.index[-1].timestamp()
+
+    period0 = {"__start__": target.index[0].timestamp(), "__end__": target.index[-1].timestamp()}
+    sorted_competitors = sort_periods_by_overlap(period0, db["competitors"])
+
+    return sorted_competitors    
