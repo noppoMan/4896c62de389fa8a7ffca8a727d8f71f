@@ -63,7 +63,7 @@ Below is a table listing the projects excluded from the REV group. These 147 pro
 * `Excluded reason`: The reason for exclusion, categorized into the following 7 types:
     * UNIDENTIFIED_COMPETITOR: Difficult to identify competitors
     * PROJECT_MIGRATION: Transferred to another repository
-    * OFFICIAL_NATIVE_REPLACEMENT: Replaced by native or official implementation
+    * OFFICIAL_NATIVE_REPLACEMENT: It was an independent package, but got incorporated into an official module or package, or officially migrated. This category includes cases where analysis is hard because the feature was absorbed into the language itself or the source is not public, such as Apple’s SwiftUI.
     * NON_OSS_COMPETITOR: Competitor is not open source
     * INSUFFICIENT_OVERLAP: Overlap period with competitor is less than 1 year
     * DATA_DISCREPANCY: Discrepancy with GHS data (commit < 500, alive project, etc.)
