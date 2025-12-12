@@ -13,7 +13,15 @@ This repository is the artifact for the our paper. We estimate SVAR models from 
 
 ## File Overview
 - `collect-candidates.sql`: SQL to search for REV candidates and non-REV candidates from ghs
-- `dataset.yml`: The dataset used for all groups in the experiment
+- `final_dataset.csv`: The final dataset for our experiments to estimate 3-variable SVARs (87 REV cases, 100 non-REV cases).
+  - Column description
+  - `Target`: Item under analysis (for the REV class, the one that declined)
+  - `Competitor1`: For the REV group, the competitor stated in the README; for the non-REV group, a manually identified competitor
+  - `Competitor2`: If the REV group has two or more competitors listed in the README, use those from the README; otherwise, use a manually identified competitor
+  - `REV`: 1 = REV occurred; 0 = REV did not occur
+  - `Competitors_in_README`: Competitors mentioned in the README. This indicates whether `Competitor1` and `Competitor2` came from the README or were identified manually
+- `raw_competitor_analysis_result.csv`: Data linking 233 REV candidates with competitors extracted from READMEs, used to create `final_dataset.csv`
+  - Chainer is clearly known to have declined due to PyTorch, so it is not included here.
 
 ## Minimal Reproduction
 1) Environment
